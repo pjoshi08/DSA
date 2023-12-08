@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="github commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TrieNode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/heap_pq/MedianFinder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/trie/Trie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/trie/WordDictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/trie/WordSearchII.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="trie, heap">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/LongestIncSubseq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/BuyAndSellStock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/CoinChangeII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/DIstinctSubsequences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/LongestCommonSubseq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/LongestIncreasingPath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/StringInterleaving.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/TargetSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/UniquePaths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/WordLadder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,20 +65,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.MedianFinder">
-    <configuration name="KthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.heap_pq.KthLargest" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.heap_pq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Python.CoinChangeII">
     <configuration name="TaskScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.heap_pq.TaskScheduler" />
       <module name="DSA" />
@@ -100,6 +91,28 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="CoinChangeII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/dp2d" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/dp2d/CoinChangeII.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="MedianFinder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
@@ -148,17 +161,17 @@
     <list>
       <item itemvalue="Application.Twitter" />
       <item itemvalue="Application.TaskScheduler" />
-      <item itemvalue="Application.KthLargest" />
+      <item itemvalue="Python.CoinChangeII" />
       <item itemvalue="Python.MedianFinder" />
       <item itemvalue="Python.Trie" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CoinChangeII" />
         <item itemvalue="Python.MedianFinder" />
         <item itemvalue="Python.Trie" />
         <item itemvalue="Application.Twitter" />
         <item itemvalue="Application.TaskScheduler" />
-        <item itemvalue="Application.KthLargest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +190,17 @@
       <workItem from="1701146407224" duration="2174000" />
       <workItem from="1701200426903" duration="2680000" />
       <workItem from="1701288688970" duration="3415000" />
+      <workItem from="1701292947583" duration="166000" />
+      <workItem from="1701401269034" duration="1906000" />
+      <workItem from="1701454921711" duration="2775000" />
+      <workItem from="1701559076901" duration="511000" />
+      <workItem from="1701639029873" duration="1885000" />
+      <workItem from="1701737394917" duration="2592000" />
+      <workItem from="1701793182864" duration="361000" />
+      <workItem from="1701800741762" duration="1471000" />
+      <workItem from="1701837327350" duration="341000" />
+      <workItem from="1701924394739" duration="1431000" />
+      <workItem from="1702010665225" duration="1100000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -186,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701017660072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="trie, heap">
+      <option name="closed" value="true" />
+      <created>1701293031642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701293031642</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +237,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="github commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="github commit" />
+    <MESSAGE value="trie, heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="trie, heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -461,6 +494,7 @@
     <SUITE FILE_PATH="coverage/DSA$SubStringPermutation.ic" NAME="SubStringPermutation Coverage Results" MODIFIED="1695698419976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.slidingwindow.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$CoinChangeII.coverage" NAME="CoinChangeII Coverage Results" MODIFIED="1701740141895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp2d" />
     <SUITE FILE_PATH="coverage/DSA$Trie.coverage" NAME="Trie Coverage Results" MODIFIED="1701024160456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/trie" />
     <SUITE FILE_PATH="coverage/DSA$MergeKSortedLists.ic" NAME="MergeKSortedLists Coverage Results" MODIFIED="1697254605031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.linkedlist.*</FILTER>
