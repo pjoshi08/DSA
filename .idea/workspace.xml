@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="trie, heap">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/LongestIncSubseq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/BuyAndSellStock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/CoinChangeII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/DIstinctSubsequences.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/LongestCommonSubseq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/LongestIncreasingPath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/StringInterleaving.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/TargetSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/UniquePaths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/WordLadder.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="2d dp">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/BurstBallons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/EditDistance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/RegExpMatching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/GasStation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/JumpGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/JumpGameII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/MaxSubarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +51,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/archer/Archer/IntelliJIdeaProjects/DSA&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -94,6 +94,7 @@
     </configuration>
     <configuration name="CoinChangeII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -116,6 +117,7 @@
     </configuration>
     <configuration name="MedianFinder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -138,6 +140,7 @@
     </configuration>
     <configuration name="Trie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -175,6 +178,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-3183f394aec4-a73a9aee" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -201,6 +211,14 @@
       <workItem from="1701837327350" duration="341000" />
       <workItem from="1701924394739" duration="1431000" />
       <workItem from="1702010665225" duration="1100000" />
+      <workItem from="1702012244885" duration="81000" />
+      <workItem from="1702073562550" duration="383000" />
+      <workItem from="1702073991186" duration="1172000" />
+      <workItem from="1702154682178" duration="1277000" />
+      <workItem from="1702447910747" duration="864000" />
+      <workItem from="1702529249486" duration="2184000" />
+      <workItem from="1702587980034" duration="1488000" />
+      <workItem from="1702703754983" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -218,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701293031642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2d dp">
+      <option name="closed" value="true" />
+      <created>1702012316468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702012316468</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +264,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="github commit" />
     <MESSAGE value="trie, heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="trie, heap" />
+    <MESSAGE value="2d dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="2d dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
