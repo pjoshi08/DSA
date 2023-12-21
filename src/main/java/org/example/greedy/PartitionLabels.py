@@ -1,0 +1,17 @@
+class Solution(object):
+    def partitionLabels(self, s):
+        lastIndex = {}  # char -> last index in s
+
+        for i, c in enumerate(s):
+            lastIndex[c] = i
+
+        res = []
+        size = end = 0
+        for i, c in enumerate(s):
+            size += 1
+            end = max(end, lastIndex[c])
+
+            if i == end:
+                res.append(size)
+                size = 0
+        return res
