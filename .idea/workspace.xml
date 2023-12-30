@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="2d dp, greedy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/HandOfStraights.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/MergeTriplets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/PartitionLabels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/ValidParenthesis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/intervals/InsertIntervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/intervals/MergeIntervals.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="greedy, intervals">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/MinCostConnectPoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/NetworkDelayTime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/ReconstructItinerary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/intervals/MinItervalQuery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/intervals/NonOverlappingIntervals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +232,13 @@
       <workItem from="1702909514327" duration="585000" />
       <workItem from="1703010450000" duration="1411000" />
       <workItem from="1703099487583" duration="2411000" />
-      <workItem from="1703184824921" duration="842000" />
+      <workItem from="1703184824921" duration="875000" />
+      <workItem from="1703248132538" duration="1176000" />
+      <workItem from="1703670793325" duration="4416000" />
+      <workItem from="1703764827382" duration="1424000" />
+      <workItem from="1703876407440" duration="891000" />
+      <workItem from="1703910123905" duration="4000" />
+      <workItem from="1703954992242" duration="1466000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -267,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702704629078</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="greedy, intervals">
+      <option name="closed" value="true" />
+      <created>1703185695226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703185695226</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +302,8 @@
     <MESSAGE value="trie, heap" />
     <MESSAGE value="2d dp" />
     <MESSAGE value="2d dp, greedy" />
-    <option name="LAST_COMMIT_MESSAGE" value="2d dp, greedy" />
+    <MESSAGE value="greedy, intervals" />
+    <option name="LAST_COMMIT_MESSAGE" value="greedy, intervals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
