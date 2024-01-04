@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="greedy, intervals">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/MinCostConnectPoints.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/NetworkDelayTime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/ReconstructItinerary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/intervals/MinItervalQuery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/intervals/NonOverlappingIntervals.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="intervals, adv graphs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/CheapestFlightsKStops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/SwimInWater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/CountingBits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/MissingNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/NumOf1Bits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/ReverseBits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/SingleNumber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.CountingBits.executor&quot;: &quot;Run&quot;,
     &quot;Python.InsertIntervals.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -63,20 +66,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.InsertIntervals">
-    <configuration name="Twitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.heap_pq.Twitter" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.heap_pq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Python.CountingBits">
     <configuration name="CoinChangeII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -92,6 +82,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/dp2d/CoinChangeII.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CountingBits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/CountingBits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,7 +183,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Twitter" />
+      <item itemvalue="Python.CountingBits" />
       <item itemvalue="Python.InsertIntervals" />
       <item itemvalue="Python.CoinChangeII" />
       <item itemvalue="Python.MedianFinder" />
@@ -178,11 +191,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CountingBits" />
         <item itemvalue="Python.InsertIntervals" />
         <item itemvalue="Python.CoinChangeII" />
         <item itemvalue="Python.MedianFinder" />
         <item itemvalue="Python.Trie" />
-        <item itemvalue="Application.Twitter" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +251,13 @@
       <workItem from="1703764827382" duration="1424000" />
       <workItem from="1703876407440" duration="891000" />
       <workItem from="1703910123905" duration="4000" />
-      <workItem from="1703954992242" duration="1466000" />
+      <workItem from="1703954992242" duration="1501000" />
+      <workItem from="1704010562534" duration="1134000" />
+      <workItem from="1704103218238" duration="1497000" />
+      <workItem from="1704207808714" duration="1948000" />
+      <workItem from="1704255377292" duration="1900000" />
+      <workItem from="1704353061654" duration="842000" />
+      <workItem from="1704360309328" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -280,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703185695226</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="intervals, adv graphs">
+      <option name="closed" value="true" />
+      <created>1703960586283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703960586284</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +330,8 @@
     <MESSAGE value="2d dp" />
     <MESSAGE value="2d dp, greedy" />
     <MESSAGE value="greedy, intervals" />
-    <option name="LAST_COMMIT_MESSAGE" value="greedy, intervals" />
+    <MESSAGE value="intervals, adv graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="intervals, adv graphs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -562,6 +590,7 @@
     <SUITE FILE_PATH="coverage/DSA$Main.ic" NAME="Main Coverage Results" MODIFIED="1694279274898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$CountingBits.coverage" NAME="CountingBits Coverage Results" MODIFIED="1704255677309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
     <SUITE FILE_PATH="coverage/DSA$MedianFinder.coverage" NAME="MedianFinder Coverage Results" MODIFIED="1701292534351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     <SUITE FILE_PATH="coverage/DSA$Trie.coverage" NAME="Trie Coverage Results" MODIFIED="1701024160456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/trie" />
     <SUITE FILE_PATH="coverage/DSA$MergeKSortedLists.ic" NAME="MergeKSortedLists Coverage Results" MODIFIED="1697254605031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
