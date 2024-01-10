@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="intervals, adv graphs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/CheapestFlightsKStops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/SwimInWater.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/CountingBits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/MissingNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/NumOf1Bits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/ReverseBits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/SingleNumber.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="adv graphs, bit manipulation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/ReverseInteger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/SumOfTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/MatrixZeroes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/RotateImage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/SpiralMatrix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Python Stub" />
+        <option value="Class" />
         <option value="Python Script" />
       </list>
     </option>
@@ -66,7 +64,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.CountingBits">
+  <component name="RunManager" selected="Python.MatrixZeroes">
     <configuration name="CoinChangeII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -136,6 +134,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MatrixZeroes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/math_geometry/MatrixZeroes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MedianFinder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -159,43 +180,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Trie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/trie" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/trie/Trie.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.MatrixZeroes" />
       <item itemvalue="Python.CountingBits" />
       <item itemvalue="Python.InsertIntervals" />
       <item itemvalue="Python.CoinChangeII" />
       <item itemvalue="Python.MedianFinder" />
-      <item itemvalue="Python.Trie" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MatrixZeroes" />
         <item itemvalue="Python.CountingBits" />
         <item itemvalue="Python.InsertIntervals" />
         <item itemvalue="Python.CoinChangeII" />
         <item itemvalue="Python.MedianFinder" />
-        <item itemvalue="Python.Trie" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +255,11 @@
       <workItem from="1704207808714" duration="1948000" />
       <workItem from="1704255377292" duration="1900000" />
       <workItem from="1704353061654" duration="842000" />
-      <workItem from="1704360309328" duration="1549000" />
+      <workItem from="1704360309328" duration="2184000" />
+      <workItem from="1704434993320" duration="2826000" />
+      <workItem from="1704568081786" duration="1146000" />
+      <workItem from="1704611410993" duration="2636000" />
+      <workItem from="1704861559402" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -307,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703960586284</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adv graphs, bit manipulation">
+      <option name="closed" value="true" />
+      <created>1704363312118</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704363312118</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +341,8 @@
     <MESSAGE value="2d dp, greedy" />
     <MESSAGE value="greedy, intervals" />
     <MESSAGE value="intervals, adv graphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="intervals, adv graphs" />
+    <MESSAGE value="adv graphs, bit manipulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="adv graphs, bit manipulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
