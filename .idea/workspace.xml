@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="adv graphs, bit manipulation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/ReverseInteger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/SumOfTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/MatrixZeroes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/RotateImage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/SpiralMatrix.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="bit manipulation, math &amp; geometry">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/DetectSquares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/HappyNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/MultiplyStrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/PlusOne.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/Power.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
   &quot;keyToString&quot;: {
     &quot;Python.CountingBits.executor&quot;: &quot;Run&quot;,
     &quot;Python.InsertIntervals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MatrixZeroes.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -181,10 +182,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.MatrixZeroes" />
+      <item itemvalue="Python.CoinChangeII" />
       <item itemvalue="Python.CountingBits" />
       <item itemvalue="Python.InsertIntervals" />
-      <item itemvalue="Python.CoinChangeII" />
+      <item itemvalue="Python.MatrixZeroes" />
       <item itemvalue="Python.MedianFinder" />
     </list>
     <recent_temporary>
@@ -259,7 +260,15 @@
       <workItem from="1704434993320" duration="2826000" />
       <workItem from="1704568081786" duration="1146000" />
       <workItem from="1704611410993" duration="2636000" />
-      <workItem from="1704861559402" duration="1285000" />
+      <workItem from="1704861559402" duration="1494000" />
+      <workItem from="1704901073754" duration="2130000" />
+      <workItem from="1704981894827" duration="3000" />
+      <workItem from="1705108272754" duration="2207000" />
+      <workItem from="1705121730062" duration="605000" />
+      <workItem from="1705157788027" duration="21000" />
+      <workItem from="1705228772761" duration="644000" />
+      <workItem from="1705339421970" duration="3490000" />
+      <workItem from="1705437139128" duration="1665000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -317,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704363312118</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bit manipulation, math &amp; geometry">
+      <option name="closed" value="true" />
+      <created>1704863209544</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704863209544</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +359,8 @@
     <MESSAGE value="greedy, intervals" />
     <MESSAGE value="intervals, adv graphs" />
     <MESSAGE value="adv graphs, bit manipulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="adv graphs, bit manipulation" />
+    <MESSAGE value="bit manipulation, math &amp; geometry" />
+    <option name="LAST_COMMIT_MESSAGE" value="bit manipulation, math &amp; geometry" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -590,6 +608,11 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="23" />
         </breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/math_geometry/MatrixZeroes.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -608,5 +631,6 @@
       <FILTER>org.example.linkedlist.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DSA$InsertIntervals.coverage" NAME="InsertIntervals Coverage Results" MODIFIED="1703101297698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/intervals" />
+    <SUITE FILE_PATH="coverage/DSA$MatrixZeroes.coverage" NAME="MatrixZeroes Coverage Results" MODIFIED="1704863091813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
   </component>
 </project>
