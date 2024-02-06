@@ -4,17 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="math &amp; geometry; roadmap complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ContainsDuplicate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/GroupAnagrams.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/blind/HouseRobber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/blind/SameTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/blind/TwoSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/blind/ValidAnagram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/blind/ValidPalindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/ListNode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/ReverseLL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/TreeNode.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="arrays, blind">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ThreeConsecutiveIntSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/LongestConsecutiveSeq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/RowColNumCheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/TopKFreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ValidSudoku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/blind/ProductOfArrayExceptSelf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/general/MaxValueOfTriplet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/DailyTemps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/GenerateParentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/MinStack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/NextGreaterEle1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/ParenthesesString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/RPN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/ValidParentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/WordValidAfterSubs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twopointers/ThreeSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twopointers/ThreeSumClosest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twopointers/TrappingRainwater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twopointers/TwoSumII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twopointers/WaterContainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +63,19 @@
     "Python.CountingBits.executor": "Run",
     "Python.GroupAnagrams.executor": "Run",
     "Python.InsertIntervals.executor": "Run",
+    "Python.LongestConsecutiveSeq.executor": "Run",
     "Python.MatrixZeroes.executor": "Debug",
+    "Python.NextGreaterEle1.executor": "Debug",
+    "Python.ParenthesesString.executor": "Debug",
+    "Python.RPN.executor": "Run",
     "Python.ReverseLL.executor": "Run",
+    "Python.RowColNumCheck.executor": "Run",
+    "Python.ThreeConsecutiveIntSum.executor": "Run",
+    "Python.ThreeSumClosest.executor": "Run",
     "Python.TwoSum.executor": "Run",
+    "Python.ValidParentheses.executor": "Run",
+    "Python.WaterContainer.executor": "Run",
+    "Python.WordValidAfterSubs.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,15 +88,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.GroupAnagrams">
-    <configuration name="ContainsDuplicate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ParenthesesString">
+    <configuration name="NextGreaterEle1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,12 +105,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/arrays/ContainsDuplicate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/stack/NextGreaterEle1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GroupAnagrams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ParenthesesString" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,12 +128,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/arrays/GroupAnagrams.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/stack/ParenthesesString.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MatrixZeroes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RPN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,12 +151,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/math_geometry/MatrixZeroes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/stack/RPN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ReverseLL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidParentheses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,12 +174,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/linkedlist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/linkedlist/ReverseLL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/stack/ValidParentheses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TwoSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="WordValidAfterSubs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,12 +197,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/blind" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/blind/TwoSum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/stack/WordValidAfterSubs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,19 +212,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.GroupAnagrams" />
-      <item itemvalue="Python.ContainsDuplicate" />
-      <item itemvalue="Python.MatrixZeroes" />
-      <item itemvalue="Python.ReverseLL" />
-      <item itemvalue="Python.TwoSum" />
+      <item itemvalue="Python.NextGreaterEle1" />
+      <item itemvalue="Python.ParenthesesString" />
+      <item itemvalue="Python.RPN" />
+      <item itemvalue="Python.WordValidAfterSubs" />
+      <item itemvalue="Python.ValidParentheses" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.GroupAnagrams" />
-        <item itemvalue="Python.TwoSum" />
-        <item itemvalue="Python.ReverseLL" />
-        <item itemvalue="Python.ContainsDuplicate" />
-        <item itemvalue="Python.MatrixZeroes" />
+        <item itemvalue="Python.ParenthesesString" />
+        <item itemvalue="Python.NextGreaterEle1" />
+        <item itemvalue="Python.RPN" />
+        <item itemvalue="Python.WordValidAfterSubs" />
+        <item itemvalue="Python.ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +307,20 @@
       <workItem from="1705987806569" duration="2337000" />
       <workItem from="1706070329687" duration="2633000" />
       <workItem from="1706217458161" duration="3911000" />
-      <workItem from="1706240271086" duration="1165000" />
+      <workItem from="1706240271086" duration="1249000" />
+      <workItem from="1706304733364" duration="3774000" />
+      <workItem from="1706500116488" duration="3722000" />
+      <workItem from="1706557284036" duration="4119000" />
+      <workItem from="1706654404643" duration="3592000" />
+      <workItem from="1706712556562" duration="5000" />
+      <workItem from="1706742974433" duration="5634000" />
+      <workItem from="1706806994360" duration="4841000" />
+      <workItem from="1706885393139" duration="183000" />
+      <workItem from="1706985213840" duration="6444000" />
+      <workItem from="1707091184319" duration="2841000" />
+      <workItem from="1707104890683" duration="1818000" />
+      <workItem from="1707162401725" duration="2459000" />
+      <workItem from="1707257349036" duration="3027000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -360,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705439379524</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="arrays, blind">
+      <option name="closed" value="true" />
+      <created>1706241478588</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706241478588</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +429,8 @@
     <MESSAGE value="adv graphs, bit manipulation" />
     <MESSAGE value="bit manipulation, math &amp; geometry" />
     <MESSAGE value="math &amp; geometry; roadmap complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="math &amp; geometry; roadmap complete" />
+    <MESSAGE value="arrays, blind" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays, blind" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -645,21 +688,50 @@
           <line>4</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/arrays/LongestConsecutiveSeq.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/twopointers/ThreeSumClosest.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/stack/WordValidAfterSubs.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/stack/NextGreaterEle1.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/stack/ParenthesesString.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DSA$WaterContainer.coverage" NAME="WaterContainer Coverage Results" MODIFIED="1706744827840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/twopointers" />
     <SUITE FILE_PATH="coverage/DSA$TwoSum.coverage" NAME="TwoSum Coverage Results" MODIFIED="1706073040223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/blind" />
     <SUITE FILE_PATH="coverage/DSA$CountingBits.coverage" NAME="CountingBits Coverage Results" MODIFIED="1704255677309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
     <SUITE FILE_PATH="coverage/DSA$MedianFinder.coverage" NAME="MedianFinder Coverage Results" MODIFIED="1701292534351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     <SUITE FILE_PATH="coverage/DSA$InsertIntervals.coverage" NAME="InsertIntervals Coverage Results" MODIFIED="1703101297698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/intervals" />
     <SUITE FILE_PATH="coverage/DSA$Trie.coverage" NAME="Trie Coverage Results" MODIFIED="1701024160456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/trie" />
     <SUITE FILE_PATH="coverage/DSA$GroupAnagrams.coverage" NAME="GroupAnagrams Coverage Results" MODIFIED="1706240894168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+    <SUITE FILE_PATH="coverage/DSA$ParenthesesString.coverage" NAME="ParenthesesString Coverage Results" MODIFIED="1707263530842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
+    <SUITE FILE_PATH="coverage/DSA$LongestConsecutiveSeq.coverage" NAME="LongestConsecutiveSeq Coverage Results" MODIFIED="1706561315288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$ReverseLL.coverage" NAME="ReverseLL Coverage Results" MODIFIED="1705804417554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/linkedlist" />
     <SUITE FILE_PATH="coverage/DSA$CoinChangeII.coverage" NAME="CoinChangeII Coverage Results" MODIFIED="1701740141895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp2d" />
     <SUITE FILE_PATH="coverage/DSA$SubStringPermutation.ic" NAME="SubStringPermutation Coverage Results" MODIFIED="1695698419976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.slidingwindow.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$WordValidAfterSubs.coverage" NAME="WordValidAfterSubs Coverage Results" MODIFIED="1706810231719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
     <SUITE FILE_PATH="coverage/DSA$Main.ic" NAME="Main Coverage Results" MODIFIED="1694279274898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
@@ -667,6 +739,12 @@
       <FILTER>org.example.linkedlist.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DSA$MatrixZeroes.coverage" NAME="MatrixZeroes Coverage Results" MODIFIED="1704863091813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
+    <SUITE FILE_PATH="coverage/DSA$RowColNumCheck.coverage" NAME="RowColNumCheck Coverage Results" MODIFIED="1706502346040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+    <SUITE FILE_PATH="coverage/DSA$ValidParentheses.coverage" NAME="ValidParentheses Coverage Results" MODIFIED="1706760781588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
+    <SUITE FILE_PATH="coverage/DSA$RPN.coverage" NAME="RPN Coverage Results" MODIFIED="1707001339735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
+    <SUITE FILE_PATH="coverage/DSA$ThreeConsecutiveIntSum.coverage" NAME="ThreeConsecutiveIntSum Coverage Results" MODIFIED="1706561951780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
+    <SUITE FILE_PATH="coverage/DSA$NextGreaterEle1.coverage" NAME="NextGreaterEle1 Coverage Results" MODIFIED="1707263427331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
     <SUITE FILE_PATH="coverage/DSA$ContainsDuplicate.coverage" NAME="ContainsDuplicate Coverage Results" MODIFIED="1705621398797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+    <SUITE FILE_PATH="coverage/DSA$ThreeSumClosest.coverage" NAME="ThreeSumClosest Coverage Results" MODIFIED="1706743722200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/twopointers" />
   </component>
 </project>
