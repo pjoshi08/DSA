@@ -22,29 +22,6 @@ public class MergeKSortedLists {
         return mergeLists(left, right);
     }
 
-    // Exceeding time limit
-    public ListNode mergeKLists3(ListNode[] lists) {
-        if (lists == null || lists.length == 0) return null;
-
-
-        while (lists.length > 1) {
-            ListNode[] mergedLists = new ListNode[(lists.length/2) + 1];
-            for (int i=0; i < lists.length; i = i+2) {
-                ListNode l1 = lists[0], l2;
-                if (i+1 < lists.length) {
-                    l2 = lists[1];
-                } else {
-                    l2 = null;
-                }
-
-                mergedLists[i/2] = mergeLists(l1, l2);
-            }
-            lists = mergedLists;
-        }
-
-        return lists[0];
-    }
-
     private ListNode mergeLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode();
         ListNode tail = dummy;
@@ -69,6 +46,31 @@ public class MergeKSortedLists {
 
         return dummy.next;
     }
+
+    // Exceeding time limit
+    public ListNode mergeKLists3(ListNode[] lists) {
+        if (lists == null || lists.length == 0) return null;
+
+
+        while (lists.length > 1) {
+            ListNode[] mergedLists = new ListNode[(lists.length/2) + 1];
+            for (int i=0; i < lists.length; i = i+2) {
+                ListNode l1 = lists[0], l2;
+                if (i+1 < lists.length) {
+                    l2 = lists[1];
+                } else {
+                    l2 = null;
+                }
+
+                mergedLists[i/2] = mergeLists(l1, l2);
+            }
+            lists = mergedLists;
+        }
+
+        return lists[0];
+    }
+
+
 
     public ListNode mergeKLists2(ListNode[] lists) {
         if (lists == null || lists.length == 0) return null;
