@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="LinkedList, binary search/heap">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarysearch/TwoSortedArrMedian.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/UglyNumberII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/general/SetMismatch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/general/UglyNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/DuplicateNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/LLCycle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/LLCycleII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/LRUCache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/MergeKSortedLists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/ReverseNodesInGroup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/SwapNodesInPairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/LongestRepeatingSubstrReplacement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/LongestSubtring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MaxProfit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MaxProfitII.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="LinkedList, sliding window, binary search, dp1d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/FindAnagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MaxConsecutiveOnesIII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/SubStringPermutation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/MergeKSortedLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +50,7 @@
     &quot;Python.LongestSubtring.executor&quot;: &quot;Run&quot;,
     &quot;Python.MatrixZeroes.executor&quot;: &quot;Debug&quot;,
     &quot;Python.MaxCandies.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MaxConsecutiveOnesIII.executor&quot;: &quot;Run&quot;,
     &quot;Python.MaxRect.executor&quot;: &quot;Run&quot;,
     &quot;Python.NextGreaterEle1.executor&quot;: &quot;Debug&quot;,
     &quot;Python.ParenthesesString.executor&quot;: &quot;Debug&quot;,
@@ -72,6 +60,7 @@
     &quot;Python.RowColNumCheck.executor&quot;: &quot;Run&quot;,
     &quot;Python.Search2DMatrix.executor&quot;: &quot;Run&quot;,
     &quot;Python.Search2DMatrixII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubStringPermutation.executor&quot;: &quot;Run&quot;,
     &quot;Python.SwappingNodesLL.executor&quot;: &quot;Debug&quot;,
     &quot;Python.ThreeConsecutiveIntSum.executor&quot;: &quot;Run&quot;,
     &quot;Python.ThreeSumClosest.executor&quot;: &quot;Run&quot;,
@@ -105,8 +94,8 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.UglyNumber">
-    <configuration name="CountCollisions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.FindAnagrams">
+    <configuration name="FindAnagrams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,12 +104,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/stack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/stack/CountCollisions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/FindAnagrams.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RotatedArrSearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxConsecutiveOnesIII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,12 +150,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/binarysearch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/binarysearch/RotatedArrSearch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MaxConsecutiveOnesIII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SwappingNodesLL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SubStringPermutation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,12 +173,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/linkedlist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/linkedlist/SwappingNodesLL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/SubStringPermutation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,19 +211,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.FindAnagrams" />
+      <item itemvalue="Python.MaxConsecutiveOnesIII" />
+      <item itemvalue="Python.SubStringPermutation" />
       <item itemvalue="Python.UglyNumber" />
       <item itemvalue="Python.LongestSubtring" />
-      <item itemvalue="Python.SwappingNodesLL" />
-      <item itemvalue="Python.CountCollisions" />
-      <item itemvalue="Python.RotatedArrSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FindAnagrams" />
+        <item itemvalue="Python.SubStringPermutation" />
+        <item itemvalue="Python.MaxConsecutiveOnesIII" />
         <item itemvalue="Python.UglyNumber" />
         <item itemvalue="Python.LongestSubtring" />
-        <item itemvalue="Python.SwappingNodesLL" />
-        <item itemvalue="Python.RotatedArrSearch" />
-        <item itemvalue="Python.CountCollisions" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +345,9 @@
       <workItem from="1708624477051" duration="4126000" />
       <workItem from="1708705002329" duration="8000" />
       <workItem from="1708746051532" duration="2882000" />
-      <workItem from="1708806697963" duration="1448000" />
+      <workItem from="1708806697963" duration="1509000" />
+      <workItem from="1708831989545" duration="4014000" />
+      <workItem from="1708881778633" duration="533000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -470,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708214285714</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="LinkedList, sliding window, binary search, dp1d">
+      <option name="closed" value="true" />
+      <created>1708811025903</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708811025903</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +500,8 @@
     <MESSAGE value="arrays, stack, two pointers" />
     <MESSAGE value="stack, binary search" />
     <MESSAGE value="LinkedList, binary search/heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList, binary search/heap" />
+    <MESSAGE value="LinkedList, sliding window, binary search, dp1d" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList, sliding window, binary search, dp1d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,21 +600,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/binarysearch/TimeMap.java</url>
           <line>44</line>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/slidingwindow/SubStringPermutation.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/slidingwindow/SubStringPermutation.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/slidingwindow/SubStringPermutation.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/linkedlist/ListNode.java</url>
@@ -804,6 +789,11 @@
           <line>7</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/slidingwindow/SubStringPermutation.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -812,6 +802,7 @@
     <SUITE FILE_PATH="coverage/DSA$CountingBits.coverage" NAME="CountingBits Coverage Results" MODIFIED="1704255677309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
     <SUITE FILE_PATH="coverage/DSA$Trie.coverage" NAME="Trie Coverage Results" MODIFIED="1701024160456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/trie" />
     <SUITE FILE_PATH="coverage/DSA$ParenthesesString.coverage" NAME="ParenthesesString Coverage Results" MODIFIED="1707263530842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
+    <SUITE FILE_PATH="coverage/DSA$MaxConsecutiveOnesIII.coverage" NAME="MaxConsecutiveOnesIII Coverage Results" MODIFIED="1708832844075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
     <SUITE FILE_PATH="coverage/DSA$LongestConsecutiveSeq.coverage" NAME="LongestConsecutiveSeq Coverage Results" MODIFIED="1706561315288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$MaxRect.coverage" NAME="MaxRect Coverage Results" MODIFIED="1707612597057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
     <SUITE FILE_PATH="coverage/DSA$ReverseLL.coverage" NAME="ReverseLL Coverage Results" MODIFIED="1705804417554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/linkedlist" />
@@ -829,6 +820,7 @@
     <SUITE FILE_PATH="coverage/DSA$TwoSum.coverage" NAME="TwoSum Coverage Results" MODIFIED="1706073040223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/blind" />
     <SUITE FILE_PATH="coverage/DSA$UglyNumber.coverage" NAME="UglyNumber Coverage Results" MODIFIED="1708627016663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/general" />
     <SUITE FILE_PATH="coverage/DSA$RotatedArrSearch.coverage" NAME="RotatedArrSearch Coverage Results" MODIFIED="1707772343186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/binarysearch" />
+    <SUITE FILE_PATH="coverage/DSA$SubStringPermutation.coverage" NAME="SubStringPermutation Coverage Results" MODIFIED="1708836326704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
     <SUITE FILE_PATH="coverage/DSA$MedianFinder.coverage" NAME="MedianFinder Coverage Results" MODIFIED="1701292534351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     <SUITE FILE_PATH="coverage/DSA$InsertIntervals.coverage" NAME="InsertIntervals Coverage Results" MODIFIED="1703101297698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/intervals" />
     <SUITE FILE_PATH="coverage/DSA$GroupAnagrams.coverage" NAME="GroupAnagrams Coverage Results" MODIFIED="1706240894168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
