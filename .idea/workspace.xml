@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="tree">
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="sliding window">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/JumpGameVI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/SlidingWindowMax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/BalancedBinaryTree.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/ReverseOddLvlsBT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -47,7 +47,7 @@
     &quot;Python.FindAnagrams.executor&quot;: &quot;Run&quot;,
     &quot;Python.GroupAnagrams.executor&quot;: &quot;Run&quot;,
     &quot;Python.InsertIntervals.executor&quot;: &quot;Run&quot;,
-    &quot;Python.JumpGameVI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.JumpGameVI.executor&quot;: &quot;Run&quot;,
     &quot;Python.LongestConsecutiveSeq.executor&quot;: &quot;Run&quot;,
     &quot;Python.LongestSubtring.executor&quot;: &quot;Run&quot;,
     &quot;Python.MatrixZeroes.executor&quot;: &quot;Debug&quot;,
@@ -358,6 +358,9 @@
       <workItem from="1709264609587" duration="3472000" />
       <workItem from="1709269758020" duration="22000" />
       <workItem from="1709339392092" duration="2562000" />
+      <workItem from="1709354140576" duration="29000" />
+      <workItem from="1709407466249" duration="4108000" />
+      <workItem from="1709513330152" duration="1535000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -511,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709269774606</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="sliding window">
+      <option name="closed" value="true" />
+      <created>1709354163286</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709354163286</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,10 +554,10 @@
     <MESSAGE value="stack, binary search" />
     <MESSAGE value="LinkedList, binary search/heap" />
     <MESSAGE value="LinkedList, sliding window, binary search, dp1d" />
-    <MESSAGE value="sliding window" />
     <MESSAGE value="sliding window, tree" />
     <MESSAGE value="tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="tree" />
+    <MESSAGE value="sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="sliding window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -839,11 +850,6 @@
           <line>3</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/slidingwindow/JumpGameVI.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -860,7 +866,7 @@
     <SUITE FILE_PATH="coverage/DSA$Main.ic" NAME="Main Coverage Results" MODIFIED="1694279274898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DSA$JumpGameVI.coverage" NAME="JumpGameVI Coverage Results" MODIFIED="1709340941873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
+    <SUITE FILE_PATH="coverage/DSA$JumpGameVI.coverage" NAME="JumpGameVI Coverage Results" MODIFIED="1709411232355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
     <SUITE FILE_PATH="coverage/DSA$MergeKSortedLists.ic" NAME="MergeKSortedLists Coverage Results" MODIFIED="1697254605031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.linkedlist.*</FILTER>
     </SUITE>
