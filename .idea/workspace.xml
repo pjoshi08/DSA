@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/JumpGameVI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/FlattenBT.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="tree, sliding window">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/ReverseOddLvlsBT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/SameTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -361,7 +360,8 @@
       <workItem from="1709354140576" duration="29000" />
       <workItem from="1709407466249" duration="4108000" />
       <workItem from="1709513330152" duration="1556000" />
-      <workItem from="1709562025464" duration="968000" />
+      <workItem from="1709562025464" duration="1516000" />
+      <workItem from="1709604696867" duration="1509000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -531,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709516065462</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="tree, sliding window">
+      <option name="closed" value="true" />
+      <created>1709563285077</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709563285077</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +574,8 @@
     <MESSAGE value="sliding window, tree" />
     <MESSAGE value="sliding window" />
     <MESSAGE value="tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="tree" />
+    <MESSAGE value="tree, sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="tree, sliding window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
