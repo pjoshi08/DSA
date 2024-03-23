@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/CombinationSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/Combinations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/LetterCasePerm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/Permutations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/Subsets.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/DuplicateSubTrees.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/SerializeDeserialize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/SerializeDeserializeBST.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/SumRootToLeaf.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/SumRootToLeaf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.Combinations.executor&quot;: &quot;Debug&quot;,
     &quot;Python.ContainsDuplicate.executor&quot;: &quot;Debug&quot;,
     &quot;Python.CountCollisions.executor&quot;: &quot;Debug&quot;,
     &quot;Python.CountingBits.executor&quot;: &quot;Run&quot;,
@@ -50,6 +53,7 @@
     &quot;Python.InorderTraversal.executor&quot;: &quot;Run&quot;,
     &quot;Python.InsertIntervals.executor&quot;: &quot;Run&quot;,
     &quot;Python.JumpGameVI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LetterCasePerm.executor&quot;: &quot;Debug&quot;,
     &quot;Python.LongestConsecutiveSeq.executor&quot;: &quot;Run&quot;,
     &quot;Python.LongestSubtring.executor&quot;: &quot;Run&quot;,
     &quot;Python.MatrixZeroes.executor&quot;: &quot;Debug&quot;,
@@ -105,8 +109,8 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SerializeDeserialize">
-    <configuration name="PathSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Combinations">
+    <configuration name="Combinations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,12 +119,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/tree/PathSum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/backtrack/Combinations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LetterCasePerm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/backtrack/LetterCasePerm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,29 +202,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ValidBST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/tree/ValidBST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ZigzagOrderTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -223,6 +227,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Combinations" />
+        <item itemvalue="Python.LetterCasePerm" />
         <item itemvalue="Python.SerializeDeserialize" />
         <item itemvalue="Python.SumRootToLeaf" />
       </list>
@@ -377,7 +383,12 @@
       <workItem from="1710599500285" duration="4184000" />
       <workItem from="1710631753035" duration="56000" />
       <workItem from="1710631817720" duration="2979000" />
-      <workItem from="1710704065811" duration="2181000" />
+      <workItem from="1710704065811" duration="2237000" />
+      <workItem from="1710865640626" duration="4775000" />
+      <workItem from="1710948870442" duration="10000" />
+      <workItem from="1710951238296" duration="778000" />
+      <workItem from="1711135952277" duration="4343000" />
+      <workItem from="1711208165018" duration="1035000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -619,7 +630,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710604578532</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="tree">
+      <option name="closed" value="true" />
+      <created>1710706715242</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710706715243</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -883,6 +902,11 @@
           <line>8</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/backtrack/LetterCasePerm.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -909,7 +933,9 @@
     <SUITE FILE_PATH="coverage/DSA$Search2DMatrix.coverage" NAME="Search2DMatrix Coverage Results" MODIFIED="1707535189655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/binarysearch" />
     <SUITE FILE_PATH="coverage/DSA$SwappingNodesLL.coverage" NAME="SwappingNodesLL Coverage Results" MODIFIED="1708064503698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/linkedlist" />
     <SUITE FILE_PATH="coverage/DSA$MinSizeSubarrSum.coverage" NAME="MinSizeSubarrSum Coverage Results" MODIFIED="1709094737040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
+    <SUITE FILE_PATH="coverage/DSA$LetterCasePerm.coverage" NAME="LetterCasePerm Coverage Results" MODIFIED="1710870296238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
     <SUITE FILE_PATH="coverage/DSA$CountCollisions.coverage" NAME="CountCollisions Coverage Results" MODIFIED="1707771734081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
+    <SUITE FILE_PATH="coverage/DSA$Combinations.coverage" NAME="Combinations Coverage Results" MODIFIED="1711137378582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
     <SUITE FILE_PATH="coverage/DSA$TwoSum.coverage" NAME="TwoSum Coverage Results" MODIFIED="1706073040223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/blind" />
     <SUITE FILE_PATH="coverage/DSA$SerializeDeserialize.coverage" NAME="SerializeDeserialize Coverage Results" MODIFIED="1710634298354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/tree" />
     <SUITE FILE_PATH="coverage/DSA$UglyNumber.coverage" NAME="UglyNumber Coverage Results" MODIFIED="1708627016663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/general" />
