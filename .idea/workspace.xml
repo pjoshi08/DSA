@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="tree, backtrack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/CombinationSumII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/PermutationsII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/SubsetsII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/WordSearch.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="backtrack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/LetterCombinations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/PalindromePartition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/PalindromePartitionII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/CountTexts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/general/BinaryWatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/general/MinPushesToTypeWord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/general/StrongPasswordCheckerII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/FlippingMatrixScore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MaxStrongPairXORI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +65,7 @@
     &quot;Python.MaxCandies.executor&quot;: &quot;Debug&quot;,
     &quot;Python.MaxConsecutiveOnesIII.executor&quot;: &quot;Run&quot;,
     &quot;Python.MaxRect.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxStrongPairXORI.executor&quot;: &quot;Run&quot;,
     &quot;Python.MinSizeSubarrSum.executor&quot;: &quot;Run&quot;,
     &quot;Python.NextGreaterEle1.executor&quot;: &quot;Debug&quot;,
     &quot;Python.ParenthesesString.executor&quot;: &quot;Debug&quot;,
@@ -72,6 +78,7 @@
     &quot;Python.Search2DMatrix.executor&quot;: &quot;Run&quot;,
     &quot;Python.Search2DMatrixII.executor&quot;: &quot;Run&quot;,
     &quot;Python.SerializeDeserialize.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StrongPasswordCheckerII.executor&quot;: &quot;Run&quot;,
     &quot;Python.SubStringPermutation.executor&quot;: &quot;Run&quot;,
     &quot;Python.SubsetsII.executor&quot;: &quot;Run&quot;,
     &quot;Python.SumRootToLeaf.executor&quot;: &quot;Run&quot;,
@@ -107,11 +114,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/greedy" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/general" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CombinationSumII">
+  <component name="RunManager" selected="Python.StrongPasswordCheckerII">
     <configuration name="CombinationSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -158,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Combinations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxStrongPairXORI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,12 +176,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/general" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/backtrack/Combinations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MaxStrongPairXORI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PermutationsII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="StrongPasswordCheckerII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,12 +199,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/general" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/backtrack/PermutationsII.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/general/StrongPasswordCheckerII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.StrongPasswordCheckerII" />
+        <item itemvalue="Python.MaxStrongPairXORI" />
         <item itemvalue="Python.CombinationSumII" />
         <item itemvalue="Python.CombinationSum" />
         <item itemvalue="Python.SubsetsII" />
-        <item itemvalue="Python.PermutationsII" />
-        <item itemvalue="Python.Combinations" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +401,12 @@
       <workItem from="1710951238296" duration="778000" />
       <workItem from="1711135952277" duration="4343000" />
       <workItem from="1711208165018" duration="7062000" />
-      <workItem from="1711252288243" duration="1183000" />
+      <workItem from="1711252288243" duration="1206000" />
+      <workItem from="1711289835443" duration="1788000" />
+      <workItem from="1711292786152" duration="3018000" />
+      <workItem from="1711312352202" duration="1891000" />
+      <workItem from="1711369465375" duration="2345000" />
+      <workItem from="1711387699732" duration="3748000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -650,7 +664,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711209414088</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="backtrack">
+      <option name="closed" value="true" />
+      <created>1711253529446</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1711253529446</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +709,8 @@
     <MESSAGE value="tree, sliding window" />
     <MESSAGE value="tree" />
     <MESSAGE value="tree, backtrack" />
-    <option name="LAST_COMMIT_MESSAGE" value="tree, backtrack" />
+    <MESSAGE value="backtrack" />
+    <option name="LAST_COMMIT_MESSAGE" value="backtrack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -945,6 +968,7 @@
     <SUITE FILE_PATH="coverage/DSA$CombinationSumII.coverage" NAME="CombinationSumII Coverage Results" MODIFIED="1711224702981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
     <SUITE FILE_PATH="coverage/DSA$Trie.coverage" NAME="Trie Coverage Results" MODIFIED="1701024160456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/trie" />
     <SUITE FILE_PATH="coverage/DSA$ParenthesesString.coverage" NAME="ParenthesesString Coverage Results" MODIFIED="1707263530842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
+    <SUITE FILE_PATH="coverage/DSA$MaxStrongPairXORI.coverage" NAME="MaxStrongPairXORI Coverage Results" MODIFIED="1711290788927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/general" />
     <SUITE FILE_PATH="coverage/DSA$LongestConsecutiveSeq.coverage" NAME="LongestConsecutiveSeq Coverage Results" MODIFIED="1706561315288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$MaxRect.coverage" NAME="MaxRect Coverage Results" MODIFIED="1707612597057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
     <SUITE FILE_PATH="coverage/DSA$ReverseLL.coverage" NAME="ReverseLL Coverage Results" MODIFIED="1705804417554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/linkedlist" />
@@ -962,6 +986,7 @@
     <SUITE FILE_PATH="coverage/DSA$LetterCasePerm.coverage" NAME="LetterCasePerm Coverage Results" MODIFIED="1710870296238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
     <SUITE FILE_PATH="coverage/DSA$CountCollisions.coverage" NAME="CountCollisions Coverage Results" MODIFIED="1707771734081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
     <SUITE FILE_PATH="coverage/DSA$Combinations.coverage" NAME="Combinations Coverage Results" MODIFIED="1711137378582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
+    <SUITE FILE_PATH="coverage/DSA$StrongPasswordCheckerII.coverage" NAME="StrongPasswordCheckerII Coverage Results" MODIFIED="1711297699593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/general" />
     <SUITE FILE_PATH="coverage/DSA$SerializeDeserialize.coverage" NAME="SerializeDeserialize Coverage Results" MODIFIED="1710634298354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/tree" />
     <SUITE FILE_PATH="coverage/DSA$UglyNumber.coverage" NAME="UglyNumber Coverage Results" MODIFIED="1708627016663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/general" />
     <SUITE FILE_PATH="coverage/DSA$RotatedArrSearch.coverage" NAME="RotatedArrSearch Coverage Results" MODIFIED="1707772343186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/binarysearch" />
