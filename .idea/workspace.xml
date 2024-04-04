@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="backtrack, trie">
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="backtrack, dp1d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/MinRoundTasks.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/PalindromePartitionII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/UniquePathsIII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/ClimbingStairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/trie/EncryptDecrypStr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/MinCostStairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/general/FibonacciNum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
     "Python.MaxConsecutiveOnesIII.executor": "Run",
     "Python.MaxRect.executor": "Run",
     "Python.MaxStrongPairXORI.executor": "Run",
+    "Python.MinRoundTasks.executor": "Run",
     "Python.MinSizeSubarrSum.executor": "Run",
     "Python.NextGreaterEle1.executor": "Debug",
     "Python.ParenthesesString.executor": "Debug",
@@ -114,13 +115,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/general" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/greedy" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/example/general" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.EncryptDecrypStr">
+  <component name="RunManager" selected="Python.MinRoundTasks">
     <configuration name="EncryptDecrypStr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -136,6 +137,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/general/EncryptDecrypStr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MinRoundTasks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/arrays/MinRoundTasks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,29 +214,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SubsetXORSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/backtrack/SubsetXORSum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="UniquePathsIII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -238,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MinRoundTasks" />
         <item itemvalue="Python.EncryptDecrypStr" />
         <item itemvalue="Python.UniquePathsIII" />
         <item itemvalue="Python.ReplaceWords" />
         <item itemvalue="Python.SourceToTargetPath" />
-        <item itemvalue="Python.SubsetXORSum" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +418,8 @@
       <workItem from="1711766292489" duration="714000" />
       <workItem from="1711811146321" duration="3264000" />
       <workItem from="1711858065416" duration="8000" />
-      <workItem from="1712153828988" duration="6053000" />
+      <workItem from="1712153828988" duration="6160000" />
+      <workItem from="1712248284617" duration="4290000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -707,7 +709,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711766064201</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="backtrack, dp1d">
+      <option name="closed" value="true" />
+      <created>1712169616314</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1712169616314</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,7 +757,8 @@
     <MESSAGE value="backtrack, others" />
     <MESSAGE value="backtrack" />
     <MESSAGE value="backtrack, trie" />
-    <option name="LAST_COMMIT_MESSAGE" value="backtrack, trie" />
+    <MESSAGE value="backtrack, dp1d" />
+    <option name="LAST_COMMIT_MESSAGE" value="backtrack, dp1d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -980,6 +991,11 @@
           <line>12</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/arrays/MinRoundTasks.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1010,6 +1026,7 @@
     <SUITE FILE_PATH="coverage/DSA$MaxStrongPairXORI.coverage" NAME="MaxStrongPairXORI Coverage Results" MODIFIED="1711290788927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/general" />
     <SUITE FILE_PATH="coverage/DSA$LongestConsecutiveSeq.coverage" NAME="LongestConsecutiveSeq Coverage Results" MODIFIED="1706561315288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$MaxRect.coverage" NAME="MaxRect Coverage Results" MODIFIED="1707612597057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
+    <SUITE FILE_PATH="coverage/DSA$MinRoundTasks.coverage" NAME="MinRoundTasks Coverage Results" MODIFIED="1712250720294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$ReverseLL.coverage" NAME="ReverseLL Coverage Results" MODIFIED="1705804417554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/linkedlist" />
     <SUITE FILE_PATH="coverage/DSA$UniquePathsIII.coverage" NAME="UniquePathsIII Coverage Results" MODIFIED="1711814186566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
     <SUITE FILE_PATH="coverage/DSA$WordValidAfterSubs.coverage" NAME="WordValidAfterSubs Coverage Results" MODIFIED="1706810231719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
