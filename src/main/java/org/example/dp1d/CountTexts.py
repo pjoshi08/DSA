@@ -12,6 +12,6 @@ class Solution:
                 if i >= 2 and pressedKeys[i - 2] == c:
                     dp[i + 1] += dp[i - 2]
                     if i >= 3 and pressedKeys[i - 3] == c and c in "79":
-                        dp[i + 1] = dp[i - 3]
+                        dp[i + 1] += dp[i - 3]
             dp[i + 1] %= 1_000_000_007
         return dp[-1]

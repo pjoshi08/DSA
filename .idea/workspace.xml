@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp1d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/PalindromePartitionII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/HouseRobberII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/HouseRobberIII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/LongestPalindromicSubStr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/PaintFence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/PaintHouse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/PalindromePermutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/CoinChange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/DecodeWays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/DecodeWaysII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/PalindromicSubstr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/CountTexts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/CountTexts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pjoshi08"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pjoshi08&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pjoshi08/DSA.git",
-    "accountId": "fcf59eb3-3134-4dc8-a892-2fae9ca0014d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pjoshi08/DSA.git&quot;,
+    &quot;accountId&quot;: &quot;fcf59eb3-3134-4dc8-a892-2fae9ca0014d&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -55,79 +54,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.CombinationSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CombinationSumII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Combinations.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ContainsDuplicate.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.CountCollisions.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.CountingBits.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EncryptDecrypStr.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FindAnagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GroupAnagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Python.InorderTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.InsertIntervals.executor&quot;: &quot;Run&quot;,
-    &quot;Python.JumpGameVI.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LetterCasePerm.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.LongestConsecutiveSeq.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LongestSubtring.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MatrixZeroes.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.MaxCandies.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.MaxConsecutiveOnesIII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MaxRect.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MaxStrongPairXORI.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MinRoundTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MinSizeSubarrSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NextGreaterEle1.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ParenthesesString.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.PathSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PermutationsII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RPN.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ReplaceWords.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ReverseLL.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RotatedArrSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RowColNumCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Search2DMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Search2DMatrixII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SerializeDeserialize.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SourceToTargetPath.executor&quot;: &quot;Run&quot;,
-    &quot;Python.StrongPasswordCheckerII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SubStringPermutation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SubsetXORSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SubsetsII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SumRootToLeaf.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SwappingNodesLL.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ThreeConsecutiveIntSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ThreeSumClosest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UglyNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UniquePathsIII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ValidBST.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ValidParentheses.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ValidPath.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.WaterContainer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WordValidAfterSubs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ZigzagOrderTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/archer/Archer/IntelliJIdeaProjects/DSA&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.CombinationSum.executor": "Run",
+    "Python.CombinationSumII.executor": "Run",
+    "Python.Combinations.executor": "Debug",
+    "Python.ContainsDuplicate.executor": "Debug",
+    "Python.CountCollisions.executor": "Debug",
+    "Python.CountingBits.executor": "Run",
+    "Python.DecodeWaysII.executor": "Debug",
+    "Python.EncryptDecrypStr.executor": "Run",
+    "Python.FindAnagrams.executor": "Run",
+    "Python.GroupAnagrams.executor": "Run",
+    "Python.InorderTraversal.executor": "Run",
+    "Python.InsertIntervals.executor": "Run",
+    "Python.JumpGameVI.executor": "Run",
+    "Python.LetterCasePerm.executor": "Debug",
+    "Python.LongestConsecutiveSeq.executor": "Run",
+    "Python.LongestSubtring.executor": "Run",
+    "Python.MatrixZeroes.executor": "Debug",
+    "Python.MaxCandies.executor": "Debug",
+    "Python.MaxConsecutiveOnesIII.executor": "Run",
+    "Python.MaxRect.executor": "Run",
+    "Python.MaxStrongPairXORI.executor": "Run",
+    "Python.MinRoundTasks.executor": "Run",
+    "Python.MinSizeSubarrSum.executor": "Run",
+    "Python.NextGreaterEle1.executor": "Debug",
+    "Python.PalindromePermutation.executor": "Run",
+    "Python.PalindromicSubstr.executor": "Run",
+    "Python.ParenthesesString.executor": "Debug",
+    "Python.PathSum.executor": "Run",
+    "Python.PermutationsII.executor": "Run",
+    "Python.RPN.executor": "Run",
+    "Python.ReplaceWords.executor": "Run",
+    "Python.ReverseLL.executor": "Run",
+    "Python.RotatedArrSearch.executor": "Run",
+    "Python.RowColNumCheck.executor": "Run",
+    "Python.Search2DMatrix.executor": "Run",
+    "Python.Search2DMatrixII.executor": "Run",
+    "Python.SerializeDeserialize.executor": "Run",
+    "Python.SourceToTargetPath.executor": "Run",
+    "Python.StrongPasswordCheckerII.executor": "Run",
+    "Python.SubStringPermutation.executor": "Run",
+    "Python.SubsetXORSum.executor": "Run",
+    "Python.SubsetsII.executor": "Run",
+    "Python.SumRootToLeaf.executor": "Run",
+    "Python.SwappingNodesLL.executor": "Debug",
+    "Python.ThreeConsecutiveIntSum.executor": "Run",
+    "Python.ThreeSumClosest.executor": "Run",
+    "Python.TwoSum.executor": "Run",
+    "Python.UglyNumber.executor": "Run",
+    "Python.UniquePathsIII.executor": "Run",
+    "Python.ValidBST.executor": "Run",
+    "Python.ValidParentheses.executor": "Run",
+    "Python.ValidPath.executor": "Debug",
+    "Python.WaterContainer.executor": "Run",
+    "Python.WordValidAfterSubs.executor": "Run",
+    "Python.ZigzagOrderTraversal.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/archer/Archer/IntelliJIdeaProjects/DSA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/general" />
@@ -136,7 +138,30 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MinRoundTasks">
+  <component name="RunManager" selected="Python.DecodeWaysII">
+    <configuration name="DecodeWaysII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/dp1d/DecodeWaysII.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="EncryptDecrypStr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -183,7 +208,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ReplaceWords" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromePermutation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,12 +217,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/trie" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/arrays" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/trie/ReplaceWords.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/arrays/PalindromePermutation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,7 +231,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SourceToTargetPath" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromicSubstr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,35 +240,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/backtrack/SourceToTargetPath.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UniquePathsIII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/backtrack" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/backtrack/UniquePathsIII.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/dp1d/PalindromicSubstr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DecodeWaysII" />
+        <item itemvalue="Python.PalindromicSubstr" />
+        <item itemvalue="Python.PalindromePermutation" />
         <item itemvalue="Python.MinRoundTasks" />
         <item itemvalue="Python.EncryptDecrypStr" />
-        <item itemvalue="Python.UniquePathsIII" />
-        <item itemvalue="Python.ReplaceWords" />
-        <item itemvalue="Python.SourceToTargetPath" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +441,10 @@
       <workItem from="1712332598804" duration="4594000" />
       <workItem from="1712406560244" duration="7550000" />
       <workItem from="1712426719627" duration="969000" />
-      <workItem from="1712588004873" duration="1394000" />
+      <workItem from="1712588004873" duration="4599000" />
+      <workItem from="1712602947822" duration="838000" />
+      <workItem from="1712679007847" duration="7466000" />
+      <workItem from="1712756558449" duration="3198000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -753,7 +758,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712408238060</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="dp1d">
+      <option name="closed" value="true" />
+      <created>1712598259456</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1712598259456</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1034,18 +1047,27 @@
           <line>14</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/dp1d/DecodeWaysII.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DSA$PalindromicSubstr.coverage" NAME="PalindromicSubstr Coverage Results" MODIFIED="1712603175256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$MergeKSortedLists.ic" NAME="MergeKSortedLists Coverage Results" MODIFIED="1697254605031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.linkedlist.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$MinRoundTasks.coverage" NAME="MinRoundTasks Coverage Results" MODIFIED="1712599805066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+    <SUITE FILE_PATH="coverage/DSA$PalindromePermutation.coverage" NAME="PalindromePermutation Coverage Results" MODIFIED="1712599861608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$Main.ic" NAME="Main Coverage Results" MODIFIED="1694279274898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DSA$SubStringPermutation.ic" NAME="SubStringPermutation Coverage Results" MODIFIED="1695698419976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.slidingwindow.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$DecodeWaysII.coverage" NAME="DecodeWaysII Coverage Results" MODIFIED="1712758133748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
   </component>
 </project>
