@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp1d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/ExtraCharsInStr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/IncTripletSubseq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/MaxLenPairChain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/PartitionEqSubsetSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/PartitionKEqSumSets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/NumConnectedComponents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/NumOfIslands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/WallsAndGates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/PartitionKEqSumSets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/PartitionKEqSumSets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,86 +52,88 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.CombinationSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CombinationSumII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Combinations.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ContainsDuplicate.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.CountCollisions.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.CountingBits.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DecodeWaysII.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.EncryptDecrypStr.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ExtraCharsInStr.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FindAnagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GroupAnagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Python.InorderTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.InsertIntervals.executor&quot;: &quot;Run&quot;,
-    &quot;Python.JumpGameVI.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LetterCasePerm.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.LongestConsecutiveSeq.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LongestSubtring.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MatrixZeroes.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.MaxCandies.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.MaxConsecutiveOnesIII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MaxRect.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MaxStrongPairXORI.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MinOpsToConvertTime.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MinRoundTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MinSizeSubarrSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NextGreaterEle1.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.PalindromePermutation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PalindromicSubstr.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ParenthesesString.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.PartitionKEqSumSets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PathSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PermutationsII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RPN.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ReplaceWords.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ReverseLL.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RotatedArrSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RowColNumCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Search2DMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Search2DMatrixII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SerializeDeserialize.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SourceToTargetPath.executor&quot;: &quot;Run&quot;,
-    &quot;Python.StrongPasswordCheckerII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SubStringPermutation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SubsetXORSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SubsetsII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SumRootToLeaf.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SwappingNodesLL.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ThreeConsecutiveIntSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ThreeSumClosest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UglyNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UniquePathsIII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ValidBST.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ValidParentheses.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ValidPath.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.WaterContainer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WordBreakII.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WordValidAfterSubs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ZigzagOrderTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/archer/Archer/IntelliJIdeaProjects/DSA&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.CombinationSum.executor": "Run",
+    "Python.CombinationSumII.executor": "Run",
+    "Python.Combinations.executor": "Debug",
+    "Python.ContainsDuplicate.executor": "Debug",
+    "Python.CountCollisions.executor": "Debug",
+    "Python.CountingBits.executor": "Run",
+    "Python.DecodeWaysII.executor": "Debug",
+    "Python.EncryptDecrypStr.executor": "Run",
+    "Python.ExtraCharsInStr.executor": "Run",
+    "Python.FindAnagrams.executor": "Run",
+    "Python.GroupAnagrams.executor": "Run",
+    "Python.InorderTraversal.executor": "Run",
+    "Python.InsertIntervals.executor": "Run",
+    "Python.JumpGameVI.executor": "Run",
+    "Python.LetterCasePerm.executor": "Debug",
+    "Python.LongestConsecutiveSeq.executor": "Run",
+    "Python.LongestSubtring.executor": "Run",
+    "Python.MatrixZeroes.executor": "Debug",
+    "Python.MaxCandies.executor": "Debug",
+    "Python.MaxConsecutiveOnesIII.executor": "Run",
+    "Python.MaxRect.executor": "Run",
+    "Python.MaxStrongPairXORI.executor": "Run",
+    "Python.MinOpsToConvertTime.executor": "Run",
+    "Python.MinRoundTasks.executor": "Run",
+    "Python.MinSizeSubarrSum.executor": "Run",
+    "Python.NextGreaterEle1.executor": "Debug",
+    "Python.NumConnectedComponents.executor": "Run",
+    "Python.PalindromePermutation.executor": "Run",
+    "Python.PalindromicSubstr.executor": "Run",
+    "Python.ParenthesesString.executor": "Debug",
+    "Python.PartitionKEqSumSets.executor": "Run",
+    "Python.PathSum.executor": "Run",
+    "Python.PermutationsII.executor": "Run",
+    "Python.RPN.executor": "Run",
+    "Python.ReplaceWords.executor": "Run",
+    "Python.ReverseLL.executor": "Run",
+    "Python.RotatedArrSearch.executor": "Run",
+    "Python.RowColNumCheck.executor": "Run",
+    "Python.Search2DMatrix.executor": "Run",
+    "Python.Search2DMatrixII.executor": "Run",
+    "Python.SerializeDeserialize.executor": "Run",
+    "Python.SourceToTargetPath.executor": "Run",
+    "Python.StrongPasswordCheckerII.executor": "Run",
+    "Python.SubStringPermutation.executor": "Run",
+    "Python.SubsetXORSum.executor": "Run",
+    "Python.SubsetsII.executor": "Run",
+    "Python.SumRootToLeaf.executor": "Run",
+    "Python.SwappingNodesLL.executor": "Debug",
+    "Python.ThreeConsecutiveIntSum.executor": "Run",
+    "Python.ThreeSumClosest.executor": "Run",
+    "Python.TwoSum.executor": "Run",
+    "Python.UglyNumber.executor": "Run",
+    "Python.UniquePathsIII.executor": "Run",
+    "Python.ValidBST.executor": "Run",
+    "Python.ValidParentheses.executor": "Run",
+    "Python.ValidPath.executor": "Debug",
+    "Python.WallsAndGates.executor": "Debug",
+    "Python.WaterContainer.executor": "Run",
+    "Python.WordBreakII.executor": "Run",
+    "Python.WordValidAfterSubs.executor": "Run",
+    "Python.ZigzagOrderTraversal.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/archer/Archer/IntelliJIdeaProjects/DSA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
@@ -141,30 +142,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ExtraCharsInStr">
-    <configuration name="DecodeWaysII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/dp1d/DecodeWaysII.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.NumConnectedComponents">
     <configuration name="ExtraCharsInStr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -188,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MinOpsToConvertTime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NumConnectedComponents" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,12 +175,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/graph" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/dp1d/MinOpsToConvertTime.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/graph/NumConnectedComponents.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,6 +204,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/dp1d/PartitionKEqSumSets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WallsAndGates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/graph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/graph/WallsAndGates.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NumConnectedComponents" />
+        <item itemvalue="Python.WallsAndGates" />
         <item itemvalue="Python.ExtraCharsInStr" />
         <item itemvalue="Python.PartitionKEqSumSets" />
         <item itemvalue="Python.WordBreakII" />
-        <item itemvalue="Python.MinOpsToConvertTime" />
-        <item itemvalue="Python.DecodeWaysII" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +455,11 @@
       <workItem from="1713274451402" duration="4896000" />
       <workItem from="1713373426654" duration="5325000" />
       <workItem from="1713454069189" duration="3235000" />
-      <workItem from="1713541386118" duration="2126000" />
+      <workItem from="1713541386118" duration="2140000" />
+      <workItem from="1713543537033" duration="3238000" />
+      <workItem from="1713621236886" duration="5189000" />
+      <workItem from="1713742092879" duration="2788000" />
+      <workItem from="1713792777069" duration="3273000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -808,7 +813,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713277472839</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="dp1d">
+      <option name="closed" value="true" />
+      <created>1713543528454</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1713543528454</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1096,7 +1109,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/dp1d/PartitionKEqSumSets.py</url>
-          <line>5</line>
+          <line>6</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1104,26 +1117,33 @@
           <line>9</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/graph/NumConnectedComponents.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA$PalindromicSubstr.coverage" NAME="PalindromicSubstr Coverage Results" MODIFIED="1712603175256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
-    <SUITE FILE_PATH="coverage/DSA$MinOpsToConvertTime.coverage" NAME="MinOpsToConvertTime Coverage Results" MODIFIED="1712894825892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
-    <SUITE FILE_PATH="coverage/DSA$MergeKSortedLists.ic" NAME="MergeKSortedLists Coverage Results" MODIFIED="1697254605031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.example.linkedlist.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/DSA$MinRoundTasks.coverage" NAME="MinRoundTasks Coverage Results" MODIFIED="1712599805066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
-    <SUITE FILE_PATH="coverage/DSA$PalindromePermutation.coverage" NAME="PalindromePermutation Coverage Results" MODIFIED="1712599861608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+    <SUITE FILE_PATH="coverage/DSA$WallsAndGates.coverage" NAME="WallsAndGates Coverage Results" MODIFIED="1713624439355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$ExtraCharsInStr.coverage" NAME="ExtraCharsInStr Coverage Results" MODIFIED="1713456364281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$PartitionKEqSumSets.coverage" NAME="PartitionKEqSumSets Coverage Results" MODIFIED="1713379353143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$WordBreakII.coverage" NAME="WordBreakII Coverage Results" MODIFIED="1713277199292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$DecodeWaysII.coverage" NAME="DecodeWaysII Coverage Results" MODIFIED="1712758133748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$Main.ic" NAME="Main Coverage Results" MODIFIED="1694279274898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$MinOpsToConvertTime.coverage" NAME="MinOpsToConvertTime Coverage Results" MODIFIED="1712894825892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$NumConnectedComponents.coverage" NAME="NumConnectedComponents Coverage Results" MODIFIED="1713798265562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
+    <SUITE FILE_PATH="coverage/DSA$MergeKSortedLists.ic" NAME="MergeKSortedLists Coverage Results" MODIFIED="1697254605031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.linkedlist.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$PalindromePermutation.coverage" NAME="PalindromePermutation Coverage Results" MODIFIED="1712599861608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+    <SUITE FILE_PATH="coverage/DSA$MinRoundTasks.coverage" NAME="MinRoundTasks Coverage Results" MODIFIED="1712599805066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$SubStringPermutation.ic" NAME="SubStringPermutation Coverage Results" MODIFIED="1695698419976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.slidingwindow.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DSA$DecodeWaysII.coverage" NAME="DecodeWaysII Coverage Results" MODIFIED="1712758133748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
-    <SUITE FILE_PATH="coverage/DSA$WordBreakII.coverage" NAME="WordBreakII Coverage Results" MODIFIED="1713277199292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
-    <SUITE FILE_PATH="coverage/DSA$PartitionKEqSumSets.coverage" NAME="PartitionKEqSumSets Coverage Results" MODIFIED="1713379353143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 from typing import List
 
 
+# https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 class Solution:
     def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
         total = sum(nums)
