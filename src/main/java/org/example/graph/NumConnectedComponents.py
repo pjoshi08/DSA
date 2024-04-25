@@ -2,6 +2,7 @@ import collections
 from typing import List
 
 
+# https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/submissions/1239112749/
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
         count = 0
