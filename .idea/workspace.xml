@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="graph">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/MaxAreaIsland.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/LargestSubmatrixRearranged.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="graph, matrix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/CloneGraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/IslandPerimeter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/Node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/RottenOranges.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/graph/NumConnectedComponents.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/NumConnectedComponents.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +137,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/general" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/greedy" />
@@ -461,7 +463,8 @@
       <workItem from="1713742092879" duration="2788000" />
       <workItem from="1713792777069" duration="3435000" />
       <workItem from="1713884749013" duration="3953000" />
-      <workItem from="1714066826565" duration="2074000" />
+      <workItem from="1714066826565" duration="4645000" />
+      <workItem from="1714143751748" duration="5374000" />
     </task>
     <task id="LOCAL-00001" summary="github commit">
       <option name="closed" value="true" />
@@ -831,7 +834,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713798420346</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="graph, matrix">
+      <option name="closed" value="true" />
+      <created>1714070734011</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1714070734011</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -849,7 +860,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2d dp, greedy" />
     <MESSAGE value="greedy, intervals" />
     <MESSAGE value="intervals, adv graphs" />
     <MESSAGE value="adv graphs, bit manipulation" />
@@ -874,7 +884,8 @@
     <MESSAGE value="dp1d, sliding window" />
     <MESSAGE value="dp1d" />
     <MESSAGE value="graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="graph" />
+    <MESSAGE value="graph, matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph, matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
