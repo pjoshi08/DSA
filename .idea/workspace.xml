@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="graph">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/KSumPairs.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="arrays">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/CourseSchedule.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -467,14 +467,8 @@
       <workItem from="1714746678526" duration="1840000" />
       <workItem from="1715006858682" duration="2970000" />
       <workItem from="1715102919794" duration="2133000" />
-    </task>
-    <task id="LOCAL-00002" summary="trie, heap">
-      <option name="closed" value="true" />
-      <created>1701293031642</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1701293031642</updated>
+      <workItem from="1715226209194" duration="60000" />
+      <workItem from="1715261114824" duration="2087000" />
     </task>
     <task id="LOCAL-00003" summary="2d dp">
       <option name="closed" value="true" />
@@ -860,7 +854,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715033135690</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="arrays">
+      <option name="closed" value="true" />
+      <created>1715226239412</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1715226239412</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -878,7 +880,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="greedy, intervals" />
     <MESSAGE value="intervals, adv graphs" />
     <MESSAGE value="adv graphs, bit manipulation" />
     <MESSAGE value="bit manipulation, math &amp; geometry" />
@@ -903,7 +904,8 @@
     <MESSAGE value="graph, matrix" />
     <MESSAGE value="tree" />
     <MESSAGE value="graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="graph" />
+    <MESSAGE value="arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
