@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="arrays">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/CourseSchedule.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="graph">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/CourseScheduleII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/MinHeightTrees.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -468,15 +469,9 @@
       <workItem from="1715006858682" duration="2970000" />
       <workItem from="1715102919794" duration="2133000" />
       <workItem from="1715226209194" duration="60000" />
-      <workItem from="1715261114824" duration="2087000" />
-    </task>
-    <task id="LOCAL-00003" summary="2d dp">
-      <option name="closed" value="true" />
-      <created>1702012316468</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1702012316468</updated>
+      <workItem from="1715261114824" duration="2603000" />
+      <workItem from="1715353382380" duration="2529000" />
+      <workItem from="1715437554843" duration="2730000" />
     </task>
     <task id="LOCAL-00004" summary="2d dp, greedy">
       <option name="closed" value="true" />
@@ -862,7 +857,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715226239412</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="graph">
+      <option name="closed" value="true" />
+      <created>1715263949542</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1715263949542</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -903,9 +906,9 @@
     <MESSAGE value="dp1d" />
     <MESSAGE value="graph, matrix" />
     <MESSAGE value="tree" />
-    <MESSAGE value="graph" />
     <MESSAGE value="arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
+    <MESSAGE value="graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
