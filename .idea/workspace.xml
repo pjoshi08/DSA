@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="graph">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/GraphValidTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/SequenceReconstruction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/AccountsMerge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/CountSubIslands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/RedundantConnection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/ReorderRoutes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/graph/MinHeightTrees.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/MinHeightTrees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/graph/SequenceReconstruction.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/SequenceReconstruction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,92 +53,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.CombinationSum.executor": "Run",
-    "Python.CombinationSumII.executor": "Run",
-    "Python.Combinations.executor": "Debug",
-    "Python.ContainsDuplicate.executor": "Debug",
-    "Python.CountCollisions.executor": "Debug",
-    "Python.CountingBits.executor": "Run",
-    "Python.DecodeWaysII.executor": "Debug",
-    "Python.EncryptDecrypStr.executor": "Run",
-    "Python.ExtraCharsInStr.executor": "Run",
-    "Python.FindAnagrams.executor": "Run",
-    "Python.GraphValidTree.executor": "Run",
-    "Python.GroupAnagrams.executor": "Run",
-    "Python.InorderTraversal.executor": "Run",
-    "Python.InsertIntervals.executor": "Run",
-    "Python.JumpGameVI.executor": "Run",
-    "Python.KSumPairs.executor": "Run",
-    "Python.LetterCasePerm.executor": "Debug",
-    "Python.LongestConsecutiveSeq.executor": "Run",
-    "Python.LongestSubtring.executor": "Run",
-    "Python.MatrixZeroes.executor": "Debug",
-    "Python.MaxAreaIsland.executor": "Run",
-    "Python.MaxCandies.executor": "Debug",
-    "Python.MaxConsecutiveOnesIII.executor": "Run",
-    "Python.MaxRect.executor": "Run",
-    "Python.MaxStrongPairXORI.executor": "Run",
-    "Python.MinOpsToConvertTime.executor": "Run",
-    "Python.MinRoundTasks.executor": "Run",
-    "Python.MinSizeSubarrSum.executor": "Run",
-    "Python.NextGreaterEle1.executor": "Debug",
-    "Python.NumConnectedComponents.executor": "Run",
-    "Python.PalindromePermutation.executor": "Run",
-    "Python.PalindromicSubstr.executor": "Run",
-    "Python.ParenthesesString.executor": "Debug",
-    "Python.PartitionKEqSumSets.executor": "Run",
-    "Python.PathSum.executor": "Run",
-    "Python.PermutationsII.executor": "Run",
-    "Python.RPN.executor": "Run",
-    "Python.ReplaceWords.executor": "Run",
-    "Python.ReverseLL.executor": "Run",
-    "Python.RotatedArrSearch.executor": "Run",
-    "Python.RowColNumCheck.executor": "Run",
-    "Python.Search2DMatrix.executor": "Run",
-    "Python.Search2DMatrixII.executor": "Run",
-    "Python.SequenceReconstruction.executor": "Debug",
-    "Python.SerializeDeserialize.executor": "Run",
-    "Python.SourceToTargetPath.executor": "Run",
-    "Python.StrongPasswordCheckerII.executor": "Run",
-    "Python.SubStringPermutation.executor": "Run",
-    "Python.SubsetXORSum.executor": "Run",
-    "Python.SubsetsII.executor": "Run",
-    "Python.SumRootToLeaf.executor": "Run",
-    "Python.SwappingNodesLL.executor": "Debug",
-    "Python.ThreeConsecutiveIntSum.executor": "Run",
-    "Python.ThreeSumClosest.executor": "Run",
-    "Python.TwoSum.executor": "Run",
-    "Python.UglyNumber.executor": "Run",
-    "Python.UniquePathsIII.executor": "Run",
-    "Python.ValidBST.executor": "Run",
-    "Python.ValidParentheses.executor": "Run",
-    "Python.ValidPath.executor": "Debug",
-    "Python.WallsAndGates.executor": "Debug",
-    "Python.WaterContainer.executor": "Run",
-    "Python.WordBreakII.executor": "Run",
-    "Python.WordValidAfterSubs.executor": "Run",
-    "Python.ZigzagOrderTraversal.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/archer/Archer/IntelliJIdeaProjects/DSA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.CombinationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CombinationSumII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Combinations.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ContainsDuplicate.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CountCollisions.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CountingBits.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DecodeWaysII.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.EncryptDecrypStr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExtraCharsInStr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FindAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GraphValidTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GroupAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InorderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InsertIntervals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JumpGameVI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KSumPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LetterCasePerm.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.LongestConsecutiveSeq.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LongestSubtring.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MatrixZeroes.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MaxAreaIsland.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxCandies.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MaxConsecutiveOnesIII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxRect.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxStrongPairXORI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinOpsToConvertTime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinRoundTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinSizeSubarrSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NextGreaterEle1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.NumConnectedComponents.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PalindromePermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PalindromicSubstr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ParenthesesString.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PartitionKEqSumSets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PathSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PermutationsII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RPN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReplaceWords.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReverseLL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RotatedArrSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RowColNumCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Search2DMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Search2DMatrixII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SequenceReconstruction.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SerializeDeserialize.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SourceToTargetPath.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StrongPasswordCheckerII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubStringPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubsetXORSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubsetsII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SumRootToLeaf.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwappingNodesLL.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ThreeConsecutiveIntSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ThreeSumClosest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UglyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UniquePathsIII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidBST.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidPath.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.WallsAndGates.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.WaterContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WordBreakII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WordValidAfterSubs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ZigzagOrderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/archer/Archer/IntelliJIdeaProjects/DSA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
@@ -480,15 +482,10 @@
       <workItem from="1715738592170" duration="2259000" />
       <workItem from="1715777435889" duration="600000" />
       <workItem from="1715792853471" duration="110000" />
-      <workItem from="1715792972242" duration="2051000" />
-    </task>
-    <task id="LOCAL-00005" summary="greedy, intervals">
-      <option name="closed" value="true" />
-      <created>1703185695226</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1703185695226</updated>
+      <workItem from="1715792972242" duration="2115000" />
+      <workItem from="1715795291685" duration="10000" />
+      <workItem from="1715797604264" duration="8014000" />
+      <workItem from="1715895482831" duration="3843000" />
     </task>
     <task id="LOCAL-00006" summary="intervals, adv graphs">
       <option name="closed" value="true" />
@@ -874,7 +871,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715441346025</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="graph">
+      <option name="closed" value="true" />
+      <created>1715795252207</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1715795252208</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1140,11 +1145,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="23" />
         </breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/graph/SequenceReconstruction.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -2,6 +2,7 @@ import collections
 from typing import List
 
 
+# https://leetcode.com/problems/sequence-reconstruction/submissions/1258929507/
 class Solution:
     def sequenceReconstruction(self, nums: List[int], sequences: List[List[int]]) -> bool:
         values = {x for seq in sequences for x in seq}
