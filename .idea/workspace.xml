@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="graph">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/OpenLock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/ShortestBridge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/SnakesAndLadders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/UniqueOccurences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/GeneMutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/SafeNodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/salesforce/LRUCache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/salesforce/ReconstructDigits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +67,7 @@
     &quot;Python.EncryptDecrypStr.executor&quot;: &quot;Run&quot;,
     &quot;Python.ExtraCharsInStr.executor&quot;: &quot;Run&quot;,
     &quot;Python.FindAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GeneMutation.executor&quot;: &quot;Run&quot;,
     &quot;Python.GraphValidTree.executor&quot;: &quot;Run&quot;,
     &quot;Python.GroupAnagrams.executor&quot;: &quot;Run&quot;,
     &quot;Python.InorderTraversal.executor&quot;: &quot;Run&quot;,
@@ -90,6 +95,7 @@
     &quot;Python.PathSum.executor&quot;: &quot;Run&quot;,
     &quot;Python.PermutationsII.executor&quot;: &quot;Run&quot;,
     &quot;Python.RPN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReconstructDigits.executor&quot;: &quot;Run&quot;,
     &quot;Python.ReplaceWords.executor&quot;: &quot;Run&quot;,
     &quot;Python.ReverseLL.executor&quot;: &quot;Run&quot;,
     &quot;Python.RotatedArrSearch.executor&quot;: &quot;Run&quot;,
@@ -109,6 +115,7 @@
     &quot;Python.ThreeSumClosest.executor&quot;: &quot;Run&quot;,
     &quot;Python.TwoSum.executor&quot;: &quot;Run&quot;,
     &quot;Python.UglyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UniqueOccurences.executor&quot;: &quot;Run&quot;,
     &quot;Python.UniquePathsIII.executor&quot;: &quot;Run&quot;,
     &quot;Python.ValidBST.executor&quot;: &quot;Run&quot;,
     &quot;Python.ValidParentheses.executor&quot;: &quot;Run&quot;,
@@ -146,7 +153,30 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SequenceReconstruction">
+  <component name="RunManager" selected="Python.ReconstructDigits">
+    <configuration name="GeneMutation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/graph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/graph/GeneMutation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GraphValidTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -170,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MaxAreaIsland" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ReconstructDigits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,35 +209,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/salesforce" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/graph/MaxAreaIsland.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="NumConnectedComponents" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/graph" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/graph/NumConnectedComponents.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/salesforce/ReconstructDigits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,7 +246,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="WallsAndGates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="UniqueOccurences" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,12 +255,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/arrays" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/graph/WallsAndGates.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/arrays/UniqueOccurences.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ReconstructDigits" />
+        <item itemvalue="Python.GeneMutation" />
+        <item itemvalue="Python.UniqueOccurences" />
         <item itemvalue="Python.SequenceReconstruction" />
         <item itemvalue="Python.GraphValidTree" />
-        <item itemvalue="Python.WallsAndGates" />
-        <item itemvalue="Python.NumConnectedComponents" />
-        <item itemvalue="Python.MaxAreaIsland" />
       </list>
     </recent_temporary>
   </component>
@@ -485,15 +492,9 @@
       <workItem from="1715797604264" duration="8014000" />
       <workItem from="1715895482831" duration="4725000" />
       <workItem from="1715975085559" duration="3114000" />
-      <workItem from="1716038624523" duration="2973000" />
-    </task>
-    <task id="LOCAL-00007" summary="adv graphs, bit manipulation">
-      <option name="closed" value="true" />
-      <created>1704363312118</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1704363312118</updated>
+      <workItem from="1716038624523" duration="4456000" />
+      <workItem from="1716145200822" duration="3889000" />
+      <workItem from="1716227384552" duration="10044000" />
     </task>
     <task id="LOCAL-00008" summary="bit manipulation, math &amp; geometry">
       <option name="closed" value="true" />
@@ -879,7 +880,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715900253263</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="graph">
+      <option name="closed" value="true" />
+      <created>1716070446257</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1716070446257</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1145,12 +1154,18 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="23" />
         </breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/arrays/UniqueOccurences.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA$PalindromicSubstr.coverage" NAME="PalindromicSubstr Coverage Results" MODIFIED="1712603175256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$WallsAndGates.coverage" NAME="WallsAndGates Coverage Results" MODIFIED="1713624439355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
+    <SUITE FILE_PATH="coverage/DSA$ReconstructDigits.coverage" NAME="ReconstructDigits Coverage Results" MODIFIED="1716234343916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/salesforce" />
     <SUITE FILE_PATH="coverage/DSA$ExtraCharsInStr.coverage" NAME="ExtraCharsInStr Coverage Results" MODIFIED="1713456364281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$PartitionKEqSumSets.coverage" NAME="PartitionKEqSumSets Coverage Results" MODIFIED="1713379353143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$WordBreakII.coverage" NAME="WordBreakII Coverage Results" MODIFIED="1713277199292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
@@ -1160,6 +1175,7 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/DSA$MaxAreaIsland.coverage" NAME="MaxAreaIsland Coverage Results" MODIFIED="1713886165288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$KSumPairs.coverage" NAME="KSumPairs Coverage Results" MODIFIED="1715104384692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+    <SUITE FILE_PATH="coverage/DSA$GeneMutation.coverage" NAME="GeneMutation Coverage Results" MODIFIED="1716228442025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinOpsToConvertTime.coverage" NAME="MinOpsToConvertTime Coverage Results" MODIFIED="1712894825892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$GraphValidTree.coverage" NAME="GraphValidTree Coverage Results" MODIFIED="1715740195539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$NumConnectedComponents.coverage" NAME="NumConnectedComponents Coverage Results" MODIFIED="1713798265562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
@@ -1172,5 +1188,6 @@
     <SUITE FILE_PATH="coverage/DSA$SubStringPermutation.ic" NAME="SubStringPermutation Coverage Results" MODIFIED="1695698419976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.slidingwindow.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$UniqueOccurences.coverage" NAME="UniqueOccurences Coverage Results" MODIFIED="1716156129778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
   </component>
 </project>
