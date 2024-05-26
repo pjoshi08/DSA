@@ -1,3 +1,7 @@
+import collections
+import heapq
+
+
 class Solution:
     def networkDelayTime(self, times, n, k):
         edges = collections.defaultdict(list)
