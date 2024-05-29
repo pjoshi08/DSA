@@ -3,7 +3,7 @@ class Solution(object):
         # State: Buying or selling
         # If buy -> i + 1
         # if sell -> i + 2 (+1 for cooldown)
-        dp = {} # key=(i, buying) val=max_profit
+        dp = {}  # key=(i, buying) val=max_profit
 
         def dfs(i, buying):
             if i >= len(prices):

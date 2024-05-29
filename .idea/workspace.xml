@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="leetcode company targeted">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/AlienDictionary.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="graph">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/NetworkDelayTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/NetworkDelayTime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/SwimInWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/SwimInWater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/DiffWaysToAddParentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/salesforce/DiffWaysToAddParentheses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/HouseRobber.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/HouseRobber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/LongestIncSubseq.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/LongestIncSubseq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/WordBreak.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/WordBreak.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp2d/BuyAndSellStock.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/BuyAndSellStock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp2d/CoinChangeII.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/CoinChangeII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/graph/RedundantConnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/RedundantConnection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +72,7 @@
     &quot;Python.GeneMutation.executor&quot;: &quot;Run&quot;,
     &quot;Python.GraphValidTree.executor&quot;: &quot;Run&quot;,
     &quot;Python.GroupAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HouseRobber.executor&quot;: &quot;Debug&quot;,
     &quot;Python.InorderTraversal.executor&quot;: &quot;Run&quot;,
     &quot;Python.InsertIntervals.executor&quot;: &quot;Run&quot;,
     &quot;Python.JumpGameVI.executor&quot;: &quot;Run&quot;,
@@ -96,6 +99,7 @@
     &quot;Python.PermutationsII.executor&quot;: &quot;Run&quot;,
     &quot;Python.RPN.executor&quot;: &quot;Run&quot;,
     &quot;Python.ReconstructDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RedundantConnection.executor&quot;: &quot;Debug&quot;,
     &quot;Python.ReplaceWords.executor&quot;: &quot;Run&quot;,
     &quot;Python.ReverseLL.executor&quot;: &quot;Run&quot;,
     &quot;Python.RotatedArrSearch.executor&quot;: &quot;Run&quot;,
@@ -155,7 +159,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ScratchPad">
+  <component name="RunManager" selected="Python.HouseRobber">
     <configuration name="ArrDegree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -202,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ReconstructDigits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="HouseRobber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,12 +215,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/salesforce" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/salesforce/ReconstructDigits.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/dp1d/HouseRobber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RedundantConnection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/graph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/graph/RedundantConnection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,36 +275,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SearchSuggestions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/salesforce" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/salesforce/SearchSuggestions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HouseRobber" />
         <item itemvalue="Python.ScratchPad" />
+        <item itemvalue="Python.RedundantConnection" />
         <item itemvalue="Python.DiffWaysToAddParentheses" />
         <item itemvalue="Python.ArrDegree" />
-        <item itemvalue="Python.SearchSuggestions" />
-        <item itemvalue="Python.ReconstructDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -501,15 +505,10 @@
       <workItem from="1716388077728" duration="2614000" />
       <workItem from="1716489436755" duration="6623000" />
       <workItem from="1716585238612" duration="2682000" />
-      <workItem from="1716747277892" duration="9120000" />
-    </task>
-    <task id="LOCAL-00011" summary="arrays, stack, two pointers">
-      <option name="closed" value="true" />
-      <created>1707263863989</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1707263863989</updated>
+      <workItem from="1716747277892" duration="10398000" />
+      <workItem from="1716820505956" duration="11229000" />
+      <workItem from="1716929090582" duration="10000" />
+      <workItem from="1717002271368" duration="3536000" />
     </task>
     <task id="LOCAL-00012" summary="stack, binary search">
       <option name="closed" value="true" />
@@ -895,7 +894,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716589929417</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="graph">
+      <option name="closed" value="true" />
+      <created>1716766872798</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1716766872799</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -935,10 +942,10 @@
     <MESSAGE value="graph, matrix" />
     <MESSAGE value="tree" />
     <MESSAGE value="arrays" />
-    <MESSAGE value="graph" />
     <MESSAGE value="graph, leetcode company targeted" />
     <MESSAGE value="leetcode company targeted" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode company targeted" />
+    <MESSAGE value="graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1181,6 +1188,21 @@
           <line>13</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/graph/RedundantConnection.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/graph/RedundantConnection.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/dp1d/HouseRobber.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1195,10 +1217,10 @@
     <SUITE FILE_PATH="coverage/DSA$PalindromicSubstr.coverage" NAME="PalindromicSubstr Coverage Results" MODIFIED="1712603175256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$ReconstructDigits.coverage" NAME="ReconstructDigits Coverage Results" MODIFIED="1716234343916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/salesforce" />
     <SUITE FILE_PATH="coverage/DSA$SearchSuggestions.coverage" NAME="SearchSuggestions Coverage Results" MODIFIED="1716314848658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/salesforce" />
-    <SUITE FILE_PATH="coverage/DSA$MaxAreaIsland.coverage" NAME="MaxAreaIsland Coverage Results" MODIFIED="1713886165288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
-    <SUITE FILE_PATH="coverage/DSA$PartitionKEqSumSets.coverage" NAME="PartitionKEqSumSets Coverage Results" MODIFIED="1713379353143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
-    <SUITE FILE_PATH="coverage/DSA$WordBreakII.coverage" NAME="WordBreakII Coverage Results" MODIFIED="1713277199292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$DecodeWaysII.coverage" NAME="DecodeWaysII Coverage Results" MODIFIED="1712758133748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$WordBreakII.coverage" NAME="WordBreakII Coverage Results" MODIFIED="1713277199292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$PartitionKEqSumSets.coverage" NAME="PartitionKEqSumSets Coverage Results" MODIFIED="1713379353143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$MaxAreaIsland.coverage" NAME="MaxAreaIsland Coverage Results" MODIFIED="1713886165288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$KSumPairs.coverage" NAME="KSumPairs Coverage Results" MODIFIED="1715104384692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$GeneMutation.coverage" NAME="GeneMutation Coverage Results" MODIFIED="1716228442025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinOpsToConvertTime.coverage" NAME="MinOpsToConvertTime Coverage Results" MODIFIED="1712894825892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
@@ -1207,6 +1229,7 @@
     <SUITE FILE_PATH="coverage/DSA$MergeKSortedLists.ic" NAME="MergeKSortedLists Coverage Results" MODIFIED="1697254605031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.linkedlist.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$HouseRobber.coverage" NAME="HouseRobber Coverage Results" MODIFIED="1716832256096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$SequenceReconstruction.coverage" NAME="SequenceReconstruction Coverage Results" MODIFIED="1715794892006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$PalindromePermutation.coverage" NAME="PalindromePermutation Coverage Results" MODIFIED="1712599861608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$SubStringPermutation.ic" NAME="SubStringPermutation Coverage Results" MODIFIED="1695698419976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -1219,8 +1242,9 @@
     <SUITE FILE_PATH="coverage/DSA$Main.ic" NAME="Main Coverage Results" MODIFIED="1694279274898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1716766543606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
+    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1716824635000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
     <SUITE FILE_PATH="coverage/DSA$DiffWaysToAddParentheses.coverage" NAME="DiffWaysToAddParentheses Coverage Results" MODIFIED="1716589657323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$RedundantConnection.coverage" NAME="RedundantConnection Coverage Results" MODIFIED="1716822178982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinRoundTasks.coverage" NAME="MinRoundTasks Coverage Results" MODIFIED="1712599805066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
   </component>
 </project>
