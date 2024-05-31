@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp1d, dp2d">
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp2d">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp2d/StringInterleaving.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/StringInterleaving.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp2d/DIstinctSubsequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/DIstinctSubsequences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp2d/EditDistance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/EditDistance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -504,15 +504,9 @@
       <workItem from="1716820505956" duration="11229000" />
       <workItem from="1716929090582" duration="10000" />
       <workItem from="1717002271368" duration="3602000" />
-      <workItem from="1717135095374" duration="895000" />
-    </task>
-    <task id="LOCAL-00013" summary="stack, binary search">
-      <option name="closed" value="true" />
-      <created>1707887481293</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1707887481293</updated>
+      <workItem from="1717135095374" duration="1077000" />
+      <workItem from="1717166800177" duration="1356000" />
+      <workItem from="1717171320202" duration="2655000" />
     </task>
     <task id="LOCAL-00014" summary="LinkedList, binary search/heap">
       <option name="closed" value="true" />
@@ -898,7 +892,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717018041479</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="dp2d">
+      <option name="closed" value="true" />
+      <created>1717136168710</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1717136168711</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,7 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="math &amp; geometry; roadmap complete" />
     <MESSAGE value="arrays, blind" />
     <MESSAGE value="arrays, stack, two pointers" />
     <MESSAGE value="stack, binary search" />
@@ -941,7 +942,8 @@
     <MESSAGE value="leetcode company targeted" />
     <MESSAGE value="graph" />
     <MESSAGE value="dp1d, dp2d" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp1d, dp2d" />
+    <MESSAGE value="dp2d" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp2d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

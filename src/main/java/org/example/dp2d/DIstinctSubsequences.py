@@ -1,5 +1,5 @@
 class Solution(object):
-
+    # 75%
     def numDistinct(self, s, t):
         m, n = len(s), len(t)
         dp = [[0] * (n + 1) for _ in range(m + 1)]
@@ -24,6 +24,23 @@ class Solution(object):
                 return 0
             if (i, j) in cache:
                 return cache[(i, j)]
+
+            if s[i] == t[j]:
+                cache[(i, j)] = dfs(i + 1, j + 1) + dfs(i + 1, j)
+            else:
+                cache[(i, j)] = dfs(i + 1, j)
+            return cache[(i, j)]
+        return dfs(0, 0)
+
+    # 96%
+    def numDistinct3(self, s: str, t: str) -> int:
+        sLen, tLen = len(s), len(t)
+        cache = {}  # (i, j): subseqs
+
+        def dfs(i, j):
+            if j == tLen: return 1
+            if i == sLen or (sLen - i < tLen - j): return 0
+            if (i, j) in cache: return cache[(i, j)]
 
             if s[i] == t[j]:
                 cache[(i, j)] = dfs(i + 1, j + 1) + dfs(i + 1, j)
