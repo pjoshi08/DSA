@@ -6,28 +6,21 @@ from typing import List
 
 class Solution:
 
+    def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
+        s1Len, s2Len, s3Len = len(s1), len(s2), len(s3)
+        if s1Len + s2Len != s3Len: return False
 
-    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
-        prices = [float('inf')] * n
-        prices[src] = 0
+        dp = {}  # (i, j): True/False, where i, j are indices for s1, s2
 
-        for i in range(k + 1):
-            tempPrices = prices.copy()
+        def dfs(i, j):  # k = i + j
+            if i == s1Len and j == s2Len: return True
+            if (i, j) in dp: return dp[(i, j)]
 
-            for s, d, p in flights:  # src, dst, price
-                if prices[s] == float('inf'):  # if this src can't be reached
-                    continue
-                if prices[s] + p < tempPrices[d]:
-                    tempPrices[d] = prices[s] + p
-
-            prices = tempPrices
-        return -1 if prices[dst] == float('inf') else prices[dst]
-
-
-obj = Solution()
-n = 4
-flights = [[0,1,100],[1,2,100],[2,0,100],[1,3,600],[2,3,200]]
-src = 0
-dst = 3
-k = 1
-print(obj.findCheapestPrice2(n, flights, src, dst, k))
+            # no need to cache if we find it true even one, we just return
+            if i < s1Len and s3[i + j] == s1[i] and dfs(i + 1, j):
+                return True
+            if j < s2Len and s3[i + j] == s2[j] and dfs(i, j + 1):
+                return True
+            dp[(i, j)] = False
+            return False
+        return dfs(0, 0)
