@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp2d">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/heap_pq/KClosestToOrigin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/heap_pq/KthLargestStream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/heap_pq/LastStone.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp2d/DIstinctSubsequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/DIstinctSubsequences.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp2d/EditDistance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/EditDistance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -506,15 +507,9 @@
       <workItem from="1717002271368" duration="3602000" />
       <workItem from="1717135095374" duration="1077000" />
       <workItem from="1717166800177" duration="1356000" />
-      <workItem from="1717171320202" duration="2655000" />
-    </task>
-    <task id="LOCAL-00014" summary="LinkedList, binary search/heap">
-      <option name="closed" value="true" />
-      <created>1708214285714</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1708214285714</updated>
+      <workItem from="1717171320202" duration="2672000" />
+      <workItem from="1717340911598" duration="4571000" />
+      <workItem from="1717413184738" duration="604000" />
     </task>
     <task id="LOCAL-00015" summary="LinkedList, sliding window, binary search, dp1d">
       <option name="closed" value="true" />
@@ -900,7 +895,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717136168711</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="dp2d">
+      <option name="closed" value="true" />
+      <created>1717177555963</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1717177555963</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
