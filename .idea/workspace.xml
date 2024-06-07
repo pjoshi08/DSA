@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="minHeap">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/heap_pq/KthLargest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/heap_pq/TaskScheduler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/MinOpsArrInc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/SplitBalancedStrings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
     </list>
@@ -513,15 +513,10 @@
       <workItem from="1717413184738" duration="1737000" />
       <workItem from="1717437841315" duration="549000" />
       <workItem from="1717453033637" duration="1506000" />
-      <workItem from="1717558192729" duration="695000" />
-    </task>
-    <task id="LOCAL-00016" summary="sliding window">
-      <option name="closed" value="true" />
-      <created>1708882543797</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1708882543797</updated>
+      <workItem from="1717558192729" duration="870000" />
+      <workItem from="1717595603734" duration="1174000" />
+      <workItem from="1717703813749" duration="504000" />
+      <workItem from="1717779647110" duration="1427000" />
     </task>
     <task id="LOCAL-00017" summary="sliding window, tree">
       <option name="closed" value="true" />
@@ -907,7 +902,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717422111704</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="minHeap">
+      <option name="closed" value="true" />
+      <created>1717558923191</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1717558923191</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

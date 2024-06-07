@@ -4,23 +4,33 @@ from collections import defaultdict
 from typing import List
 
 
-class Solution:
+# class Solution:
 
-    def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
-        s1Len, s2Len, s3Len = len(s1), len(s2), len(s3)
-        if s1Len + s2Len != s3Len: return False
+class MedianFinder:
 
-        dp = {}  # (i, j): True/False, where i, j are indices for s1, s2
+    def __init__(self):
+        # maintain small and large lists which are maxHeap and minHeap respectively
+        # heaps should be roughly equal size
+        self.small, self.large = [], []
 
-        def dfs(i, j):  # k = i + j
-            if i == s1Len and j == s2Len: return True
-            if (i, j) in dp: return dp[(i, j)]
+    def addNum(self, num: int) -> None:
+        heapq.heappush(self.small, -num)  # -ve for maxHeap
 
-            # no need to cache if we find it true even one, we just return
-            if i < s1Len and s3[i + j] == s1[i] and dfs(i + 1, j):
-                return True
-            if j < s2Len and s3[i + j] == s2[j] and dfs(i, j + 1):
-                return True
-            dp[(i, j)] = False
-            return False
-        return dfs(0, 0)
+        if (self.small and self.large and
+                -self.small[0] > self.large[0]):  # all elements in small are <= all elements in large
+            val = heapq.heappop(self.small)
+            heapq.heappush(self.large, -val)
+        if len(self.small) > len(self.large) + 1:
+            val = heapq.heappop(self.small)
+            heapq.heappush(self.large, -val)
+        if len(self.large) > len(self.small) + 1:
+            val = heapq.heappop(self.large)
+            heapq.heappush(self.small, -val)
+
+    def findMedian(self) -> float:
+        if len(self.small) > len(self.large):
+            return -self.small[0]
+        if len(self.large) > len(self.small):
+            return self.large[0]
+
+        return (-self.small[0] + self.large[0]) / 2
