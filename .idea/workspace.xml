@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="minHeap">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/MinOpsArrInc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/SplitBalancedStrings.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="greedy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/intervals/MeetingRooms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/intervals/MeetingRoomsII.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -516,15 +515,9 @@
       <workItem from="1717558192729" duration="870000" />
       <workItem from="1717595603734" duration="1174000" />
       <workItem from="1717703813749" duration="504000" />
-      <workItem from="1717779647110" duration="1427000" />
-    </task>
-    <task id="LOCAL-00017" summary="sliding window, tree">
-      <option name="closed" value="true" />
-      <created>1709094806629</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1709094806629</updated>
+      <workItem from="1717779647110" duration="1445000" />
+      <workItem from="1718028389281" duration="2496000" />
+      <workItem from="1718037174907" duration="1017000" />
     </task>
     <task id="LOCAL-00018" summary="tree">
       <option name="closed" value="true" />
@@ -910,7 +903,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717558923191</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="greedy">
+      <option name="closed" value="true" />
+      <created>1717781089007</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1717781089007</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -928,7 +929,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="arrays, stack, two pointers" />
     <MESSAGE value="stack, binary search" />
     <MESSAGE value="LinkedList, binary search/heap" />
     <MESSAGE value="LinkedList, sliding window, binary search, dp1d" />
@@ -953,7 +953,8 @@
     <MESSAGE value="dp1d, dp2d" />
     <MESSAGE value="dp2d" />
     <MESSAGE value="minHeap" />
-    <option name="LAST_COMMIT_MESSAGE" value="minHeap" />
+    <MESSAGE value="greedy" />
+    <option name="LAST_COMMIT_MESSAGE" value="greedy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
