@@ -4,33 +4,22 @@ from collections import defaultdict
 from typing import List
 
 
-# class Solution:
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        freq = {}
+        for n in nums:
+            freq[n] = 1 + freq.get(n, 0)
+        res, minH = [], []
+        for key, val in freq.items():
+            heapq.heappush(minH, (-val, key))
+        while k > 0:
+            k -= 1
+            # v, key = heapq.heappop(minH)
+            res.append(heapq.heappop(minH)[-1])
+        return res
 
-class MedianFinder:
 
-    def __init__(self):
-        # maintain small and large lists which are maxHeap and minHeap respectively
-        # heaps should be roughly equal size
-        self.small, self.large = [], []
-
-    def addNum(self, num: int) -> None:
-        heapq.heappush(self.small, -num)  # -ve for maxHeap
-
-        if (self.small and self.large and
-                -self.small[0] > self.large[0]):  # all elements in small are <= all elements in large
-            val = heapq.heappop(self.small)
-            heapq.heappush(self.large, -val)
-        if len(self.small) > len(self.large) + 1:
-            val = heapq.heappop(self.small)
-            heapq.heappush(self.large, -val)
-        if len(self.large) > len(self.small) + 1:
-            val = heapq.heappop(self.large)
-            heapq.heappush(self.small, -val)
-
-    def findMedian(self) -> float:
-        if len(self.small) > len(self.large):
-            return -self.small[0]
-        if len(self.large) > len(self.small):
-            return self.large[0]
-
-        return (-self.small[0] + self.large[0]) / 2
+obj = Solution()
+nums = [1,1,1,2,2,3]
+k = 2
+print(obj.topKFrequent(nums, k))
