@@ -1,7 +1,11 @@
+import heapq
+from typing import List
+
+
 class Solution(object):
 
-    # T = O(n), M = (n)
-    # MaxHeap solution takes O(k logn) time
+    # T = O(n), M = (n), 56%
+    # MaxHeap solution takes O(k logn) time,
     def topKFrequent(self, nums, k):
         count = {}
         freq = [[] for i in range(len(nums) + 1)]
@@ -17,3 +21,16 @@ class Solution(object):
                 res.append(n)
                 if len(res) == k:
                     return res
+
+    # 90%, T = O(k logn)
+    def topKFrequent2(self, nums: List[int], k: int) -> List[int]:
+        freq = {}
+        for n in nums:
+            freq[n] = 1 + freq.get(n, 0)
+        res, minH = [], []
+        for key, val in freq.items():
+            heapq.heappush(minH, (-val, key))
+        while k > 0:
+            k -= 1
+            res.append(heapq.heappop(minH)[-1])
+        return res
