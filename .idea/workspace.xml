@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="paypal, premium questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ProductOfArrExceptSelf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/AssigningWorkProfit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/SubstrWithSameLetter.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="arrays, premium, daily questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarysearch/MinDaysForBouquets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal/ZigzagConversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twopointers/ValidPalindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/ValidSudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ValidSudoku.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,106 +52,107 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.ArrDegree.executor": "Run",
-    "Python.CombinationSum.executor": "Run",
-    "Python.CombinationSumII.executor": "Run",
-    "Python.Combinations.executor": "Debug",
-    "Python.ContainsDuplicate.executor": "Debug",
-    "Python.CountCollisions.executor": "Debug",
-    "Python.CountingBits.executor": "Run",
-    "Python.DecodeWaysII.executor": "Debug",
-    "Python.DiffWaysToAddParentheses.executor": "Debug",
-    "Python.EncodeDecodeStrings.executor": "Run",
-    "Python.EncryptDecrypStr.executor": "Run",
-    "Python.ExtraCharsInStr.executor": "Run",
-    "Python.FindAnagrams.executor": "Run",
-    "Python.GeneMutation.executor": "Run",
-    "Python.GraphValidTree.executor": "Run",
-    "Python.GroupAnagrams.executor": "Run",
-    "Python.HouseRobber.executor": "Debug",
-    "Python.InorderTraversal.executor": "Run",
-    "Python.InsertIntervals.executor": "Run",
-    "Python.JumpGameVI.executor": "Run",
-    "Python.KSumPairs.executor": "Run",
-    "Python.KthLargest.executor": "Debug",
-    "Python.LetterCasePerm.executor": "Debug",
-    "Python.LongestConsecutiveSeq.executor": "Run",
-    "Python.LongestSubtring.executor": "Run",
-    "Python.MatrixZeroes.executor": "Debug",
-    "Python.MaxAreaIsland.executor": "Run",
-    "Python.MaxCandies.executor": "Debug",
-    "Python.MaxConsecutiveOnesIII.executor": "Run",
-    "Python.MaxRect.executor": "Run",
-    "Python.MaxStrongPairXORI.executor": "Run",
-    "Python.MinOpsToConvertTime.executor": "Run",
-    "Python.MinRoundTasks.executor": "Run",
-    "Python.MinSizeSubarrSum.executor": "Run",
-    "Python.NextGreaterEle1.executor": "Debug",
-    "Python.NumConnectedComponents.executor": "Run",
-    "Python.PalindromePermutation.executor": "Run",
-    "Python.PalindromicSubstr.executor": "Run",
-    "Python.ParenthesesString.executor": "Debug",
-    "Python.PartitionKEqSumSets.executor": "Run",
-    "Python.PathSum.executor": "Run",
-    "Python.PermutationsII.executor": "Run",
-    "Python.RPN.executor": "Run",
-    "Python.ReconstructDigits.executor": "Run",
-    "Python.RedundantConnection.executor": "Debug",
-    "Python.ReplaceWords.executor": "Run",
-    "Python.ReverseLL.executor": "Run",
-    "Python.RotatedArrSearch.executor": "Run",
-    "Python.RowColNumCheck.executor": "Run",
-    "Python.ScratchPad.executor": "Run",
-    "Python.Search2DMatrix.executor": "Run",
-    "Python.Search2DMatrixII.executor": "Run",
-    "Python.SearchSuggestions.executor": "Run",
-    "Python.SequenceReconstruction.executor": "Debug",
-    "Python.SerializeDeserialize.executor": "Run",
-    "Python.SingleNumber.executor": "Debug",
-    "Python.SongPairs.executor": "Debug",
-    "Python.SourceToTargetPath.executor": "Run",
-    "Python.StrongPasswordCheckerII.executor": "Run",
-    "Python.SubStringPermutation.executor": "Run",
-    "Python.SubsetXORSum.executor": "Run",
-    "Python.SubsetsII.executor": "Run",
-    "Python.SubstrWithSameLetter.executor": "Debug",
-    "Python.SumRootToLeaf.executor": "Run",
-    "Python.SwappingNodesLL.executor": "Debug",
-    "Python.ThreeConsecutiveIntSum.executor": "Run",
-    "Python.ThreeSumClosest.executor": "Run",
-    "Python.TwoSum.executor": "Run",
-    "Python.UglyNumber.executor": "Run",
-    "Python.UniqueOccurences.executor": "Run",
-    "Python.UniquePathsIII.executor": "Run",
-    "Python.ValidBST.executor": "Run",
-    "Python.ValidParentheses.executor": "Run",
-    "Python.ValidPath.executor": "Debug",
-    "Python.WallsAndGates.executor": "Debug",
-    "Python.WaterContainer.executor": "Run",
-    "Python.WordBreakII.executor": "Run",
-    "Python.WordValidAfterSubs.executor": "Run",
-    "Python.ZigzagOrderTraversal.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/archer/Archer/IntelliJIdeaProjects/DSA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.ArrDegree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CombinationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CombinationSumII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Combinations.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ContainsDuplicate.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CountCollisions.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CountingBits.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DecodeWaysII.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.DiffWaysToAddParentheses.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.EncodeDecodeStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EncryptDecrypStr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExtraCharsInStr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FindAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GeneMutation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GraphValidTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GroupAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HouseRobber.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.InorderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InsertIntervals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JumpGameVI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KSumPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KthLargest.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.LetterCasePerm.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.LongestConsecutiveSeq.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LongestSubtring.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MatrixZeroes.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MaxAreaIsland.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxCandies.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MaxConsecutiveOnesIII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxRect.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxStrongPairXORI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinOpsToConvertTime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinRoundTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinSizeSubarrSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NextGreaterEle1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.NumConnectedComponents.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PalindromePermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PalindromicSubstr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ParenthesesString.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PartitionKEqSumSets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PathSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PermutationsII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RPN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReconstructDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RedundantConnection.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ReplaceWords.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReverseLL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RotatedArrSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RowColNumCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ScratchPad.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Search2DMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Search2DMatrixII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SearchSuggestions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SequenceReconstruction.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SerializeDeserialize.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SingleNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SongPairs.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SourceToTargetPath.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StrongPasswordCheckerII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubStringPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubsetXORSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubsetsII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubstrWithSameLetter.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SumRootToLeaf.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwappingNodesLL.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ThreeConsecutiveIntSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ThreeSumClosest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UglyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UniqueOccurences.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UniquePathsIII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidBST.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidPath.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.WallsAndGates.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.WaterContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WordBreakII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WordValidAfterSubs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ZigzagConversion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ZigzagOrderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/archer/Archer/IntelliJIdeaProjects/DSA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/companies/salesforce" />
@@ -161,7 +162,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/general" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SubstrWithSameLetter">
+  <component name="RunManager" selected="Python.ZigzagConversion">
     <configuration name="EncodeDecodeStrings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -200,29 +201,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SingleNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/SingleNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,13 +255,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ZigzagConversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal/ZigzagConversion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ZigzagConversion" />
         <item itemvalue="Python.SubstrWithSameLetter" />
         <item itemvalue="Python.EncodeDecodeStrings" />
         <item itemvalue="Python.SongPairs" />
         <item itemvalue="Python.ScratchPad" />
-        <item itemvalue="Python.SingleNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -531,15 +532,9 @@
       <workItem from="1718549731512" duration="778000" />
       <workItem from="1718553223441" duration="2203000" />
       <workItem from="1718630629941" duration="11567000" />
-      <workItem from="1718719185792" duration="6859000" />
-    </task>
-    <task id="LOCAL-00021" summary="tree">
-      <option name="closed" value="true" />
-      <created>1709516065461</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1709516065462</updated>
+      <workItem from="1718719185792" duration="7557000" />
+      <workItem from="1718812164714" duration="5997000" />
+      <workItem from="1718848774618" duration="1218000" />
     </task>
     <task id="LOCAL-00022" summary="tree, sliding window">
       <option name="closed" value="true" />
@@ -925,7 +920,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718646118424</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="arrays, premium, daily questions">
+      <option name="closed" value="true" />
+      <created>1718731118645</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1718731118645</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -943,7 +946,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sliding window, tree" />
     <MESSAGE value="sliding window" />
     <MESSAGE value="tree, sliding window" />
     <MESSAGE value="tree, backtrack" />
@@ -968,7 +970,8 @@
     <MESSAGE value="intervals" />
     <MESSAGE value="bit manipulation, arrays" />
     <MESSAGE value="paypal, premium questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="paypal, premium questions" />
+    <MESSAGE value="arrays, premium, daily questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays, premium, daily questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1263,6 +1266,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA$PalindromicSubstr.coverage" NAME="PalindromicSubstr Coverage Results" MODIFIED="1712603175256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$ZigzagConversion.coverage" NAME="ZigzagConversion Coverage Results" MODIFIED="1718812793021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal" />
     <SUITE FILE_PATH="coverage/DSA$SingleNumber.coverage" NAME="SingleNumber Coverage Results" MODIFIED="1718113372822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
     <SUITE FILE_PATH="coverage/DSA$EncodeDecodeStrings.coverage" NAME="EncodeDecodeStrings Coverage Results" MODIFIED="1718645537459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$ReconstructDigits.coverage" NAME="ReconstructDigits Coverage Results" MODIFIED="1716234343916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/salesforce" />
