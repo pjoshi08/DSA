@@ -15,7 +15,7 @@ class Solution:
         for i in range(len(grumpy)):
             current_satisfied += customers[i]
             if i >= minutes:
-                current_satisfied -= customers[i - minutes]
+                current_satisfied -= customers[i - minutes]  # removing customers from window
             best_satisfied = max(best_satisfied, current_satisfied)
 
         return satisfied + best_satisfied
