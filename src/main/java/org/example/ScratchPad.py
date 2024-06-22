@@ -5,21 +5,26 @@ from typing import List
 
 
 class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        freq = {}
-        for n in nums:
-            freq[n] = 1 + freq.get(n, 0)
-        res, minH = [], []
-        for key, val in freq.items():
-            heapq.heappush(minH, (-val, key))
-        while k > 0:
-            k -= 1
-            # v, key = heapq.heappop(minH)
-            res.append(heapq.heappop(minH)[-1])
-        return res
+    def minOperations(self, nums: List[int]) -> int:
+        n = len(nums)
+        dp = [0] * (n + 1) # count 1s
+
+        for i in range(n - 1, -1, -1):
+            if nums[i] == 1:
+                dp[i] = 1 + dp[i + 1]
+            else:
+                dp[i] = dp[i + 1]
+        ops = 0
+        for i in range(n):
+            if nums[i] == 0:
+                ops = 1 + dp[i + 1]
+                break
+
+        return ops
 
 
 obj = Solution()
-nums = [1,1,1,2,2,3]
+# nums = [0,1,1,0,1]
+nums = [0, 1, 0, 0, 1]
 k = 2
-print(obj.topKFrequent(nums, k))
+print(obj.minOperations(nums))
