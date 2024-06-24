@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="binary search, sliding window, company questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MinOpsToMakeBinary1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MinOpsToMakeBinary1II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MinOpsToMakeDivisible.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/CountNiceSubArrs.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp, contest questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MaxCostAltSubArr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MinAreaToCoverAll1sII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/CountSubstrWithoutRepeatingChar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/LongestSubArrWithDiff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MinKConsecFlips.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
     </list>
@@ -61,6 +62,7 @@
     &quot;Python.Combinations.executor&quot;: &quot;Debug&quot;,
     &quot;Python.ContainsDuplicate.executor&quot;: &quot;Debug&quot;,
     &quot;Python.CountCollisions.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CountSubstrWithoutRepeatingChar.executor&quot;: &quot;Debug&quot;,
     &quot;Python.CountingBits.executor&quot;: &quot;Run&quot;,
     &quot;Python.DecodeWaysII.executor&quot;: &quot;Debug&quot;,
     &quot;Python.DiffWaysToAddParentheses.executor&quot;: &quot;Debug&quot;,
@@ -84,8 +86,10 @@
     &quot;Python.MaxAreaIsland.executor&quot;: &quot;Run&quot;,
     &quot;Python.MaxCandies.executor&quot;: &quot;Debug&quot;,
     &quot;Python.MaxConsecutiveOnesIII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxCostAltSubArr.executor&quot;: &quot;Run&quot;,
     &quot;Python.MaxRect.executor&quot;: &quot;Run&quot;,
     &quot;Python.MaxStrongPairXORI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinAreaToCoverAll1sII.executor&quot;: &quot;Run&quot;,
     &quot;Python.MinOpsToConvertTime.executor&quot;: &quot;Run&quot;,
     &quot;Python.MinReplacementsToSort.executor&quot;: &quot;Debug&quot;,
     &quot;Python.MinRoundTasks.executor&quot;: &quot;Run&quot;,
@@ -165,7 +169,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.ScratchPad">
-    <configuration name="EncodeDecodeStrings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="CountSubstrWithoutRepeatingChar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,12 +178,58 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/premium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/arrays/EncodeDecodeStrings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/premium/CountSubstrWithoutRepeatingChar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxCostAltSubArr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/contest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/contest/MaxCostAltSubArr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MinAreaToCoverAll1sII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/contest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/contest/MinAreaToCoverAll1sII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,59 +284,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SubstrWithSameLetter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/premium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/premium/SubstrWithSameLetter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ZigzagConversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal/ZigzagConversion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ScratchPad" />
+        <item itemvalue="Python.CountSubstrWithoutRepeatingChar" />
+        <item itemvalue="Python.MinAreaToCoverAll1sII" />
+        <item itemvalue="Python.MaxCostAltSubArr" />
         <item itemvalue="Python.MinReplacementsToSort" />
-        <item itemvalue="Python.ZigzagConversion" />
-        <item itemvalue="Python.SubstrWithSameLetter" />
-        <item itemvalue="Python.EncodeDecodeStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -542,15 +546,13 @@
       <workItem from="1718925791838" duration="609000" />
       <workItem from="1718972336682" duration="3186000" />
       <workItem from="1719071842325" duration="968000" />
-      <workItem from="1719091454740" duration="794000" />
-    </task>
-    <task id="LOCAL-00024" summary="tree">
-      <option name="closed" value="true" />
-      <created>1709736663765</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1709736663765</updated>
+      <workItem from="1719091454740" duration="939000" />
+      <workItem from="1719109698464" duration="2354000" />
+      <workItem from="1719154688214" duration="2335000" />
+      <workItem from="1719164856360" duration="1052000" />
+      <workItem from="1719184971029" duration="885000" />
+      <workItem from="1719235385652" duration="5801000" />
+      <workItem from="1719262200047" duration="898000" />
     </task>
     <task id="LOCAL-00025" summary="tree">
       <option name="closed" value="true" />
@@ -936,7 +938,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718982477110</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="dp, contest questions">
+      <option name="closed" value="true" />
+      <created>1719092389977</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1719092389977</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -954,7 +964,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tree, backtrack" />
     <MESSAGE value="backtrack, others" />
     <MESSAGE value="backtrack" />
     <MESSAGE value="backtrack, trie" />
@@ -979,7 +988,8 @@
     <MESSAGE value="arrays, premium, daily questions" />
     <MESSAGE value="binary search, two pointers, company questions" />
     <MESSAGE value="binary search, sliding window, company questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary search, sliding window, company questions" />
+    <MESSAGE value="dp, contest questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp, contest questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1254,8 +1264,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="75" />
+          <line>14</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1293,8 +1303,10 @@
       <FILTER>org.example.slidingwindow.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DSA$UniqueOccurences.coverage" NAME="UniqueOccurences Coverage Results" MODIFIED="1716156129778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
+    <SUITE FILE_PATH="coverage/DSA$MaxCostAltSubArr.coverage" NAME="MaxCostAltSubArr Coverage Results" MODIFIED="1719112920902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/contest" />
     <SUITE FILE_PATH="coverage/DSA$WallsAndGates.coverage" NAME="WallsAndGates Coverage Results" MODIFIED="1713624439355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinReplacementsToSort.coverage" NAME="MinReplacementsToSort Coverage Results" MODIFIED="1718973492918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal" />
+    <SUITE FILE_PATH="coverage/DSA$CountSubstrWithoutRepeatingChar.coverage" NAME="CountSubstrWithoutRepeatingChar Coverage Results" MODIFIED="1719236160953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/premium" />
     <SUITE FILE_PATH="coverage/DSA$ArrDegree.coverage" NAME="ArrDegree Coverage Results" MODIFIED="1716491227107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/salesforce" />
     <SUITE FILE_PATH="coverage/DSA$SongPairs.coverage" NAME="SongPairs Coverage Results" MODIFIED="1718633985510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal" />
     <SUITE FILE_PATH="coverage/DSA$ExtraCharsInStr.coverage" NAME="ExtraCharsInStr Coverage Results" MODIFIED="1713456364281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
@@ -1302,8 +1314,9 @@
       <FILTER>org.example.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DSA$KthLargest.coverage" NAME="KthLargest Coverage Results" MODIFIED="1717422444429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
+    <SUITE FILE_PATH="coverage/DSA$MinAreaToCoverAll1sII.coverage" NAME="MinAreaToCoverAll1sII Coverage Results" MODIFIED="1719113615747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/contest" />
     <SUITE FILE_PATH="coverage/DSA$SubstrWithSameLetter.coverage" NAME="SubstrWithSameLetter Coverage Results" MODIFIED="1718725558157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/premium" />
-    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1719072100746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
+    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1719240896814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
     <SUITE FILE_PATH="coverage/DSA$DiffWaysToAddParentheses.coverage" NAME="DiffWaysToAddParentheses Coverage Results" MODIFIED="1716589657323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$RedundantConnection.coverage" NAME="RedundantConnection Coverage Results" MODIFIED="1716822178982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinRoundTasks.coverage" NAME="MinRoundTasks Coverage Results" MODIFIED="1712599805066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
