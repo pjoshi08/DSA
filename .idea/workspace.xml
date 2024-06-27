@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp, contest questions">
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="sliding window">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MaxCostAltSubArr.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MinAreaToCoverAll1sII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/CountSubstrWithoutRepeatingChar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/LongestSubArrWithDiff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MinKConsecFlips.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/BSTToGST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/BalanceBST.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MinWindowSubstr.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MinWindowSubstr.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
     &quot;Python.ReverseLL.executor&quot;: &quot;Run&quot;,
     &quot;Python.RotatedArrSearch.executor&quot;: &quot;Run&quot;,
     &quot;Python.RowColNumCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ScratchPad.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ScratchPad.executor&quot;: &quot;Debug&quot;,
     &quot;Python.Search2DMatrix.executor&quot;: &quot;Run&quot;,
     &quot;Python.Search2DMatrixII.executor&quot;: &quot;Run&quot;,
     &quot;Python.SearchSuggestions.executor&quot;: &quot;Run&quot;,
@@ -552,15 +552,10 @@
       <workItem from="1719164856360" duration="1052000" />
       <workItem from="1719184971029" duration="885000" />
       <workItem from="1719235385652" duration="5801000" />
-      <workItem from="1719262200047" duration="898000" />
-    </task>
-    <task id="LOCAL-00025" summary="tree">
-      <option name="closed" value="true" />
-      <created>1709849643113</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1709849643113</updated>
+      <workItem from="1719262200047" duration="962000" />
+      <workItem from="1719332610119" duration="5822000" />
+      <workItem from="1719407550129" duration="4570000" />
+      <workItem from="1719450110344" duration="4674000" />
     </task>
     <task id="LOCAL-00026" summary="tree">
       <option name="closed" value="true" />
@@ -946,7 +941,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719092389977</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="sliding window">
+      <option name="closed" value="true" />
+      <created>1719263157050</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1719263157050</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -964,7 +967,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="backtrack, others" />
     <MESSAGE value="backtrack" />
     <MESSAGE value="backtrack, trie" />
     <MESSAGE value="backtrack, dp1d" />
@@ -989,7 +991,8 @@
     <MESSAGE value="binary search, two pointers, company questions" />
     <MESSAGE value="binary search, sliding window, company questions" />
     <MESSAGE value="dp, contest questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp, contest questions" />
+    <MESSAGE value="sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="sliding window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1262,11 +1265,6 @@
           <line>10</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1316,7 +1314,7 @@
     <SUITE FILE_PATH="coverage/DSA$KthLargest.coverage" NAME="KthLargest Coverage Results" MODIFIED="1717422444429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     <SUITE FILE_PATH="coverage/DSA$MinAreaToCoverAll1sII.coverage" NAME="MinAreaToCoverAll1sII Coverage Results" MODIFIED="1719113615747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/contest" />
     <SUITE FILE_PATH="coverage/DSA$SubstrWithSameLetter.coverage" NAME="SubstrWithSameLetter Coverage Results" MODIFIED="1718725558157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/premium" />
-    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1719240896814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
+    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1719408087529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
     <SUITE FILE_PATH="coverage/DSA$DiffWaysToAddParentheses.coverage" NAME="DiffWaysToAddParentheses Coverage Results" MODIFIED="1716589657323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$RedundantConnection.coverage" NAME="RedundantConnection Coverage Results" MODIFIED="1716822178982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinRoundTasks.coverage" NAME="MinRoundTasks Coverage Results" MODIFIED="1712599805066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
