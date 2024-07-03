@@ -18,6 +18,7 @@ class Solution:
 
         # reverse second half
         second = slow.next
+        # sever the link from mid to create two separate list
         prev = slow.next = None
         while second:
             tmp = second.next
@@ -26,10 +27,9 @@ class Solution:
             second = tmp
 
         # merge two halves
+        # prev points to head of the reversed list
         first, second = head, prev
-        # we just check for second half of LL because it either be equal to first half
-        # or will be shorter
-        while second:
+        while second:  # we choose second list as len of second is <= first
             tmp1, tmp2 = first.next, second.next
             first.next = second
             second.next = tmp1

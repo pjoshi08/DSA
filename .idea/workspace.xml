@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="sliding window, tree">
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="graph, tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ArrIntersectionII.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MaxCostAltSubArr.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MinAreaToCoverAll1sII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/AncestorsInDAG.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/RemoveEdgesForTraversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/SplitBST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/general/ThreeConsecOdds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/MinDiffIn3Moves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/EarliestMomentToBecomeFriends.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/ReorderLL.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/ReorderLL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/premium/SplitBST.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/SplitBST.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,113 +57,113 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.AncestorsInDAG.executor": "Run",
-    "Python.ArrDegree.executor": "Run",
-    "Python.CombinationSum.executor": "Run",
-    "Python.CombinationSumII.executor": "Run",
-    "Python.Combinations.executor": "Debug",
-    "Python.ContainsDuplicate.executor": "Debug",
-    "Python.CountCollisions.executor": "Debug",
-    "Python.CountSubstrWithoutRepeatingChar.executor": "Debug",
-    "Python.CountingBits.executor": "Run",
-    "Python.DecodeWaysII.executor": "Debug",
-    "Python.DiffWaysToAddParentheses.executor": "Debug",
-    "Python.EncodeDecodeStrings.executor": "Run",
-    "Python.EncryptDecrypStr.executor": "Run",
-    "Python.ExtraCharsInStr.executor": "Run",
-    "Python.FindAnagrams.executor": "Run",
-    "Python.GeneMutation.executor": "Run",
-    "Python.GraphValidTree.executor": "Run",
-    "Python.GroupAnagrams.executor": "Run",
-    "Python.HouseRobber.executor": "Debug",
-    "Python.InorderTraversal.executor": "Run",
-    "Python.InsertIntervals.executor": "Run",
-    "Python.JumpGameVI.executor": "Run",
-    "Python.KSumPairs.executor": "Run",
-    "Python.KthLargest.executor": "Debug",
-    "Python.LetterCasePerm.executor": "Debug",
-    "Python.LongestConsecutiveSeq.executor": "Run",
-    "Python.LongestSubtring.executor": "Run",
-    "Python.MatrixZeroes.executor": "Debug",
-    "Python.MaxAreaIsland.executor": "Run",
-    "Python.MaxCandies.executor": "Debug",
-    "Python.MaxConsecutiveOnesIII.executor": "Run",
-    "Python.MaxCostAltSubArr.executor": "Run",
-    "Python.MaxRect.executor": "Run",
-    "Python.MaxStrongPairXORI.executor": "Run",
-    "Python.MinAreaToCoverAll1sII.executor": "Run",
-    "Python.MinOpsToConvertTime.executor": "Run",
-    "Python.MinReplacementsToSort.executor": "Debug",
-    "Python.MinRoundTasks.executor": "Run",
-    "Python.MinSizeSubarrSum.executor": "Run",
-    "Python.NextGreaterEle1.executor": "Debug",
-    "Python.NumConnectedComponents.executor": "Run",
-    "Python.PalindromePermutation.executor": "Run",
-    "Python.PalindromicSubstr.executor": "Run",
-    "Python.ParenthesesString.executor": "Debug",
-    "Python.PartitionKEqSumSets.executor": "Run",
-    "Python.PathSum.executor": "Run",
-    "Python.PermutationsII.executor": "Run",
-    "Python.RPN.executor": "Run",
-    "Python.ReconstructDigits.executor": "Run",
-    "Python.RedundantConnection.executor": "Debug",
-    "Python.RemoveEdgesForTraversal.executor": "Run",
-    "Python.ReplaceWords.executor": "Run",
-    "Python.ReverseLL.executor": "Run",
-    "Python.RotatedArrSearch.executor": "Run",
-    "Python.RowColNumCheck.executor": "Run",
-    "Python.ScratchPad.executor": "Debug",
-    "Python.Search2DMatrix.executor": "Run",
-    "Python.Search2DMatrixII.executor": "Run",
-    "Python.SearchSuggestions.executor": "Run",
-    "Python.SequenceReconstruction.executor": "Debug",
-    "Python.SerializeDeserialize.executor": "Run",
-    "Python.SingleNumber.executor": "Debug",
-    "Python.SongPairs.executor": "Debug",
-    "Python.SourceToTargetPath.executor": "Run",
-    "Python.StrongPasswordCheckerII.executor": "Run",
-    "Python.SubStringPermutation.executor": "Run",
-    "Python.SubsetXORSum.executor": "Run",
-    "Python.SubsetsII.executor": "Run",
-    "Python.SubstrWithSameLetter.executor": "Debug",
-    "Python.SumRootToLeaf.executor": "Run",
-    "Python.SwappingNodesLL.executor": "Debug",
-    "Python.ThreeConsecutiveIntSum.executor": "Run",
-    "Python.ThreeSumClosest.executor": "Run",
-    "Python.TwoSum.executor": "Run",
-    "Python.UglyNumber.executor": "Run",
-    "Python.UniqueOccurences.executor": "Run",
-    "Python.UniquePathsIII.executor": "Run",
-    "Python.ValidBST.executor": "Run",
-    "Python.ValidParentheses.executor": "Run",
-    "Python.ValidPath.executor": "Debug",
-    "Python.WallsAndGates.executor": "Debug",
-    "Python.WaterContainer.executor": "Run",
-    "Python.WordBreakII.executor": "Run",
-    "Python.WordValidAfterSubs.executor": "Run",
-    "Python.ZigzagConversion.executor": "Run",
-    "Python.ZigzagOrderTraversal.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/archer/Archer/IntelliJIdeaProjects/DSA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AncestorsInDAG.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ArrDegree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CombinationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CombinationSumII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Combinations.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ContainsDuplicate.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CountCollisions.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CountSubstrWithoutRepeatingChar.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CountingBits.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DecodeWaysII.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.DiffWaysToAddParentheses.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.EncodeDecodeStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EncryptDecrypStr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExtraCharsInStr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FindAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GeneMutation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GraphValidTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GroupAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HouseRobber.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.InorderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InsertIntervals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JumpGameVI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KSumPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KthLargest.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.LetterCasePerm.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.LongestConsecutiveSeq.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LongestSubtring.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MatrixZeroes.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MaxAreaIsland.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxCandies.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MaxConsecutiveOnesIII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxCostAltSubArr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxRect.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxStrongPairXORI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinAreaToCoverAll1sII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinOpsToConvertTime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinReplacementsToSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MinRoundTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinSizeSubarrSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NextGreaterEle1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.NumConnectedComponents.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PalindromePermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PalindromicSubstr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ParenthesesString.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PartitionKEqSumSets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PathSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PermutationsII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RPN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReconstructDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RedundantConnection.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.RemoveEdgesForTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReplaceWords.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReverseLL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RotatedArrSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RowColNumCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ScratchPad.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Search2DMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Search2DMatrixII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SearchSuggestions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SequenceReconstruction.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SerializeDeserialize.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SingleNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SongPairs.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SourceToTargetPath.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StrongPasswordCheckerII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubStringPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubsetXORSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubsetsII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubstrWithSameLetter.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SumRootToLeaf.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwappingNodesLL.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ThreeConsecutiveIntSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ThreeSumClosest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UglyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UniqueOccurences.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UniquePathsIII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidBST.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidPath.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.WallsAndGates.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.WaterContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WordBreakII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WordValidAfterSubs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ZigzagConversion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ZigzagOrderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/archer/Archer/IntelliJIdeaProjects/DSA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
@@ -560,15 +563,13 @@
       <workItem from="1719450110344" duration="4767000" />
       <workItem from="1719675226104" duration="7920000" />
       <workItem from="1719715397345" duration="1820000" />
-      <workItem from="1719750515203" duration="7868000" />
-    </task>
-    <task id="LOCAL-00028" summary="tree">
-      <option name="closed" value="true" />
-      <created>1710297508145</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1710297508145</updated>
+      <workItem from="1719750515203" duration="8217000" />
+      <workItem from="1719775458966" duration="1855000" />
+      <workItem from="1719780562968" duration="2499000" />
+      <workItem from="1719837788016" duration="2284000" />
+      <workItem from="1719942671245" duration="5678000" />
+      <workItem from="1720017376278" duration="3500000" />
+      <workItem from="1720041859581" duration="322000" />
     </task>
     <task id="LOCAL-00029" summary="tree">
       <option name="closed" value="true" />
@@ -954,7 +955,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719465918934</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="graph, tree">
+      <option name="closed" value="true" />
+      <created>1719764572588</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1719764572588</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -972,7 +981,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="backtrack, trie" />
     <MESSAGE value="backtrack, dp1d" />
     <MESSAGE value="dp1d, general, arrays/hashing" />
     <MESSAGE value="dp1d, arrays/hashing" />
@@ -997,7 +1005,8 @@
     <MESSAGE value="dp, contest questions" />
     <MESSAGE value="sliding window" />
     <MESSAGE value="sliding window, tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="sliding window, tree" />
+    <MESSAGE value="graph, tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph, tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1259,11 +1268,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/premium/SubstrWithSameLetter.py</url>
           <line>10</line>
           <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

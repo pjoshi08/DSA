@@ -14,6 +14,55 @@ from org.example.tree.TreeNode import TreeNode
 
 
 class Solution:
+    # T: O(h), M: O(h), recursive
+    def splitBST3(self, root: Optional[TreeNode], target: int) -> List[Optional[TreeNode]]:
+        if not root: return [None, None]
+
+        # if root val is greater than target
+        # recursively split the left subtree
+        if root.val > target:
+            left = self.splitBST3(root.left, target)
+            # attach right part of the split to root's left subtree
+            root.left = left[1]
+            return [left[0], root]
+        else:  # otherwise recursively split the right subtree
+            right = self.splitBST3(root.right, target)
+            # attach left part of the split to root's right subtree
+            root.right = right[0]
+            return [root, right[1]]
+
+    # T: O(h), M: O(h), iterative, fastest
+    def splitBST2(self, root: Optional[TreeNode], target: int) -> List[Optional[TreeNode]]:
+        # ans[0] contains nodes less than target, ans[0] > target
+        ans = [None, None]
+
+        if not root: return ans
+        # Stack to traverse the tree and find the split point
+        stack = []
+        # find nodes closest to the target
+        while root:
+            stack.append(root)
+            if root.val > target:
+                root = root.left
+            else:
+                root = root.right
+        # Process nodes in reverse order from the stack to perform the split
+        while stack:
+            cur = stack.pop()
+            if cur.val > target:
+                # Assign cur node's left child to the subtree
+                # containing nodes greater than target
+                cur.left = ans[1]
+                # cur node becomes new root of this subtree
+                ans[1] = cur
+            else:
+                # assign cur node's right child to the subtree
+                # with nodes less than or eq to target
+                cur.right = ans[0]
+                # cur node becomes root of this subtree
+                ans[0] = cur
+        return ans
+
     # T: O(n), M: O(1)
     def splitBST(self, root: Optional[TreeNode], target: int) -> List[Optional[TreeNode]]:
         dummy_sm = TreeNode(0)
