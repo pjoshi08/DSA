@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="graph, tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ArrIntersectionII.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="array, greedy, linkedlist, premium questions">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MaxCostAltSubArr.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MinAreaToCoverAll1sII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/general/ThreeConsecOdds.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/MinDiffIn3Moves.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/EarliestMomentToBecomeFriends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/NodesBwCriticalPoints.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/ReorderLL.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/ReorderLL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/premium/SplitBST.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/SplitBST.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -569,15 +564,10 @@
       <workItem from="1719837788016" duration="2284000" />
       <workItem from="1719942671245" duration="5678000" />
       <workItem from="1720017376278" duration="3500000" />
-      <workItem from="1720041859581" duration="322000" />
-    </task>
-    <task id="LOCAL-00029" summary="tree">
-      <option name="closed" value="true" />
-      <created>1710525103301</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1710525103301</updated>
+      <workItem from="1720041859581" duration="6052000" />
+      <workItem from="1720152128717" duration="1122000" />
+      <workItem from="1720202927763" duration="1361000" />
+      <workItem from="1720282395843" duration="3415000" />
     </task>
     <task id="LOCAL-00030" summary="tree">
       <option name="closed" value="true" />
@@ -963,7 +953,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719764572588</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="array, greedy, linkedlist, premium questions">
+      <option name="closed" value="true" />
+      <created>1720042239344</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1720042239345</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -981,7 +979,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="backtrack, dp1d" />
     <MESSAGE value="dp1d, general, arrays/hashing" />
     <MESSAGE value="dp1d, arrays/hashing" />
     <MESSAGE value="dp1d, sliding window" />
@@ -1006,7 +1003,8 @@
     <MESSAGE value="sliding window" />
     <MESSAGE value="sliding window, tree" />
     <MESSAGE value="graph, tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="graph, tree" />
+    <MESSAGE value="array, greedy, linkedlist, premium questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="array, greedy, linkedlist, premium questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
