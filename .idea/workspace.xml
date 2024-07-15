@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="linkedlist, math questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/StringsWithoutAdj0s.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MaxCostAltSubArr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contest/MinAreaToCoverAll1sII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/general/FindEncryptedStr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/CircularGameWinner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/WaterBottles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/RemoveDuplicatesLL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/simulation/AverageWaitTime.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="simulation, general, math, premium questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/DeleteNodesFromLL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/RobotCollisions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/MaxScoreRemoveSubstr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/ReverseSubstrBwParentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/SmallestStr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
     </list>
@@ -112,6 +109,7 @@
     &quot;Python.RemoveEdgesForTraversal.executor&quot;: &quot;Run&quot;,
     &quot;Python.ReplaceWords.executor&quot;: &quot;Run&quot;,
     &quot;Python.ReverseLL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RobotCollisions.executor&quot;: &quot;Debug&quot;,
     &quot;Python.RotatedArrSearch.executor&quot;: &quot;Run&quot;,
     &quot;Python.RowColNumCheck.executor&quot;: &quot;Run&quot;,
     &quot;Python.ScratchPad.executor&quot;: &quot;Debug&quot;,
@@ -121,6 +119,7 @@
     &quot;Python.SequenceReconstruction.executor&quot;: &quot;Debug&quot;,
     &quot;Python.SerializeDeserialize.executor&quot;: &quot;Run&quot;,
     &quot;Python.SingleNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SmallestStr.executor&quot;: &quot;Run&quot;,
     &quot;Python.SongPairs.executor&quot;: &quot;Debug&quot;,
     &quot;Python.SourceToTargetPath.executor&quot;: &quot;Run&quot;,
     &quot;Python.StrongPasswordCheckerII.executor&quot;: &quot;Run&quot;,
@@ -167,60 +166,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/string" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/simulation" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/companies/salesforce" />
-      <recent name="$PROJECT_DIR$/src/main/java/salesforce" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.WaterBottles">
-    <configuration name="AncestorsInDAG" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/graph" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/graph/AncestorsInDAG.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CountSubstrWithoutRepeatingChar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/premium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/premium/CountSubstrWithoutRepeatingChar.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.SmallestStr">
     <configuration name="RemoveEdgesForTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -244,6 +197,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="RobotCollisions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/stack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/stack/RobotCollisions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ScratchPad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -259,6 +235,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SmallestStr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/contest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/string/SmallestStr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SmallestStr" />
+        <item itemvalue="Python.RobotCollisions" />
         <item itemvalue="Python.WaterBottles" />
         <item itemvalue="Python.ScratchPad" />
         <item itemvalue="Python.RemoveEdgesForTraversal" />
-        <item itemvalue="Python.AncestorsInDAG" />
-        <item itemvalue="Python.CountSubstrWithoutRepeatingChar" />
       </list>
     </recent_temporary>
   </component>
@@ -580,15 +579,12 @@
       <workItem from="1720419335071" duration="1567000" />
       <workItem from="1720454610575" duration="4689000" />
       <workItem from="1720543023324" duration="607000" />
-      <workItem from="1720563971380" duration="1670000" />
-    </task>
-    <task id="LOCAL-00031" summary="tree">
-      <option name="closed" value="true" />
-      <created>1710706715242</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1710706715243</updated>
+      <workItem from="1720563971380" duration="1830000" />
+      <workItem from="1720720249453" duration="1415000" />
+      <workItem from="1720808693533" duration="2053000" />
+      <workItem from="1720892605642" duration="6144000" />
+      <workItem from="1720987422500" duration="1504000" />
+      <workItem from="1721028149020" duration="610000" />
     </task>
     <task id="LOCAL-00032" summary="tree, backtrack">
       <option name="closed" value="true" />
@@ -974,7 +970,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720303666773</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="simulation, general, math, premium questions">
+      <option name="closed" value="true" />
+      <created>1720581847767</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1720581847767</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -992,7 +996,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dp1d, arrays/hashing" />
     <MESSAGE value="dp1d, sliding window" />
     <MESSAGE value="dp1d" />
     <MESSAGE value="graph, matrix" />
@@ -1017,7 +1020,8 @@
     <MESSAGE value="graph, tree" />
     <MESSAGE value="array, greedy, linkedlist, premium questions" />
     <MESSAGE value="linkedlist, math questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkedlist, math questions" />
+    <MESSAGE value="simulation, general, math, premium questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="simulation, general, math, premium questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1280,6 +1284,11 @@
           <line>10</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/stack/RobotCollisions.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1319,6 +1328,7 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/DSA$UniqueOccurences.coverage" NAME="UniqueOccurences Coverage Results" MODIFIED="1716156129778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$MaxCostAltSubArr.coverage" NAME="MaxCostAltSubArr Coverage Results" MODIFIED="1719112920902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/contest" />
+    <SUITE FILE_PATH="coverage/DSA$RobotCollisions.coverage" NAME="RobotCollisions Coverage Results" MODIFIED="1720907275728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
     <SUITE FILE_PATH="coverage/DSA$WallsAndGates.coverage" NAME="WallsAndGates Coverage Results" MODIFIED="1713624439355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinReplacementsToSort.coverage" NAME="MinReplacementsToSort Coverage Results" MODIFIED="1718973492918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal" />
     <SUITE FILE_PATH="coverage/DSA$CountSubstrWithoutRepeatingChar.coverage" NAME="CountSubstrWithoutRepeatingChar Coverage Results" MODIFIED="1719236160953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/premium" />
@@ -1336,5 +1346,6 @@
     <SUITE FILE_PATH="coverage/DSA$RedundantConnection.coverage" NAME="RedundantConnection Coverage Results" MODIFIED="1716822178982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinRoundTasks.coverage" NAME="MinRoundTasks Coverage Results" MODIFIED="1712599805066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$RemoveEdgesForTraversal.coverage" NAME="RemoveEdgesForTraversal Coverage Results" MODIFIED="1719755161931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
+    <SUITE FILE_PATH="coverage/DSA$SmallestStr.coverage" NAME="SmallestStr Coverage Results" MODIFIED="1720926138392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/contest" />
   </component>
 </project>
