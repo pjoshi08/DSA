@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="simulation, general, math, premium questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/DeleteNodesFromLL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/RobotCollisions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/MaxScoreRemoveSubstr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/ReverseSubstrBwParentheses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/SmallestStr.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="linkedlist, string, stack questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/DeleteNodesReturnForest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/DirectionsFromSToT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/GoodLeafNodePairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/createBTFromDesc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/NumOfAtoms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/NumOfAtoms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -584,15 +584,11 @@
       <workItem from="1720808693533" duration="2053000" />
       <workItem from="1720892605642" duration="6144000" />
       <workItem from="1720987422500" duration="1504000" />
-      <workItem from="1721028149020" duration="610000" />
-    </task>
-    <task id="LOCAL-00032" summary="tree, backtrack">
-      <option name="closed" value="true" />
-      <created>1711209414088</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1711209414088</updated>
+      <workItem from="1721028149020" duration="679000" />
+      <workItem from="1721171550311" duration="3521000" />
+      <workItem from="1721235950865" duration="2221000" />
+      <workItem from="1721336106545" duration="2607000" />
+      <workItem from="1721416557739" duration="468000" />
     </task>
     <task id="LOCAL-00033" summary="backtrack">
       <option name="closed" value="true" />
@@ -978,7 +974,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720581847767</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="linkedlist, string, stack questions">
+      <option name="closed" value="true" />
+      <created>1721032280451</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1721032280451</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -996,7 +1000,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dp1d, sliding window" />
     <MESSAGE value="dp1d" />
     <MESSAGE value="graph, matrix" />
     <MESSAGE value="tree" />
@@ -1021,7 +1024,8 @@
     <MESSAGE value="array, greedy, linkedlist, premium questions" />
     <MESSAGE value="linkedlist, math questions" />
     <MESSAGE value="simulation, general, math, premium questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="simulation, general, math, premium questions" />
+    <MESSAGE value="linkedlist, string, stack questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedlist, string, stack questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

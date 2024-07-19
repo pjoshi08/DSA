@@ -1,3 +1,6 @@
+from collections import defaultdict
+
+
 class Solution:
     def countOfAtoms(self, formula: str) -> str:
         stack = [defaultdict(int)]
