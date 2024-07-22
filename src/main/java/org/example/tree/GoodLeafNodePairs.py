@@ -66,6 +66,7 @@ class Solution:
         current = [0] * 12
         # Combine the counts from the left and right subtree and shift by
         # +1 distance
+        # parent node is +1 distance away from its leaf node
         for i in range(10):
             current[i + 1] = left[i] + right[i]
 
@@ -78,7 +79,7 @@ class Solution:
                 if 2 + d1 + d2 <= distance:
                     # If the total path distance is less than the given distance limit,
                     # then add to he total number of good pairs
-                    current[11] += left[d1] * right[d2]
+                    current[11] += left[d1] * right[d2]  # multiply because we count each leaf pair within distance
 
         return current
 
