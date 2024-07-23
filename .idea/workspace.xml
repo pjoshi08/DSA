@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="tree questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/LuckNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/BitChangesToMakeIntsEq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/RestoreMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/MinLenOfStrAfterOps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/VowelsGame.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="bit manipulation, tree, arrays, greedy, string questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/BuildMatrixWithConditions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/FindDistanceBT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/SortPeople.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/GoodLeafNodePairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/GoodLeafNodePairs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -596,15 +593,8 @@
       <workItem from="1721441902142" duration="161000" />
       <workItem from="1721490420747" duration="6213000" />
       <workItem from="1721542518766" duration="657000" />
-      <workItem from="1721581491801" duration="1248000" />
-    </task>
-    <task id="LOCAL-00034" summary="backtrack, others">
-      <option name="closed" value="true" />
-      <created>1711392747643</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1711392747643</updated>
+      <workItem from="1721581491801" duration="1294000" />
+      <workItem from="1721719758379" duration="1648000" />
     </task>
     <task id="LOCAL-00035" summary="backtrack">
       <option name="closed" value="true" />
@@ -990,7 +980,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721417059243</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="bit manipulation, tree, arrays, greedy, string questions">
+      <option name="closed" value="true" />
+      <created>1721632192406</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1721632192406</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1008,7 +1006,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="graph, matrix" />
     <MESSAGE value="tree" />
     <MESSAGE value="arrays" />
     <MESSAGE value="graph, leetcode company targeted" />
@@ -1033,7 +1030,8 @@
     <MESSAGE value="simulation, general, math, premium questions" />
     <MESSAGE value="linkedlist, string, stack questions" />
     <MESSAGE value="tree questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="tree questions" />
+    <MESSAGE value="bit manipulation, tree, arrays, greedy, string questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="bit manipulation, tree, arrays, greedy, string questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
