@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="bit manipulation, tree, arrays, greedy, string questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/BuildMatrixWithConditions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/FindDistanceBT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/SortPeople.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="graph, sort, tree premium questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/CityWIthNeighbors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/SortArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/SortWithFrequency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/SortWithJumbledNums.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/MinCostConnectPoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/MinCostConnectPoints.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +123,7 @@
     &quot;Python.SingleNumber.executor&quot;: &quot;Debug&quot;,
     &quot;Python.SmallestStr.executor&quot;: &quot;Run&quot;,
     &quot;Python.SongPairs.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SortWithJumbledNums.executor&quot;: &quot;Debug&quot;,
     &quot;Python.SourceToTargetPath.executor&quot;: &quot;Run&quot;,
     &quot;Python.StrongPasswordCheckerII.executor&quot;: &quot;Run&quot;,
     &quot;Python.SubStringPermutation.executor&quot;: &quot;Run&quot;,
@@ -173,7 +176,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/companies/salesforce" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BitChangesToMakeIntsEq">
+  <component name="RunManager" selected="Python.SortWithJumbledNums">
     <configuration name="BitChangesToMakeIntsEq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -212,29 +215,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/string/MinLenOfStrAfterOps.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RobotCollisions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/stack" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/stack/RobotCollisions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,13 +269,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SortWithJumbledNums" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/sort" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/sort/SortWithJumbledNums.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SortWithJumbledNums" />
         <item itemvalue="Python.BitChangesToMakeIntsEq" />
         <item itemvalue="Python.ScratchPad" />
         <item itemvalue="Python.MinLenOfStrAfterOps" />
         <item itemvalue="Python.SmallestStr" />
-        <item itemvalue="Python.RobotCollisions" />
       </list>
     </recent_temporary>
   </component>
@@ -594,15 +597,11 @@
       <workItem from="1721490420747" duration="6213000" />
       <workItem from="1721542518766" duration="657000" />
       <workItem from="1721581491801" duration="1294000" />
-      <workItem from="1721719758379" duration="1648000" />
-    </task>
-    <task id="LOCAL-00035" summary="backtrack">
-      <option name="closed" value="true" />
-      <created>1711485339269</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1711485339269</updated>
+      <workItem from="1721719758379" duration="1706000" />
+      <workItem from="1721810901956" duration="45000" />
+      <workItem from="1721854663366" duration="3912000" />
+      <workItem from="1721953322413" duration="702000" />
+      <workItem from="1722021558363" duration="2529000" />
     </task>
     <task id="LOCAL-00036" summary="backtrack, trie">
       <option name="closed" value="true" />
@@ -988,7 +987,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721632192406</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="graph, sort, tree premium questions">
+      <option name="closed" value="true" />
+      <created>1721721519248</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1721721519249</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1006,7 +1013,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tree" />
     <MESSAGE value="arrays" />
     <MESSAGE value="graph, leetcode company targeted" />
     <MESSAGE value="leetcode company targeted" />
@@ -1031,7 +1037,8 @@
     <MESSAGE value="linkedlist, string, stack questions" />
     <MESSAGE value="tree questions" />
     <MESSAGE value="bit manipulation, tree, arrays, greedy, string questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="bit manipulation, tree, arrays, greedy, string questions" />
+    <MESSAGE value="graph, sort, tree premium questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph, sort, tree premium questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1367,6 +1374,7 @@
     <SUITE FILE_PATH="coverage/DSA$ArrDegree.coverage" NAME="ArrDegree Coverage Results" MODIFIED="1716491227107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/salesforce" />
     <SUITE FILE_PATH="coverage/DSA$SongPairs.coverage" NAME="SongPairs Coverage Results" MODIFIED="1718633985510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal" />
     <SUITE FILE_PATH="coverage/DSA$ExtraCharsInStr.coverage" NAME="ExtraCharsInStr Coverage Results" MODIFIED="1713456364281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$SortWithJumbledNums.coverage" NAME="SortWithJumbledNums Coverage Results" MODIFIED="1721855927565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/sort" />
     <SUITE FILE_PATH="coverage/DSA$Main.ic" NAME="Main Coverage Results" MODIFIED="1694279274898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>

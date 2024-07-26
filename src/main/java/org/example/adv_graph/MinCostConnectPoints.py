@@ -1,3 +1,6 @@
+import heapq
+
+
 class Solution:
     def minCostConnectPoints(self, points):
         N = len(points)
