@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp1d, arrays questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/FillingBookshelves.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/TimeToArrangeBinaryStr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/ReverseWordsInStr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twopointers/CompareVersionNums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twopointers/CountVowelSubstr.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp1d, two pointers, string questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/FormWordsFromChars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/NeighborSumService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/NumOfWinners.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/RangedSumOfSortedSubArrSums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/SubDomainCount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/MinFlipsForPalindromeGridII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/MinFlipsForPalindromicGrid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greedy/MaxSumInArrPermutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/MinProdOfArrElements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/MeetingScheduler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/RangeAddition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/TossStrangeCoins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/SmallestMultipleOfTwoDigits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/twopointers/MinSwapsToGroup1sII.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,11 +100,14 @@
     &quot;Python.MaxRect.executor&quot;: &quot;Run&quot;,
     &quot;Python.MaxStrongPairXORI.executor&quot;: &quot;Run&quot;,
     &quot;Python.MinAreaToCoverAll1sII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinFlipsForPalindromeGridII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinFlipsForPalindromicGrid.executor&quot;: &quot;Run&quot;,
     &quot;Python.MinLenOfStrAfterOps.executor&quot;: &quot;Run&quot;,
     &quot;Python.MinOpsToConvertTime.executor&quot;: &quot;Run&quot;,
     &quot;Python.MinReplacementsToSort.executor&quot;: &quot;Debug&quot;,
     &quot;Python.MinRoundTasks.executor&quot;: &quot;Run&quot;,
     &quot;Python.MinSizeSubarrSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NeighborSumService.executor&quot;: &quot;Run&quot;,
     &quot;Python.NextGreaterEle1.executor&quot;: &quot;Debug&quot;,
     &quot;Python.NumConnectedComponents.executor&quot;: &quot;Run&quot;,
     &quot;Python.PalindromePermutation.executor&quot;: &quot;Run&quot;,
@@ -175,7 +187,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/companies/salesforce" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SortWithJumbledNums">
+  <component name="RunManager" selected="Python.NeighborSumService">
     <configuration name="BitChangesToMakeIntsEq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -199,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MinLenOfStrAfterOps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MinFlipsForPalindromeGridII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,12 +220,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/string/MinLenOfStrAfterOps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/dp1d/MinFlipsForPalindromeGridII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,7 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ScratchPad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MinFlipsForPalindromicGrid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,12 +243,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/dp1d/MinFlipsForPalindromicGrid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,7 +257,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SmallestStr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NeighborSumService" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,12 +266,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/contest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/arrays" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/string/SmallestStr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/arrays/NeighborSumService.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NeighborSumService" />
+        <item itemvalue="Python.MinFlipsForPalindromeGridII" />
+        <item itemvalue="Python.MinFlipsForPalindromicGrid" />
         <item itemvalue="Python.SortWithJumbledNums" />
         <item itemvalue="Python.BitChangesToMakeIntsEq" />
-        <item itemvalue="Python.ScratchPad" />
-        <item itemvalue="Python.MinLenOfStrAfterOps" />
-        <item itemvalue="Python.SmallestStr" />
       </list>
     </recent_temporary>
   </component>
@@ -611,15 +623,13 @@
       <workItem from="1722366148204" duration="2376000" />
       <workItem from="1722460620846" duration="1782000" />
       <workItem from="1722537570070" duration="1111000" />
-      <workItem from="1722556025797" duration="645000" />
-    </task>
-    <task id="LOCAL-00039" summary="dp1d">
-      <option name="closed" value="true" />
-      <created>1712408238060</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1712408238060</updated>
+      <workItem from="1722556025797" duration="672000" />
+      <workItem from="1722617440391" duration="2319000" />
+      <workItem from="1722639552880" duration="1724000" />
+      <workItem from="1722698587362" duration="2167000" />
+      <workItem from="1722740530478" duration="2692000" />
+      <workItem from="1722782701116" duration="3156000" />
+      <workItem from="1722805792399" duration="3909000" />
     </task>
     <task id="LOCAL-00040" summary="dp1d">
       <option name="closed" value="true" />
@@ -1005,7 +1015,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722382781371</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="dp1d, two pointers, string questions">
+      <option name="closed" value="true" />
+      <created>1722583542277</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1722583542277</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1023,7 +1041,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="graph" />
     <MESSAGE value="dp1d, dp2d" />
     <MESSAGE value="dp2d" />
     <MESSAGE value="minHeap" />
@@ -1048,7 +1065,8 @@
     <MESSAGE value="adv graph, sort questions" />
     <MESSAGE value="adv graph questions" />
     <MESSAGE value="dp1d, arrays questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp1d, arrays questions" />
+    <MESSAGE value="dp1d, two pointers, string questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp1d, two pointers, string questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1336,6 +1354,11 @@
           <line>3</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/arrays/NeighborSumService.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1349,6 +1372,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA$PalindromicSubstr.coverage" NAME="PalindromicSubstr Coverage Results" MODIFIED="1712603175256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$MinLenOfStrAfterOps.coverage" NAME="MinLenOfStrAfterOps Coverage Results" MODIFIED="1721491247436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/string" />
+    <SUITE FILE_PATH="coverage/DSA$MinFlipsForPalindromeGridII.coverage" NAME="MinFlipsForPalindromeGridII Coverage Results" MODIFIED="1722700152633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$ZigzagConversion.coverage" NAME="ZigzagConversion Coverage Results" MODIFIED="1718812793021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal" />
     <SUITE FILE_PATH="coverage/DSA$SingleNumber.coverage" NAME="SingleNumber Coverage Results" MODIFIED="1718113372822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
     <SUITE FILE_PATH="coverage/DSA$BitChangesToMakeIntsEq.coverage" NAME="BitChangesToMakeIntsEq Coverage Results" MODIFIED="1721530023332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
@@ -1370,6 +1394,7 @@
     <SUITE FILE_PATH="coverage/DSA$MergeKSortedLists.ic" NAME="MergeKSortedLists Coverage Results" MODIFIED="1697254605031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.linkedlist.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$MinFlipsForPalindromicGrid.coverage" NAME="MinFlipsForPalindromicGrid Coverage Results" MODIFIED="1722699229830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$SequenceReconstruction.coverage" NAME="SequenceReconstruction Coverage Results" MODIFIED="1715794892006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$PalindromePermutation.coverage" NAME="PalindromePermutation Coverage Results" MODIFIED="1712599861608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$SubStringPermutation.ic" NAME="SubStringPermutation Coverage Results" MODIFIED="1695698419976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -1388,6 +1413,7 @@
     <SUITE FILE_PATH="coverage/DSA$Main.ic" NAME="Main Coverage Results" MODIFIED="1694279274898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$NeighborSumService.coverage" NAME="NeighborSumService Coverage Results" MODIFIED="1722742617917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$KthLargest.coverage" NAME="KthLargest Coverage Results" MODIFIED="1717422444429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     <SUITE FILE_PATH="coverage/DSA$MinAreaToCoverAll1sII.coverage" NAME="MinAreaToCoverAll1sII Coverage Results" MODIFIED="1719113615747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/contest" />
     <SUITE FILE_PATH="coverage/DSA$SubstrWithSameLetter.coverage" NAME="SubstrWithSameLetter Coverage Results" MODIFIED="1718725558157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/premium" />
