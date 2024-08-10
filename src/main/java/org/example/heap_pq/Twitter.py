@@ -1,28 +1,20 @@
 import heapq
 from collections import defaultdict
+from typing import List
 
 
 class Twitter(object):
 
     def __init__(self):
         self.count = 0
-        self.tweetMap = defaultdict(list) # userId -> list of [count, tweetId]
-        self.followMap = defaultdict(set) # userId -> set of followeeId
+        self.tweetMap = defaultdict(list)  # userId -> list of [count, tweetId]
+        self.followMap = defaultdict(set)  # userId -> set of followeeId
 
-    def postTweet(self, userId, tweetId):
-        """
-        :type userId: int
-        :type tweetId: int
-        :rtype: None
-        """
+    def postTweet(self, userId: int, tweetId: int):
         self.tweetMap[userId].append([self.count, tweetId])
         self.count -= 1
 
-    def getNewsFeed(self, userId):
-        """
-        :type userId: int
-        :rtype: List[int]
-        """
+    def getNewsFeed(self, userId: int) -> List[int]:
         res = []
         minHeap = []
 
@@ -41,20 +33,10 @@ class Twitter(object):
                 heapq.heappush(minHeap, [count, tweetId, followeeId, index - 1])
         return res
 
-    def follow(self, followerId, followeeId):
-        """
-        :type followerId: int
-        :type followeeId: int
-        :rtype: None
-        """
+    def follow(self, followerId: int, followeeId: int):
         self.followMap[followerId].add(followeeId)
 
-    def unfollow(self, followerId, followeeId):
-        """
-        :type followerId: int
-        :type followeeId: int
-        :rtype: None
-        """
+    def unfollow(self, followerId: int, followeeId: int):
         if followeeId in self.followMap[followerId]:
             self.followMap[followerId].remove(followeeId)
 
