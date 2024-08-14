@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="premium, math_geometry questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/MinDaysToDisconnectIsland.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/RegionsCutBySlashes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/RegionsCutBySlashes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/intervals/InsertInterval.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/intervals/MeetingRoomsII.kt" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="intervals, graph, stack questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/EncodeDecodeStrings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/GroupAnagrams.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/LongestConsecutiveSeq.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/TopKFreq.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarysearch/KthSmallestPairDistance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/DetectSquares.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +170,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -286,18 +286,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.RegionsCutBySlashesKt" />
-        <item itemvalue="Python.SpiralMatrixIII" />
-        <item itemvalue="Python.NeighborSumService" />
-        <item itemvalue="Python.MinFlipsForPalindromeGridII" />
-        <item itemvalue="Python.MinFlipsForPalindromicGrid" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
       </set>
     </attachedChunks>
   </component>
@@ -619,14 +615,13 @@
       <workItem from="1723320389867" duration="2234000" />
       <workItem from="1723400526901" duration="2721000" />
       <workItem from="1723409828372" duration="1040000" />
-    </task>
-    <task id="LOCAL-00042" summary="dp1d">
-      <option name="closed" value="true" />
-      <created>1712899255981</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1712899255981</updated>
+      <workItem from="1723426289223" duration="238000" />
+      <workItem from="1723438004855" duration="842000" />
+      <workItem from="1723486472027" duration="1910000" />
+      <workItem from="1723676001366" duration="45000" />
+      <workItem from="1723676059983" duration="68000" />
+      <workItem from="1723676218151" duration="92000" />
+      <workItem from="1723676315088" duration="1561000" />
     </task>
     <task id="LOCAL-00043" summary="dp1d, sliding window">
       <option name="closed" value="true" />
@@ -1012,7 +1007,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723263495221</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="intervals, graph, stack questions">
+      <option name="closed" value="true" />
+      <created>1723426520100</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1723426520100</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1030,7 +1033,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="minHeap" />
     <MESSAGE value="greedy" />
     <MESSAGE value="intervals" />
     <MESSAGE value="bit manipulation, arrays" />
@@ -1055,7 +1057,8 @@
     <MESSAGE value="dp1d, two pointers, string questions" />
     <MESSAGE value="dp1d, arrays, greedy, two pointers, tree, premium, math_geometry questions" />
     <MESSAGE value="premium, math_geometry questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="premium, math_geometry questions" />
+    <MESSAGE value="intervals, graph, stack questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="intervals, graph, stack questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1278,74 +1281,7 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="23" />
         </breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/arrays/UniqueOccurences.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/companies/salesforce/SearchSuggestions.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/companies/salesforce/SearchSuggestions.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/companies/salesforce/DiffWaysToAddParentheses.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/dp1d/HouseRobber.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/heap_pq/KthLargest.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/SingleNumber.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/premium/SubstrWithSameLetter.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/stack/RobotCollisions.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/string/MinLenOfStrAfterOps.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/BitChangesToMakeIntsEq.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/arrays/NeighborSumService.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
       </breakpoints>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
