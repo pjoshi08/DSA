@@ -7,7 +7,7 @@ class Solution:
         if n == 1: return [nums[0]]
 
         if k == 1:
-            return [i for i in nums]
+            return nums
 
         def isConsecutiveSorted(subarr):
             for i in range(1, len(subarr)):
