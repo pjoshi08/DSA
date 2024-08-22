@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="array, dp, trie, graph, binary search, backtrack questions">
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp, string, array questions">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/UglyNumII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/MaxPointsWithCost.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/KConstraintSubstrCount!.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/StoneGameII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/StrangePrinter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/Power.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/MinMovesForPeacefulBoard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/PowerOfKSizeSubarrI.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/PowerOfKSizeSubarrI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +23,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Stub" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
-        <option value="Python Script" />
         <option value="Class" />
+        <option value="Kotlin File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -63,6 +63,7 @@
     &quot;Kotlin.KokoEatingBananasKt.executor&quot;: &quot;Debug&quot;,
     &quot;Kotlin.MinCostStairsKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.NumOfIslandsKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.PowerKt.executor&quot;: &quot;Debug&quot;,
     &quot;Kotlin.RegionsCutBySlashesKt.executor&quot;: &quot;Run&quot;,
     &quot;Python.AncestorsInDAG.executor&quot;: &quot;Run&quot;,
     &quot;Python.ArrDegree.executor&quot;: &quot;Run&quot;,
@@ -189,7 +190,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScratchPad">
+  <component name="RunManager" selected="Kotlin.PowerKt">
     <configuration name="ScratchPad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ScratchPad" />
       <module name="DSA" />
@@ -203,13 +204,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KokoEatingBananasKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.binarysearch.KokoEatingBananasKt" />
-      <module name="DSA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinCostStairsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.dp1d.MinCostStairsKt" />
       <module name="DSA" />
@@ -219,6 +213,13 @@
     </configuration>
     <configuration name="NumOfIslandsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.graph.NumOfIslandsKt" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.math_geometry.PowerKt" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -249,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PowerKt" />
         <item itemvalue="Application.ScratchPad" />
         <item itemvalue="Python.PowerOfKSizeSubarrI" />
         <item itemvalue="Kotlin.NumOfIslandsKt" />
         <item itemvalue="Kotlin.MinCostStairsKt" />
-        <item itemvalue="Kotlin.KokoEatingBananasKt" />
       </list>
     </recent_temporary>
   </component>
@@ -601,14 +602,11 @@
       <workItem from="1723951273076" duration="129000" />
       <workItem from="1723996524991" duration="759000" />
       <workItem from="1724028465537" duration="1803000" />
-    </task>
-    <task id="LOCAL-00045" summary="dp1d">
-      <option name="closed" value="true" />
-      <created>1713543528454</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1713543528454</updated>
+      <workItem from="1724098183127" duration="338000" />
+      <workItem from="1724098526377" duration="3000" />
+      <workItem from="1724110421375" duration="1778000" />
+      <workItem from="1724278477418" duration="2036000" />
+      <workItem from="1724295801012" duration="525000" />
     </task>
     <task id="LOCAL-00046" summary="graph">
       <option name="closed" value="true" />
@@ -994,7 +992,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723912136295</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="dp, string, array questions">
+      <option name="closed" value="true" />
+      <created>1724098516468</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1724098516468</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1012,7 +1018,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bit manipulation, arrays" />
     <MESSAGE value="paypal, premium questions" />
     <MESSAGE value="arrays, premium, daily questions" />
     <MESSAGE value="binary search, two pointers, company questions" />
@@ -1037,7 +1042,8 @@
     <MESSAGE value="intervals, graph, stack questions" />
     <MESSAGE value="arrays, math_geometry, binary search questions" />
     <MESSAGE value="array, dp, trie, graph, binary search, backtrack questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="array, dp, trie, graph, binary search, backtrack questions" />
+    <MESSAGE value="dp, string, array questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp, string, array questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1269,6 +1275,14 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/graph/NumOfIslands.kt</url>
           <line>16</line>
           <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/math_geometry/Power.kt</url>
+          <line>6</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
