@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp, string, array questions">
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp, premium, math questions">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/StoneGameII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/StrangePrinter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/Power.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/premium/MinMovesForPeacefulBoard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/FindClosestPalindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/FractionAddSubtract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
     </list>
@@ -81,6 +78,7 @@
     &quot;Python.EncryptDecrypStr.executor&quot;: &quot;Run&quot;,
     &quot;Python.ExtraCharsInStr.executor&quot;: &quot;Run&quot;,
     &quot;Python.FindAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FindClosestPalindrome.executor&quot;: &quot;Debug&quot;,
     &quot;Python.GeneMutation.executor&quot;: &quot;Run&quot;,
     &quot;Python.GraphValidTree.executor&quot;: &quot;Run&quot;,
     &quot;Python.GroupAnagrams.executor&quot;: &quot;Run&quot;,
@@ -190,7 +188,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PowerKt">
+  <component name="RunManager" selected="Python.FindClosestPalindrome">
     <configuration name="ScratchPad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ScratchPad" />
       <module name="DSA" />
@@ -200,13 +198,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinCostStairsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dp1d.MinCostStairsKt" />
-      <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,6 +215,29 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="FindClosestPalindrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/math_geometry/FindClosestPalindrome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="PowerOfKSizeSubarrI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
@@ -250,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FindClosestPalindrome" />
         <item itemvalue="Kotlin.PowerKt" />
         <item itemvalue="Application.ScratchPad" />
         <item itemvalue="Python.PowerOfKSizeSubarrI" />
         <item itemvalue="Kotlin.NumOfIslandsKt" />
-        <item itemvalue="Kotlin.MinCostStairsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -606,15 +620,9 @@
       <workItem from="1724098526377" duration="3000" />
       <workItem from="1724110421375" duration="1778000" />
       <workItem from="1724278477418" duration="2036000" />
-      <workItem from="1724295801012" duration="525000" />
-    </task>
-    <task id="LOCAL-00046" summary="graph">
-      <option name="closed" value="true" />
-      <created>1713798420346</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1713798420346</updated>
+      <workItem from="1724295801012" duration="586000" />
+      <workItem from="1724509485712" duration="1004000" />
+      <workItem from="1724637539703" duration="669000" />
     </task>
     <task id="LOCAL-00047" summary="graph, matrix">
       <option name="closed" value="true" />
@@ -1000,7 +1008,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724098516468</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="dp, premium, math questions">
+      <option name="closed" value="true" />
+      <created>1724296383068</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1724296383068</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1018,7 +1034,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="paypal, premium questions" />
     <MESSAGE value="arrays, premium, daily questions" />
     <MESSAGE value="binary search, two pointers, company questions" />
     <MESSAGE value="binary search, sliding window, company questions" />
@@ -1043,7 +1058,8 @@
     <MESSAGE value="arrays, math_geometry, binary search questions" />
     <MESSAGE value="array, dp, trie, graph, binary search, backtrack questions" />
     <MESSAGE value="dp, string, array questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp, string, array questions" />
+    <MESSAGE value="dp, premium, math questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp, premium, math questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1284,6 +1300,11 @@
           </properties>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/math_geometry/FindClosestPalindrome.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1291,8 +1312,8 @@
     <SUITE FILE_PATH="coverage/DSA$PalindromicSubstr.coverage" NAME="PalindromicSubstr Coverage Results" MODIFIED="1712603175256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$BitChangesToMakeIntsEq.coverage" NAME="BitChangesToMakeIntsEq Coverage Results" MODIFIED="1721530023332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
     <SUITE FILE_PATH="coverage/DSA$EncodeDecodeStrings.coverage" NAME="EncodeDecodeStrings Coverage Results" MODIFIED="1718645537459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
-    <SUITE FILE_PATH="coverage/DSA$DecodeWaysII.coverage" NAME="DecodeWaysII Coverage Results" MODIFIED="1712758133748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$WordBreakII.coverage" NAME="WordBreakII Coverage Results" MODIFIED="1713277199292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$DecodeWaysII.coverage" NAME="DecodeWaysII Coverage Results" MODIFIED="1712758133748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$GeneMutation.coverage" NAME="GeneMutation Coverage Results" MODIFIED="1716228442025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$AncestorsInDAG.coverage" NAME="AncestorsInDAG Coverage Results" MODIFIED="1719696308575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinOpsToConvertTime.coverage" NAME="MinOpsToConvertTime Coverage Results" MODIFIED="1712894825892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
@@ -1316,6 +1337,7 @@
     <SUITE FILE_PATH="coverage/DSA$MinLenOfStrAfterOps.coverage" NAME="MinLenOfStrAfterOps Coverage Results" MODIFIED="1721491247436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/string" />
     <SUITE FILE_PATH="coverage/DSA$MinFlipsForPalindromeGridII.coverage" NAME="MinFlipsForPalindromeGridII Coverage Results" MODIFIED="1722700152633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$SpiralMatrixIII.coverage" NAME="SpiralMatrixIII Coverage Results" MODIFIED="1723239355354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
+    <SUITE FILE_PATH="coverage/DSA$FindClosestPalindrome.coverage" NAME="FindClosestPalindrome Coverage Results" MODIFIED="1724509575694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
     <SUITE FILE_PATH="coverage/DSA$ZigzagConversion.coverage" NAME="ZigzagConversion Coverage Results" MODIFIED="1718812793021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal" />
     <SUITE FILE_PATH="coverage/DSA$SingleNumber.coverage" NAME="SingleNumber Coverage Results" MODIFIED="1718113372822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
     <SUITE FILE_PATH="coverage/DSA$ReconstructDigits.coverage" NAME="ReconstructDigits Coverage Results" MODIFIED="1716234343916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/salesforce" />
