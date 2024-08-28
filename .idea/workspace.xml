@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp, premium, math questions">
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="math questions">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/FindClosestPalindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/FractionAddSubtract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adv_graph/PathWithMaxProb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/CountAlmostEqPairsI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/SubArrSumEqK.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
     </list>
@@ -622,15 +623,10 @@
       <workItem from="1724278477418" duration="2036000" />
       <workItem from="1724295801012" duration="586000" />
       <workItem from="1724509485712" duration="1004000" />
-      <workItem from="1724637539703" duration="669000" />
-    </task>
-    <task id="LOCAL-00047" summary="graph, matrix">
-      <option name="closed" value="true" />
-      <created>1714070734011</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1714070734011</updated>
+      <workItem from="1724637539703" duration="734000" />
+      <workItem from="1724727906117" duration="636000" />
+      <workItem from="1724794657233" duration="77000" />
+      <workItem from="1724812698571" duration="1582000" />
     </task>
     <task id="LOCAL-00048" summary="graph">
       <option name="closed" value="true" />
@@ -1016,7 +1012,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724296383068</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="math questions">
+      <option name="closed" value="true" />
+      <created>1724643960911</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1724643960911</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1034,7 +1038,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="arrays, premium, daily questions" />
     <MESSAGE value="binary search, two pointers, company questions" />
     <MESSAGE value="binary search, sliding window, company questions" />
     <MESSAGE value="dp, contest questions" />
@@ -1059,7 +1062,8 @@
     <MESSAGE value="array, dp, trie, graph, binary search, backtrack questions" />
     <MESSAGE value="dp, string, array questions" />
     <MESSAGE value="dp, premium, math questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp, premium, math questions" />
+    <MESSAGE value="math questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="math questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
