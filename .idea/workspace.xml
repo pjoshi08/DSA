@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="dp1d, array, adv_graph questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ArrayOfPairsDivisibleByK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/StonesRemovedFromRowCol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/scratchpad.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/GenerateKey.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/HashDividedStr.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="graph, array, string questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/StudentToReplaceChalk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/simulation/WalkingRobot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/SumOfDigitsOfStrAfterConvert.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -649,14 +646,9 @@
       <workItem from="1725029347258" duration="1213000" />
       <workItem from="1725115333782" duration="7203000" />
       <workItem from="1725241219905" duration="663000" />
-    </task>
-    <task id="LOCAL-00049" summary="tree">
-      <option name="closed" value="true" />
-      <created>1714404799645</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1714404799645</updated>
+      <workItem from="1725279599902" duration="357000" />
+      <workItem from="1725326029280" duration="1312000" />
+      <workItem from="1725493621816" duration="695000" />
     </task>
     <task id="LOCAL-00050" summary="graph">
       <option name="closed" value="true" />
@@ -1042,7 +1034,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724817720764</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="graph, array, string questions">
+      <option name="closed" value="true" />
+      <created>1725279918937</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1725279918938</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1060,7 +1060,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="binary search, sliding window, company questions" />
     <MESSAGE value="dp, contest questions" />
     <MESSAGE value="sliding window" />
     <MESSAGE value="sliding window, tree" />
@@ -1085,7 +1084,8 @@
     <MESSAGE value="dp, premium, math questions" />
     <MESSAGE value="math questions" />
     <MESSAGE value="dp1d, array, adv_graph questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp1d, array, adv_graph questions" />
+    <MESSAGE value="graph, array, string questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph, array, string questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1330,11 +1330,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/math_geometry/FindClosestPalindrome.py</url>
           <line>2</line>
           <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ScratchPad.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
