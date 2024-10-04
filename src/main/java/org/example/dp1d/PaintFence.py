@@ -16,7 +16,7 @@ class Solution:
 
             ## TIME COMPLEXITY : O(N) ##
 		    ## SPACE COMPLEXITY : O(N) ##
-        """
+    """
 
     def numWays(self, n: int, k: int) -> int:
         if n == 0 or k == 0: return 0

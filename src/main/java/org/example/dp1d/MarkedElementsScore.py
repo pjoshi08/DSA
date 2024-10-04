@@ -1,6 +1,7 @@
 import heapq
 from typing import List
 
+
 # https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/description/
 class Solution:
     def findScore(self, nums: List[int]) -> int:

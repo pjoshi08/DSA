@@ -27,6 +27,7 @@ class Solution:
     def numTeams2(self, rating: List[int]) -> int:
         cache = {}
         length = len(rating)
+
         def backtrack(i, ascend, count):
             nonlocal length
             if (i, ascend, count) in cache:

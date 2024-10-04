@@ -1,5 +1,3 @@
-
-
 class Solution(object):
 
     def groupAnagrams(self, strs):
@@ -13,7 +11,6 @@ class Solution(object):
             dict[tuple(count)].append(str)
 
         return dict.values()
-
 
     # Time Limit Exceeded
     def groupAnagrams2(self, strs):

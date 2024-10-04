@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="backtrack, trie questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/CircularDeque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/LenOfLongestPrefix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/DifferentWaysParentheses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/LexicographicalNums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graph/LongestWordWithAllPrefixes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/AllOOneDS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/ShortestPalindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/trie/SumOfPrefixScoresOfStr.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="linkedlist, arrays, backtrack, graph, string, trie questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ArrPairsDivByK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/MakeSumDivByP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/GroupAnagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/GroupAnagrams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/CountTeams.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/CountTeams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/MarkedElementsScore.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/MarkedElementsScore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/PaintFence.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/PaintFence.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -668,15 +666,9 @@
       <workItem from="1727442252324" duration="1991000" />
       <workItem from="1727560043771" duration="1245000" />
       <workItem from="1727618625476" duration="600000" />
-      <workItem from="1727653058728" duration="667000" />
-    </task>
-    <task id="LOCAL-00053" summary="graph">
-      <option name="closed" value="true" />
-      <created>1715441346025</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1715441346025</updated>
+      <workItem from="1727653058728" duration="713000" />
+      <workItem from="1727794531002" duration="1664000" />
+      <workItem from="1727981320366" duration="632000" />
     </task>
     <task id="LOCAL-00054" summary="graph">
       <option name="closed" value="true" />
@@ -1062,7 +1054,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726428800799</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="linkedlist, arrays, backtrack, graph, string, trie questions">
+      <option name="closed" value="true" />
+      <created>1727655016342</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1727655016342</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1080,7 +1080,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="graph, tree" />
     <MESSAGE value="array, greedy, linkedlist, premium questions" />
     <MESSAGE value="linkedlist, math questions" />
     <MESSAGE value="simulation, general, math, premium questions" />
@@ -1105,7 +1104,8 @@
     <MESSAGE value="simulation, array, string questions" />
     <MESSAGE value="simulation, tree, linkedlist questions" />
     <MESSAGE value="linkedlist, dp2d, bit manipulation, arrays, premium questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkedlist, dp2d, bit manipulation, arrays, premium questions" />
+    <MESSAGE value="linkedlist, arrays, backtrack, graph, string, trie questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedlist, arrays, backtrack, graph, string, trie questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
