@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="linkedlist, arrays, backtrack, graph, string, trie questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ArrPairsDivByK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/MakeSumDivByP.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="array, dp1d questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/ConstructMinBitwiseArr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/heap_pq/LongestHappyString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/heap_pq/SmallestRangeCoveringEleFromKLists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MaxWidthRamp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/MinAddParenthesesValid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/MinSwapsStrBalanced.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/GroupAnagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/GroupAnagrams.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/CountTeams.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/CountTeams.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/MarkedElementsScore.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/MarkedElementsScore.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp1d/PaintFence.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/PaintFence.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +70,7 @@
     &quot;Python.CombinationSum.executor&quot;: &quot;Run&quot;,
     &quot;Python.CombinationSumII.executor&quot;: &quot;Run&quot;,
     &quot;Python.Combinations.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ConstructMinBitwiseArr.executor&quot;: &quot;Run&quot;,
     &quot;Python.ContainsDuplicate.executor&quot;: &quot;Debug&quot;,
     &quot;Python.CountCollisions.executor&quot;: &quot;Debug&quot;,
     &quot;Python.CountSubstrWithoutRepeatingChar.executor&quot;: &quot;Debug&quot;,
@@ -128,7 +129,7 @@
     &quot;Python.RobotCollisions.executor&quot;: &quot;Debug&quot;,
     &quot;Python.RotatedArrSearch.executor&quot;: &quot;Run&quot;,
     &quot;Python.RowColNumCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ScratchPad.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ScratchPad.executor&quot;: &quot;Run&quot;,
     &quot;Python.Search2DMatrix.executor&quot;: &quot;Run&quot;,
     &quot;Python.Search2DMatrixII.executor&quot;: &quot;Run&quot;,
     &quot;Python.SearchSuggestions.executor&quot;: &quot;Run&quot;,
@@ -191,26 +192,36 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FindSafeWalk">
-    <configuration name="ScratchPad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ScratchPad" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Python.ConstructMinBitwiseArr">
     <configuration name="PowerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.math_geometry.PowerKt" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ConstructMinBitwiseArr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/ConstructMinBitwiseArr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="FindClosestPalindrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
@@ -283,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.FindSafeWalk" />
+        <item itemvalue="Python.ConstructMinBitwiseArr" />
         <item itemvalue="Python.ScratchPad" />
+        <item itemvalue="Python.FindSafeWalk" />
         <item itemvalue="Python.FindClosestPalindrome" />
         <item itemvalue="Kotlin.PowerKt" />
-        <item itemvalue="Application.ScratchPad" />
       </list>
     </recent_temporary>
   </component>
@@ -669,14 +680,21 @@
       <workItem from="1727653058728" duration="713000" />
       <workItem from="1727794531002" duration="1664000" />
       <workItem from="1727981320366" duration="632000" />
-    </task>
-    <task id="LOCAL-00054" summary="graph">
-      <option name="closed" value="true" />
-      <created>1715795252207</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1715795252208</updated>
+      <workItem from="1728081026151" duration="698000" />
+      <workItem from="1728127742917" duration="18000" />
+      <workItem from="1728182960968" duration="1873000" />
+      <workItem from="1728223567128" duration="592000" />
+      <workItem from="1728311357322" duration="597000" />
+      <workItem from="1728397552249" duration="598000" />
+      <workItem from="1728488005739" duration="1393000" />
+      <workItem from="1728511761102" duration="152000" />
+      <workItem from="1728602753920" duration="672000" />
+      <workItem from="1728658602578" duration="664000" />
+      <workItem from="1728746870159" duration="1469000" />
+      <workItem from="1728861457231" duration="681000" />
+      <workItem from="1728968477207" duration="599000" />
+      <workItem from="1729002455257" duration="2159000" />
+      <workItem from="1729134402474" duration="529000" />
     </task>
     <task id="LOCAL-00055" summary="graph">
       <option name="closed" value="true" />
@@ -1062,7 +1080,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727655016342</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="array, dp1d questions">
+      <option name="closed" value="true" />
+      <created>1728081110350</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1728081110350</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1080,7 +1106,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="array, greedy, linkedlist, premium questions" />
     <MESSAGE value="linkedlist, math questions" />
     <MESSAGE value="simulation, general, math, premium questions" />
     <MESSAGE value="linkedlist, string, stack questions" />
@@ -1105,7 +1130,8 @@
     <MESSAGE value="simulation, tree, linkedlist questions" />
     <MESSAGE value="linkedlist, dp2d, bit manipulation, arrays, premium questions" />
     <MESSAGE value="linkedlist, arrays, backtrack, graph, string, trie questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkedlist, arrays, backtrack, graph, string, trie questions" />
+    <MESSAGE value="array, dp1d questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="array, dp1d questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1385,7 +1411,7 @@
     <SUITE FILE_PATH="coverage/DSA$SortWithJumbledNums.coverage" NAME="SortWithJumbledNums Coverage Results" MODIFIED="1721855927565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/sort" />
     <SUITE FILE_PATH="coverage/DSA$NeighborSumService.coverage" NAME="NeighborSumService Coverage Results" MODIFIED="1722742617917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$MinAreaToCoverAll1sII.coverage" NAME="MinAreaToCoverAll1sII Coverage Results" MODIFIED="1719113615747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/contest" />
-    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1725116534279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
+    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1728184371200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
     <SUITE FILE_PATH="coverage/DSA$DiffWaysToAddParentheses.coverage" NAME="DiffWaysToAddParentheses Coverage Results" MODIFIED="1716589657323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$RedundantConnection.coverage" NAME="RedundantConnection Coverage Results" MODIFIED="1716822178982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinRoundTasks.coverage" NAME="MinRoundTasks Coverage Results" MODIFIED="1712599805066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
@@ -1417,6 +1443,7 @@
     <SUITE FILE_PATH="coverage/DSA$Main.ic" NAME="Main Coverage Results" MODIFIED="1694279274898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/DSA$ConstructMinBitwiseArr.coverage" NAME="ConstructMinBitwiseArr Coverage Results" MODIFIED="1728747701130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
     <SUITE FILE_PATH="coverage/DSA$KthLargest.coverage" NAME="KthLargest Coverage Results" MODIFIED="1717422444429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/heap_pq" />
     <SUITE FILE_PATH="coverage/DSA$SubstrWithSameLetter.coverage" NAME="SubstrWithSameLetter Coverage Results" MODIFIED="1718725558157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/premium" />
     <SUITE FILE_PATH="coverage/DSA$RemoveEdgesForTraversal.coverage" NAME="RemoveEdgesForTraversal Coverage Results" MODIFIED="1719755161931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
