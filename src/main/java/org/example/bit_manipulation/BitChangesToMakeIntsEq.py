@@ -19,8 +19,18 @@ class Solution:
 
         return changes
 
+    def minChanges(self, s: str) -> int:
+        res = 0
+
+        for i in range(0, len(s), 2):
+            if s[i] != s[i + 1]:
+                res += 1
+
+        return res
+
+
 # Example usage:
 solution = Solution()
 print(solution.minChanges(13, 4))  # Output: 2
-print(solution.minChanges(21, 21)) # Output: 0
-print(solution.minChanges(14, 13)) # Output: -1
+print(solution.minChanges(21, 21))  # Output: 0
+print(solution.minChanges(14, 13))  # Output: -1

@@ -4,20 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="stack, sliding window, recursion, bit, heap questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/RemoveSubFolders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/KnightsTour.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/LongestSquareStreak.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp1d/RemovalsForMountainArr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/CountSqSubMatrices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/MaxFactorScore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/SmallestDivDigitProd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/DeleteCharsFancyString.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/BTHeightAfterRemovals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/CousinsInBTII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/KthLargestBT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/MaxMovesInGrid.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="stack, sliding window, recursion, bit, heap, math questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/AdjIncreasingSubarr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/FindIfArrCanSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/MaxBitwiseORSubsets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/ParseBoolExpr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/SplitStringUniqueSubstr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarysearch/CountFairPairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/LargestCombBitwiseAND.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/MinArrEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/MinArrEnd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/ShortestSubarrWithOR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/MinDistTraveled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/PrimeSubtractOp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/CircularSentence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/CompressedStrIII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/RotateStr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/StrSequenceOnScreen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/FlipEquivBT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/BitChangesToMakeIntsEq.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/BitChangesToMakeIntsEq.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +35,8 @@
       <list>
         <option value="Python Stub" />
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
         <option value="Python Script" />
       </list>
     </option>
@@ -62,135 +68,135 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ScratchPad.executor": "Run",
-    "Kotlin.KokoEatingBananasKt.executor": "Debug",
-    "Kotlin.MinCostStairsKt.executor": "Run",
-    "Kotlin.NumOfIslandsKt.executor": "Debug",
-    "Kotlin.PowerKt.executor": "Debug",
-    "Kotlin.RegionsCutBySlashesKt.executor": "Run",
-    "Python.AncestorsInDAG.executor": "Run",
-    "Python.ArrDegree.executor": "Run",
-    "Python.BitChangesToMakeIntsEq.executor": "Run",
-    "Python.CombinationSum.executor": "Run",
-    "Python.CombinationSumII.executor": "Run",
-    "Python.Combinations.executor": "Debug",
-    "Python.ConstructMinBitwiseArr.executor": "Run",
-    "Python.ContainsDuplicate.executor": "Debug",
-    "Python.CountCollisions.executor": "Debug",
-    "Python.CountSubstrWithoutRepeatingChar.executor": "Debug",
-    "Python.CountingBits.executor": "Run",
-    "Python.DecodeWaysII.executor": "Debug",
-    "Python.DiffWaysToAddParentheses.executor": "Debug",
-    "Python.EncodeDecodeStrings.executor": "Run",
-    "Python.EncryptDecrypStr.executor": "Run",
-    "Python.ExtraCharsInStr.executor": "Run",
-    "Python.FindAnagrams.executor": "Run",
-    "Python.FindClosestPalindrome.executor": "Debug",
-    "Python.FindSafeWalk.executor": "Run",
-    "Python.GeneMutation.executor": "Run",
-    "Python.GraphValidTree.executor": "Run",
-    "Python.GroupAnagrams.executor": "Run",
-    "Python.HouseRobber.executor": "Debug",
-    "Python.InorderTraversal.executor": "Run",
-    "Python.InsertIntervals.executor": "Run",
-    "Python.JumpGameVI.executor": "Run",
-    "Python.KSumPairs.executor": "Run",
-    "Python.KthLargest.executor": "Debug",
-    "Python.LetterCasePerm.executor": "Debug",
-    "Python.LongestConsecutiveSeq.executor": "Run",
-    "Python.LongestSubtring.executor": "Run",
-    "Python.MatrixZeroes.executor": "Debug",
-    "Python.MaxAreaIsland.executor": "Run",
-    "Python.MaxCandies.executor": "Debug",
-    "Python.MaxConsecutiveOnesIII.executor": "Run",
-    "Python.MaxCostAltSubArr.executor": "Run",
-    "Python.MaxFactorScore.executor": "Run",
-    "Python.MaxRect.executor": "Run",
-    "Python.MaxStrongPairXORI.executor": "Run",
-    "Python.MinAreaToCoverAll1sII.executor": "Run",
-    "Python.MinFlipsForPalindromeGridII.executor": "Run",
-    "Python.MinFlipsForPalindromicGrid.executor": "Run",
-    "Python.MinLenOfStrAfterOps.executor": "Run",
-    "Python.MinOpsToConvertTime.executor": "Run",
-    "Python.MinReplacementsToSort.executor": "Debug",
-    "Python.MinRoundTasks.executor": "Run",
-    "Python.MinSizeSubarrSum.executor": "Run",
-    "Python.NeighborSumService.executor": "Run",
-    "Python.NextGreaterEle1.executor": "Debug",
-    "Python.NumConnectedComponents.executor": "Run",
-    "Python.PalindromePermutation.executor": "Run",
-    "Python.PalindromicSubstr.executor": "Run",
-    "Python.ParenthesesString.executor": "Debug",
-    "Python.PartitionKEqSumSets.executor": "Run",
-    "Python.PathSum.executor": "Run",
-    "Python.PermutationsII.executor": "Run",
-    "Python.PowerOfKSizeSubarrI.executor": "Run",
-    "Python.RPN.executor": "Run",
-    "Python.ReconstructDigits.executor": "Run",
-    "Python.RedundantConnection.executor": "Debug",
-    "Python.RemoveEdgesForTraversal.executor": "Run",
-    "Python.ReplaceWords.executor": "Run",
-    "Python.ReverseLL.executor": "Run",
-    "Python.RobotCollisions.executor": "Debug",
-    "Python.RotatedArrSearch.executor": "Run",
-    "Python.RowColNumCheck.executor": "Run",
-    "Python.ScratchPad.executor": "Run",
-    "Python.Search2DMatrix.executor": "Run",
-    "Python.Search2DMatrixII.executor": "Run",
-    "Python.SearchSuggestions.executor": "Run",
-    "Python.SequenceReconstruction.executor": "Debug",
-    "Python.SerializeDeserialize.executor": "Run",
-    "Python.SingleNumber.executor": "Debug",
-    "Python.SmallestDivDigitProd.executor": "Run",
-    "Python.SmallestStr.executor": "Run",
-    "Python.SongPairs.executor": "Debug",
-    "Python.SortWithJumbledNums.executor": "Debug",
-    "Python.SourceToTargetPath.executor": "Run",
-    "Python.SpiralMatrixIII.executor": "Run",
-    "Python.StrongPasswordCheckerII.executor": "Run",
-    "Python.SubStringPermutation.executor": "Run",
-    "Python.SubsetXORSum.executor": "Run",
-    "Python.SubsetsII.executor": "Run",
-    "Python.SubstrWithSameLetter.executor": "Debug",
-    "Python.SumRootToLeaf.executor": "Run",
-    "Python.SwappingNodesLL.executor": "Debug",
-    "Python.ThreeConsecutiveIntSum.executor": "Run",
-    "Python.ThreeSumClosest.executor": "Run",
-    "Python.TwoSum.executor": "Run",
-    "Python.UglyNumber.executor": "Run",
-    "Python.UniqueOccurences.executor": "Run",
-    "Python.UniquePathsIII.executor": "Run",
-    "Python.ValidBST.executor": "Run",
-    "Python.ValidParentheses.executor": "Run",
-    "Python.ValidPath.executor": "Debug",
-    "Python.WallsAndGates.executor": "Debug",
-    "Python.WaterBottles.executor": "Run",
-    "Python.WaterContainer.executor": "Run",
-    "Python.WordBreakII.executor": "Run",
-    "Python.WordValidAfterSubs.executor": "Run",
-    "Python.ZigzagConversion.executor": "Run",
-    "Python.ZigzagOrderTraversal.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/archer/Archer/IntelliJIdeaProjects/DSA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ScratchPad.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.KokoEatingBananasKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.MinCostStairsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.NumOfIslandsKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.PowerKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.RegionsCutBySlashesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AncestorsInDAG.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ArrDegree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BitChangesToMakeIntsEq.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CombinationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CombinationSumII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Combinations.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ConstructMinBitwiseArr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ContainsDuplicate.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CountCollisions.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CountSubstrWithoutRepeatingChar.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CountingBits.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DecodeWaysII.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.DiffWaysToAddParentheses.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.EncodeDecodeStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EncryptDecrypStr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExtraCharsInStr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FindAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FindClosestPalindrome.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.FindSafeWalk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GeneMutation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GraphValidTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GroupAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HouseRobber.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.InorderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InsertIntervals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JumpGameVI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KSumPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KthLargest.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.LetterCasePerm.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.LongestConsecutiveSeq.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LongestSubtring.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MatrixZeroes.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MaxAreaIsland.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxCandies.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MaxConsecutiveOnesIII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxCostAltSubArr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxFactorScore.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxRect.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MaxStrongPairXORI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinAreaToCoverAll1sII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinFlipsForPalindromeGridII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinFlipsForPalindromicGrid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinLenOfStrAfterOps.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinOpsToConvertTime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinReplacementsToSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MinRoundTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinSizeSubarrSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NeighborSumService.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NextGreaterEle1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.NumConnectedComponents.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PalindromePermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PalindromicSubstr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ParenthesesString.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PartitionKEqSumSets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PathSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PermutationsII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PowerOfKSizeSubarrI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RPN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReconstructDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RedundantConnection.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.RemoveEdgesForTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReplaceWords.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReverseLL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RobotCollisions.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.RotatedArrSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RowColNumCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ScratchPad.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Search2DMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Search2DMatrixII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SearchSuggestions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SequenceReconstruction.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SerializeDeserialize.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SingleNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SmallestDivDigitProd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SmallestStr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SongPairs.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SortWithJumbledNums.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SourceToTargetPath.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SpiralMatrixIII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StrongPasswordCheckerII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubStringPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubsetXORSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubsetsII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubstrWithSameLetter.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.SumRootToLeaf.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwappingNodesLL.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ThreeConsecutiveIntSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ThreeSumClosest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UglyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UniqueOccurences.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UniquePathsIII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidBST.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ValidPath.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.WallsAndGates.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.WaterBottles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WaterContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WordBreakII.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WordValidAfterSubs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ZigzagConversion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ZigzagOrderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/archer/Archer/IntelliJIdeaProjects/DSA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/tree" />
@@ -200,7 +206,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SmallestDivDigitProd">
+  <component name="RunManager" selected="Python.ScratchPad">
     <configuration name="ConstructMinBitwiseArr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSA" />
       <option name="ENV_FILES" value="" />
@@ -318,8 +324,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SmallestDivDigitProd" />
         <item itemvalue="Python.ScratchPad" />
+        <item itemvalue="Python.SmallestDivDigitProd" />
         <item itemvalue="Python.MaxFactorScore" />
         <item itemvalue="Python.ConstructMinBitwiseArr" />
         <item itemvalue="Python.FindSafeWalk" />
@@ -731,15 +737,14 @@
       <workItem from="1730299773814" duration="1859000" />
       <workItem from="1730342906305" duration="589000" />
       <workItem from="1730427010064" duration="2085000" />
-      <workItem from="1731164302573" duration="2670000" />
-    </task>
-    <task id="LOCAL-00056" summary="graph">
-      <option name="closed" value="true" />
-      <created>1716070446257</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1716070446257</updated>
+      <workItem from="1731164302573" duration="3474000" />
+      <workItem from="1731174085840" duration="3673000" />
+      <workItem from="1731208134272" duration="1721000" />
+      <workItem from="1731275624073" duration="1787000" />
+      <workItem from="1731342629188" duration="6044000" />
+      <workItem from="1731425966757" duration="596000" />
+      <workItem from="1731474778472" duration="2112000" />
+      <workItem from="1731511806442" duration="600000" />
     </task>
     <task id="LOCAL-00057" summary="graph, leetcode company targeted">
       <option name="closed" value="true" />
@@ -1125,7 +1130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729382238635</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="stack, sliding window, recursion, bit, heap, math questions">
+      <option name="closed" value="true" />
+      <created>1731166995401</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1731166995402</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1143,7 +1156,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="simulation, general, math, premium questions" />
     <MESSAGE value="linkedlist, string, stack questions" />
     <MESSAGE value="tree questions" />
     <MESSAGE value="bit manipulation, tree, arrays, greedy, string questions" />
@@ -1168,7 +1180,8 @@
     <MESSAGE value="linkedlist, arrays, backtrack, graph, string, trie questions" />
     <MESSAGE value="array, dp1d questions" />
     <MESSAGE value="stack, sliding window, recursion, bit, heap questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack, sliding window, recursion, bit, heap questions" />
+    <MESSAGE value="stack, sliding window, recursion, bit, heap, math questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack, sliding window, recursion, bit, heap, math questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1431,8 +1444,8 @@
     <SUITE FILE_PATH="coverage/DSA$BitChangesToMakeIntsEq.coverage" NAME="BitChangesToMakeIntsEq Coverage Results" MODIFIED="1721530023332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation" />
     <SUITE FILE_PATH="coverage/DSA$EncodeDecodeStrings.coverage" NAME="EncodeDecodeStrings Coverage Results" MODIFIED="1718645537459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$SmallestDivDigitProd.coverage" NAME="SmallestDivDigitProd Coverage Results" MODIFIED="1731166315241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/math_geometry" />
-    <SUITE FILE_PATH="coverage/DSA$DecodeWaysII.coverage" NAME="DecodeWaysII Coverage Results" MODIFIED="1712758133748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$WordBreakII.coverage" NAME="WordBreakII Coverage Results" MODIFIED="1713277199292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
+    <SUITE FILE_PATH="coverage/DSA$DecodeWaysII.coverage" NAME="DecodeWaysII Coverage Results" MODIFIED="1712758133748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$GeneMutation.coverage" NAME="GeneMutation Coverage Results" MODIFIED="1716228442025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$AncestorsInDAG.coverage" NAME="AncestorsInDAG Coverage Results" MODIFIED="1719696308575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinOpsToConvertTime.coverage" NAME="MinOpsToConvertTime Coverage Results" MODIFIED="1712894825892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
@@ -1440,8 +1453,8 @@
     <SUITE FILE_PATH="coverage/DSA$SubStringPermutation.ic" NAME="SubStringPermutation Coverage Results" MODIFIED="1695698419976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.slidingwindow.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DSA$RobotCollisions.coverage" NAME="RobotCollisions Coverage Results" MODIFIED="1720907275728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
     <SUITE FILE_PATH="coverage/DSA$MaxCostAltSubArr.coverage" NAME="MaxCostAltSubArr Coverage Results" MODIFIED="1719112920902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/contest" />
+    <SUITE FILE_PATH="coverage/DSA$RobotCollisions.coverage" NAME="RobotCollisions Coverage Results" MODIFIED="1720907275728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/stack" />
     <SUITE FILE_PATH="coverage/DSA$WallsAndGates.coverage" NAME="WallsAndGates Coverage Results" MODIFIED="1713624439355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinReplacementsToSort.coverage" NAME="MinReplacementsToSort Coverage Results" MODIFIED="1718973492918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/companies/Paypal" />
     <SUITE FILE_PATH="coverage/DSA$CountSubstrWithoutRepeatingChar.coverage" NAME="CountSubstrWithoutRepeatingChar Coverage Results" MODIFIED="1719236160953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/premium" />
@@ -1449,7 +1462,7 @@
     <SUITE FILE_PATH="coverage/DSA$SortWithJumbledNums.coverage" NAME="SortWithJumbledNums Coverage Results" MODIFIED="1721855927565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/sort" />
     <SUITE FILE_PATH="coverage/DSA$NeighborSumService.coverage" NAME="NeighborSumService Coverage Results" MODIFIED="1722742617917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$MinAreaToCoverAll1sII.coverage" NAME="MinAreaToCoverAll1sII Coverage Results" MODIFIED="1719113615747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/contest" />
-    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1731165485195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
+    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1731209623221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
     <SUITE FILE_PATH="coverage/DSA$DiffWaysToAddParentheses.coverage" NAME="DiffWaysToAddParentheses Coverage Results" MODIFIED="1716589657323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$RedundantConnection.coverage" NAME="RedundantConnection Coverage Results" MODIFIED="1716822178982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinRoundTasks.coverage" NAME="MinRoundTasks Coverage Results" MODIFIED="1712599805066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
