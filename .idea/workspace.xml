@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="stack, sliding window, recursion, bit, heap, math questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/AdjIncreasingSubarr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/FindIfArrCanSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/MaxBitwiseORSubsets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/ParseBoolExpr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtrack/SplitStringUniqueSubstr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarysearch/CountFairPairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/LargestCombBitwiseAND.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/MinArrEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/MinArrEnd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/ShortestSubarrWithOR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp2d/MinDistTraveled.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/math_geometry/PrimeSubtractOp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/CircularSentence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/CompressedStrIII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/RotateStr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/string/StrSequenceOnScreen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/FlipEquivBT.py" afterDir="false" />
+    <list default="true" id="45de5bf8-6dcb-4cfa-b22f-2cf72ca2ee17" name="Changes" comment="arrays, stack, sliding window, recursion, bit, heap, math, string, bin search, backtrack, dp2d questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/binarysearch/MinimizeMaxProdsDistToStore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/simulation/RotateBox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/simulation/ShiftDistanceBwStrs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/slidingwindow/MaxSumOfDistinctSubarrLenK.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/BitChangesToMakeIntsEq.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bit_manipulation/BitChangesToMakeIntsEq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/PowerOfKSizeSubarrI.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/PowerOfKSizeSubarrI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -744,15 +731,23 @@
       <workItem from="1731342629188" duration="6044000" />
       <workItem from="1731425966757" duration="596000" />
       <workItem from="1731474778472" duration="2112000" />
-      <workItem from="1731511806442" duration="600000" />
-    </task>
-    <task id="LOCAL-00057" summary="graph, leetcode company targeted">
-      <option name="closed" value="true" />
-      <created>1716297441556</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1716297441556</updated>
+      <workItem from="1731511806442" duration="777000" />
+      <workItem from="1731567381176" duration="3210000" />
+      <workItem from="1731702906955" duration="594000" />
+      <workItem from="1731775322893" duration="4407000" />
+      <workItem from="1731867126788" duration="647000" />
+      <workItem from="1731887055879" duration="578000" />
+      <workItem from="1731997030830" duration="2210000" />
+      <workItem from="1732038521822" duration="598000" />
+      <workItem from="1732070260264" duration="588000" />
+      <workItem from="1732086221594" duration="595000" />
+      <workItem from="1732119045484" duration="610000" />
+      <workItem from="1732164553272" duration="597000" />
+      <workItem from="1732205475358" duration="598000" />
+      <workItem from="1732244112047" duration="597000" />
+      <workItem from="1732306554341" duration="552000" />
+      <workItem from="1732372235760" duration="3728000" />
+      <workItem from="1732404483053" duration="1403000" />
     </task>
     <task id="LOCAL-00058" summary="leetcode company targeted">
       <option name="closed" value="true" />
@@ -1138,7 +1133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731166995402</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="arrays, stack, sliding window, recursion, bit, heap, math, string, bin search, backtrack, dp2d questions">
+      <option name="closed" value="true" />
+      <created>1731517222967</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1731517222967</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1156,7 +1159,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linkedlist, string, stack questions" />
     <MESSAGE value="tree questions" />
     <MESSAGE value="bit manipulation, tree, arrays, greedy, string questions" />
     <MESSAGE value="graph, sort, tree premium questions" />
@@ -1181,7 +1183,8 @@
     <MESSAGE value="array, dp1d questions" />
     <MESSAGE value="stack, sliding window, recursion, bit, heap questions" />
     <MESSAGE value="stack, sliding window, recursion, bit, heap, math questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack, sliding window, recursion, bit, heap, math questions" />
+    <MESSAGE value="arrays, stack, sliding window, recursion, bit, heap, math, string, bin search, backtrack, dp2d questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays, stack, sliding window, recursion, bit, heap, math, string, bin search, backtrack, dp2d questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1462,7 +1465,7 @@
     <SUITE FILE_PATH="coverage/DSA$SortWithJumbledNums.coverage" NAME="SortWithJumbledNums Coverage Results" MODIFIED="1721855927565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/sort" />
     <SUITE FILE_PATH="coverage/DSA$NeighborSumService.coverage" NAME="NeighborSumService Coverage Results" MODIFIED="1722742617917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
     <SUITE FILE_PATH="coverage/DSA$MinAreaToCoverAll1sII.coverage" NAME="MinAreaToCoverAll1sII Coverage Results" MODIFIED="1719113615747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/contest" />
-    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1731209623221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
+    <SUITE FILE_PATH="coverage/DSA$ScratchPad.coverage" NAME="ScratchPad Coverage Results" MODIFIED="1732375893225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example" />
     <SUITE FILE_PATH="coverage/DSA$DiffWaysToAddParentheses.coverage" NAME="DiffWaysToAddParentheses Coverage Results" MODIFIED="1716589657323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/dp1d" />
     <SUITE FILE_PATH="coverage/DSA$RedundantConnection.coverage" NAME="RedundantConnection Coverage Results" MODIFIED="1716822178982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/graph" />
     <SUITE FILE_PATH="coverage/DSA$MinRoundTasks.coverage" NAME="MinRoundTasks Coverage Results" MODIFIED="1712599805066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/org/example/arrays" />
